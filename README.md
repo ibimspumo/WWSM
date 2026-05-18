@@ -1,148 +1,117 @@
-# Wer Wird Stream Millionär (WWSM)
+<div align="center">
+  <img src="src-tauri/icons/icon.png" width="128" alt="WWSM App-Icon" />
 
-Streamer-Overlay-Quiz im Stil von „Wer wird Millionär", als Tauri 2 + Svelte 5 Desktop-App. Spawnt **vier separate Fenster**: ein opakes Steuerfenster und drei transparente Overlays, die in OBS einzeln als Fensterquellen aufnehmbar sind.
+  # Wer Wird Stream Millionär
 
-## Fenster (OBS Window Capture)
+  **Das „Wer wird Millionär?"-Quiz als OBS-Overlay für deinen Stream.**
+</div>
 
-| Label                  | Titel (so erscheint es in OBS)        | Inhalt                                                |
-| ---------------------- | ------------------------------------- | ----------------------------------------------------- |
-| `control`              | `WWSM — Steuerung`                    | Opak. Spiel starten/steuern, Joker, Updater.          |
-| `overlay-question`     | `WWSM Overlay — Frage`                | Transparent. Frage + 4 WWM-Hexagon-Antwortbuttons.    |
-| `overlay-jokers`       | `WWSM Overlay — Joker`                | Transparent. 4 Joker-Orbs (Statusleiste).             |
-| `overlay-ladder`       | `WWSM Overlay — Geldleiter`           | Transparent. 15-Stufen-Leiter, skaliert mit Höhe.     |
-| `overlay-joker-effect` | `WWSM Overlay — Joker-Effekt`         | Transparent. Publikums-Balken / Telefon-Tipp-Bubble.  |
+---
 
-**In OBS:** _Quelle hinzufügen → Fensteraufnahme_ → den jeweiligen Titel auswählen. **Capture-Modus auf „Windows Graphics Capture (WGC)"** (nicht BitBlt!) — sonst gibt's bei WebView2 ein schwarzes Bild. „Allow Transparency" anhaken. Vollständige Setup-Notiz inkl. Stolperfallen: [docs/obs-window-capture.md](docs/obs-window-capture.md).
+WWSM ist eine kleine Windows-/Mac-App, mit der du auf deinem Stream eine vollwertige WWM-Show spielen kannst. Frage, Antworten, Geldleiter und Joker erscheinen in **einzelnen transparenten Fenstern**, die du in OBS frei platzieren und mischen kannst — wie eigene Quellen. Du selbst steuerst alles in einem zweiten, ganz normalen Programmfenster („Steuerung").
 
-## Voraussetzungen
+Über **4.500 deutsche Fragen** mit Umlauten sind direkt eingebaut, sauber auf die 15 Preisstufen verteilt.
 
-- Node 20+ und npm 10+
-- Rust (stable) + Cargo — z.B. via `rustup`
-- macOS für Mac-Dev / Windows für NSIS-Build
+## Wie es aussieht
 
-```bash
-npm install
-```
+- **Frage-Fenster** — die klassische blau-gold leuchtende WWM-Anzeige mit Frage oben und A/B/C/D unten, inklusive Diamant-Marker, Gold-Markierung für die gewählte Antwort, Grün/Rot beim Auflösen.
+- **Geldleiter-Fenster** — alle 15 Stufen von 50 € bis 1 Mio €, aktuelle Stufe leuchtet golden, Sicherheitsstufen (500 € / 16.000 €) sind hervorgehoben.
+- **Joker-Fenster** — vier Orbs für 50:50, Telefon, Publikum und Tausch. Verbrauchte Joker werden durchgestrichen.
+- **Joker-Effekt-Fenster** — zeigt beim Publikumsjoker das Balkendiagramm bzw. beim Telefonjoker den Tipp.
+- **Steuerungs-Fenster** — dein „Cockpit" abseits des Streams: Spiel starten, Antworten anklicken, Joker auslösen, sperren, auflösen.
 
-## Entwicklung
+## Installation
 
-```bash
-npm run tauri dev
-```
+### Windows
 
-Öffnet das Steuerfenster + die vier Overlay-Fenster.
+1. Auf der [Release-Seite](https://github.com/agent-z-de/wwsm/releases/latest) den NSIS-Installer (`.exe`) herunterladen.
+2. Doppelklicken und durchklicken — installiert pro Benutzer, kein Admin nötig.
+3. App starten — der erste Start öffnet alle 5 Fenster auf einmal.
 
-**Fensterzustände werden persistiert:** Position, Größe und Maximized-Status jedes der 5 Fenster werden automatisch gespeichert (via `tauri-plugin-window-state`) und beim nächsten Start wiederhergestellt. Speicherort: `~/Library/Application Support/de.agent-z.wwsm/window-state.json` (macOS) bzw. `%APPDATA%\de.agent-z.wwsm\window-state.json` (Windows). Beim ersten Start gelten die Defaults aus `src-tauri/tauri.conf.json`; danach gewinnen die persistierten Werte.
+### macOS
 
-## Fragen aktualisieren
+Aktuell nur als Dev-Build verfügbar. Wenn du das brauchst, melde dich.
 
-Die handverlesene Master-Liste liegt in `data/seed.json` (75 Fragen mit Umlauten, 5 pro Preisstufe). Weitere Quellen kannst du als JSON-Dateien nach `data/external/` legen — gleiche Struktur. Beim Build wird alles zusammengeführt, dedupliziert und in 15 Dateien (`static/questions/level-01.json` … `level-15.json`) gesplittet.
+## OBS einrichten
 
-```bash
-node scripts/seed-questions.mjs
-```
+Du brauchst pro Overlay eine **Fensteraufnahme** in OBS.
 
-Format pro Eintrag:
+1. **Quelle hinzufügen → Fensteraufnahme**.
+2. Bei „Fenster" eines dieser vier auswählen:
 
-```json
-{
-  "level": 5,
-  "q": "In welchem Jahr fiel die Berliner Mauer?",
-  "a": ["1987", "1989", "1990", "1991"],
-  "correct": 1,
-  "category": "Geschichte"
-}
-```
+   | Anzeigename in OBS              | Zeigt              |
+   | ------------------------------- | ------------------ |
+   | `WWSM Overlay — Frage`          | Frage + 4 Antworten |
+   | `WWSM Overlay — Geldleiter`     | Die 15 Preise      |
+   | `WWSM Overlay — Joker`          | Die 4 Joker-Symbole |
+   | `WWSM Overlay — Joker-Effekt`   | Publikum / Telefon |
 
-`correct` ist der Index (0–3) der richtigen Antwort in `a`.
+3. **Wichtig**: Bei „Erfassungs-Methode" **„Windows 10 (1903 und neuer)"** bzw. **„Windows Graphics Capture (WGC)"** wählen. (Standard „BitBlt" liefert bei dieser Art App ein schwarzes Bild.)
+4. **„Transparenz zulassen" aktivieren**, damit der Hintergrund durchscheint.
+5. **„Kursor erfassen" deaktivieren**, sonst sieht man deinen Mauszeiger im Stream.
 
-> Für die Seed-Liste hilft `python3 scripts/generate-seed.py` — Python umgeht JSON-Quote-Probleme bei deutschen Anführungszeichen.
+Wiederholen für jedes der vier Overlay-Fenster. Position und Größe jeder Overlay-Quelle in OBS einfach so anpassen, wie du willst.
 
-### Externe Datensätze einspielen
+## So spielst du
 
-Adapter-Skripte unter `scripts/adapters/` konvertieren bekannte Open-Source-Quizfragen-Datensätze ins Schema und legen sie in `data/external/` ab. Beispiel: **Dekuel/daily-quiz** (~4.500 deutsche Fragen mit Umlauten, difficulty 1–10).
+### Im „Bearbeiten-Modus" (Standard nach dem ersten Start)
 
-```bash
-# 1. Quelle einmal klonen (liegt unter research-v2/, ist gitignored)
-git clone https://github.com/Dekuel/daily-quiz.git research-v2/Dekuel_daily_quiz
+Jedes Overlay hat oben eine **kleine schwarze Titelleiste** mit `–`- und `×`-Knopf:
 
-# 2. Adapter ausführen → data/external/dekuel.json
-python3 scripts/adapters/dekuel.py
+- **Greifen**: Klick + Ziehen → Fenster verschieben
+- **×**: Fenster verstecken (Steuerung holt es zurück)
+- **–**: Minimieren
 
-# 3. Level-Dateien neu bauen
-node scripts/seed-questions.mjs
-```
+So baust du dein Layout zurecht. **Größe und Position aller Fenster bleiben beim nächsten Start erhalten.**
 
-Weitere Quellen aus der Recherche (siehe `research-v2/REPORT.md`, falls vom Agent erzeugt): `baber/multilingual_mmlu` (14k Fragen, MIT), `FullByte/quiz` (~4.3k), `daydaylx/geburtstagsquiz`, `nicoruti/quizfragen`. Adapter dafür kannst du analog zu `dekuel.py` schreiben.
+### Im „Stream-Modus"
 
-## Build (lokal)
+Wenn alles passt: im Steuerfenster den Schalter **„Bearbeiten-Modus"** ausschalten. Die Titelleisten verschwinden — die Overlays sind dann clean und stream-tauglich.
 
-```bash
-# Windows — NSIS-Installer + Updater-Artefakte
-npm run tauri build -- --bundles nsis,updater
+### Während der Show
 
-# macOS — .app und .dmg (Dev)
-npm run tauri build -- --bundles app,dmg
-```
+Alles passiert im **Steuerungs-Fenster**:
 
-## Auto-Updater
+1. **„Spiel starten"** → erste Frage erscheint im Frage-Overlay.
+2. Klicke auf die Antwort, die du tippst → sie wird gold markiert (für Zuschauer sichtbar).
+3. **„Antwort sperren"** → die Antwort blinkt golden, das Frage-Fenster zeigt sie als endgültig.
+4. **„Auflösen"** → richtige Antwort wird grün, falsche (wenn du falsch warst) rot.
+5. **„Nächste Frage"** → eine Stufe weiter.
+6. Wenn du raus willst: **„Aussteigen (Geld nehmen)"**.
 
-Der Updater fragt die GitHub-Release-URL aus `src-tauri/tauri.conf.json` (`plugins.updater.endpoints`) ab.
+### Joker
 
-**Einmalig einrichten:**
+| Joker            | Was passiert                                                                          |
+| ---------------- | ------------------------------------------------------------------------------------- |
+| **50:50**        | Zwei falsche Antworten verschwinden aus dem Frage-Overlay.                            |
+| **Telefon 📞**   | Ein Tipp erscheint im Joker-Effekt-Overlay (z. B. „Ich tippe auf B").                 |
+| **Publikum 👥**  | Ein Balkendiagramm A/B/C/D erscheint im Joker-Effekt-Overlay, Mehrheit leuchtet gold. |
+| **Tausch 🔁**    | Die aktuelle Frage wird durch eine neue derselben Stufe ersetzt.                      |
 
-1. Signatur-Keypair erzeugen:
-   ```bash
-   npm run tauri signer generate -- -w ~/.tauri/wwsm.key
-   ```
-2. Öffentlichen Schlüssel in `tauri.conf.json` unter `plugins.updater.pubkey` eintragen (ersetzt `REPLACE_WITH_TAURI_UPDATER_PUBKEY`).
-3. Privaten Schlüssel als GitHub-Secret `TAURI_SIGNING_PRIVATE_KEY` hinterlegen (Inhalt von `~/.tauri/wwsm.key`); Passwort als `TAURI_SIGNING_PRIVATE_KEY_PASSWORD`.
-4. In `tauri.conf.json` die GitHub-URL an deinen Repo-Pfad anpassen (Default: `agent-z-de/wwsm`).
+Telefon- und Publikumsjoker werden **simuliert** — die App rät plausibel, mit sinkender Trefferquote auf höheren Stufen.
 
-**Release-Flow:**
+## Tipps für saubere Streams
 
-```bash
-git tag v0.1.0
-git push origin v0.1.0
-```
+- **Bearbeiten-Modus aus**, bevor du auf Sendung gehst.
+- **OBS-Mauszeiger deaktivieren** in jeder Fensteraufnahme.
+- **Mauszeiger weg vom Overlay**: lege das Steuerfenster auf einem zweiten Monitor ab, dann bist du nie mit dem Cursor in der Aufnahme.
+- **Aussteigen-Knopf bewusst nutzen** — das ist die ehrliche Endung, wenn du dir unsicher bist.
 
-Der GitHub-Actions-Workflow (`.github/workflows/release.yml`) baut den NSIS-Installer + `latest.json` und veröffentlicht sie als Draft-Release. Mac-Build ist im Workflow bewusst nicht enthalten (Dev-only); lokal mit `npm run tauri build -- --bundles app,dmg`.
+## Updates
 
-## Joker
+Im Steuerfenster oben rechts: **„Auf Updates prüfen"**. Falls eine neue Version verfügbar ist, lädt und installiert sie sich selbst, dann startet die App neu.
 
-| Joker            | Funktion                                                             |
-| ---------------- | -------------------------------------------------------------------- |
-| 50:50            | 2 falsche Antworten werden ausgeblendet                              |
-| Telefonjoker     | Simulierter Tipp; Trefferquote sinkt mit Stufe                       |
-| Publikumsjoker   | Simulierte %-Verteilung; Mehrheit häufiger richtig auf niedrigen Stufen |
-| Publikums-Tausch | Tauscht die Frage gegen eine neue derselben Stufe                    |
+## Probleme / Feedback
 
-(Twitch-Chat-Integration für echten Publikumsjoker ist für eine spätere Iteration vorgesehen.)
+Issues bitte auf GitHub melden. Wenn das Frage-Overlay in OBS schwarz ist: Erfassungs-Methode auf **WGC** stellen (siehe oben). Wenn die Geldleiter abgeschnitten wirkt: einfach das Fenster ziehen, höhere Stufen passen sich automatisch an.
 
-## Projektstruktur
+Wenn du das Fenster-Layout komplett zurücksetzen willst, lösch diese Datei (App muss zu sein):
 
 ```
-.
-├── data/
-│   ├── seed.json                # Master-Liste handverlesener Fragen
-│   └── external/                # zusätzliche Quellen (optional, *.json)
-├── docs/                        # Recherche-Notizen (OBS-WGC-Setup u.a.)
-├── research/                    # Rohdaten aus Recherche (vom Build ignoriert)
-├── scripts/
-│   ├── generate-seed.py         # Python-Skript für sauberes seed.json
-│   └── seed-questions.mjs       # Splittet seed.json → static/questions/level-XX.json
-├── src/
-│   ├── lib/                     # Game-State (Svelte 5 Runes), Bus, Types
-│   └── routes/
-│       ├── +page.svelte         # Steuerfenster
-│       └── overlay/
-│           ├── question/+page.svelte
-│           ├── jokers/+page.svelte
-│           └── ladder/+page.svelte
-├── src-tauri/
-│   ├── tauri.conf.json          # Fenster-Konfiguration (4 Windows)
-│   ├── capabilities/default.json
-│   └── src/lib.rs               # Plugins (Updater, Process, Opener)
-├── static/questions/            # Build-Output (15 Dateien) — vom Skript erzeugt
-└── .github/workflows/release.yml
+Windows: %APPDATA%\de.agent-z.wwsm\window-state.json
+macOS:   ~/Library/Application Support/de.agent-z.wwsm/window-state.json
 ```
+
+---
+
+<sub>Wer Wird Stream Millionär ist ein Fan-Projekt und steht in keinerlei Verbindung zur Sendung „Wer wird Millionär?" oder Endemol Shine / RTL.</sub>

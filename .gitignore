@@ -18,3 +18,4 @@ vite.config.ts.timestamp-*
 
 # zusätzliche externe Quellen (lokal nutzbar, nicht eingecheckt)
 /data/external/
+/.env

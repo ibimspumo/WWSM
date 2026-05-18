@@ -55,6 +55,6 @@ jobs:
             Windows-Installer (NSIS) und Updater-Artefakte sind unten verlinkt.
 
             Das `latest.json` ist der Updater-Endpoint — der ist in `tauri.conf.json` als URL hinterlegt und wird vom integrierten Auto-Updater abgefragt.
-          releaseDraft: true
+          releaseDraft: false
           prerelease: false
           args: ${{ matrix.args }}

@@ -137,9 +137,9 @@
   "plugins": {
     "updater": {
       "endpoints": [
-        "https://github.com/agent-z-de/wwsm/releases/latest/download/latest.json"
+        "https://github.com/ibimspumo/WWSM/releases/latest/download/latest.json"
       ],
-      "pubkey": "REPLACE_WITH_TAURI_UPDATER_PUBKEY"
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEE4OUU3RDc4MjgyMTY4QUIKUldTcmFDRW9lSDJlcUF2ZzRzNCt0aHhSTWZNRkVwOXFiWGhxT1NGUjh4SjBYVDBBMU11cG9rK1AK"
     }
   }
 }
