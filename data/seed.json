@@ -1,0 +1,902 @@
+[
+  {
+    "level": 1,
+    "q": "Wie viele Beine hat eine Spinne?",
+    "a": [
+      "6",
+      "8",
+      "10",
+      "4"
+    ],
+    "correct": 1,
+    "category": "Tiere"
+  },
+  {
+    "level": 1,
+    "q": "Welche Farbe entsteht, wenn man Blau und Gelb mischt?",
+    "a": [
+      "Orange",
+      "Lila",
+      "Grün",
+      "Braun"
+    ],
+    "correct": 2,
+    "category": "Allgemein"
+  },
+  {
+    "level": 1,
+    "q": "Wie heißt die Hauptstadt von Deutschland?",
+    "a": [
+      "München",
+      "Berlin",
+      "Hamburg",
+      "Köln"
+    ],
+    "correct": 1,
+    "category": "Geografie"
+  },
+  {
+    "level": 1,
+    "q": "In welchem Monat beginnt der Frühling?",
+    "a": [
+      "Februar",
+      "März",
+      "April",
+      "Mai"
+    ],
+    "correct": 1,
+    "category": "Allgemein"
+  },
+  {
+    "level": 1,
+    "q": "Welches Tier hält Winterschlaf?",
+    "a": [
+      "Bär",
+      "Fuchs",
+      "Wolf",
+      "Hase"
+    ],
+    "correct": 0,
+    "category": "Tiere"
+  },
+  {
+    "level": 2,
+    "q": "Wie viele Bundesländer hat Deutschland?",
+    "a": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "correct": 2,
+    "category": "Politik"
+  },
+  {
+    "level": 2,
+    "q": "Welches Instrument hat 88 Tasten?",
+    "a": [
+      "Akkordeon",
+      "Klavier",
+      "Orgel",
+      "Cembalo"
+    ],
+    "correct": 1,
+    "category": "Musik"
+  },
+  {
+    "level": 2,
+    "q": "Wie heißt der größte Ozean der Erde?",
+    "a": [
+      "Atlantik",
+      "Pazifik",
+      "Indischer Ozean",
+      "Arktischer Ozean"
+    ],
+    "correct": 1,
+    "category": "Geografie"
+  },
+  {
+    "level": 2,
+    "q": "Welche Form hat eine klassische Pizza?",
+    "a": [
+      "Quadratisch",
+      "Rechteckig",
+      "Rund",
+      "Dreieckig"
+    ],
+    "correct": 2,
+    "category": "Essen"
+  },
+  {
+    "level": 2,
+    "q": "Wie viele Spieler hat eine Fußballmannschaft auf dem Feld?",
+    "a": [
+      "10",
+      "11",
+      "12",
+      "9"
+    ],
+    "correct": 1,
+    "category": "Sport"
+  },
+  {
+    "level": 3,
+    "q": "Welcher Planet ist der Sonne am nächsten?",
+    "a": [
+      "Venus",
+      "Mars",
+      "Merkur",
+      "Erde"
+    ],
+    "correct": 2,
+    "category": "Astronomie"
+  },
+  {
+    "level": 3,
+    "q": "Wer schrieb das Theaterstück Faust?",
+    "a": [
+      "Schiller",
+      "Goethe",
+      "Lessing",
+      "Heine"
+    ],
+    "correct": 1,
+    "category": "Literatur"
+  },
+  {
+    "level": 3,
+    "q": "Welcher ist der längste Knochen im menschlichen Körper?",
+    "a": [
+      "Schienbein",
+      "Oberschenkelknochen",
+      "Elle",
+      "Wirbelsäule"
+    ],
+    "correct": 1,
+    "category": "Biologie"
+  },
+  {
+    "level": 3,
+    "q": "In welchem Land steht der Eiffelturm?",
+    "a": [
+      "Italien",
+      "Frankreich",
+      "Spanien",
+      "Belgien"
+    ],
+    "correct": 1,
+    "category": "Geografie"
+  },
+  {
+    "level": 3,
+    "q": "Wie nennt man die Wissenschaft der Pflanzen?",
+    "a": [
+      "Zoologie",
+      "Geologie",
+      "Botanik",
+      "Ökologie"
+    ],
+    "correct": 2,
+    "category": "Biologie"
+  },
+  {
+    "level": 4,
+    "q": "Welche Währung wird in Schweden verwendet?",
+    "a": [
+      "Euro",
+      "Krone",
+      "Franken",
+      "Pfund"
+    ],
+    "correct": 1,
+    "category": "Wirtschaft"
+  },
+  {
+    "level": 4,
+    "q": "Welcher Fluss fließt durch Wien?",
+    "a": [
+      "Rhein",
+      "Donau",
+      "Elbe",
+      "Main"
+    ],
+    "correct": 1,
+    "category": "Geografie"
+  },
+  {
+    "level": 4,
+    "q": "Wie hieß der erste Mensch auf dem Mond?",
+    "a": [
+      "Buzz Aldrin",
+      "Neil Armstrong",
+      "Juri Gagarin",
+      "Michael Collins"
+    ],
+    "correct": 1,
+    "category": "Geschichte"
+  },
+  {
+    "level": 4,
+    "q": "Welche Sportart wird mit einem Shuttlecock gespielt?",
+    "a": [
+      "Tennis",
+      "Squash",
+      "Badminton",
+      "Tischtennis"
+    ],
+    "correct": 2,
+    "category": "Sport"
+  },
+  {
+    "level": 4,
+    "q": "Wie viele Saiten hat eine Standard-Gitarre?",
+    "a": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct": 2,
+    "category": "Musik"
+  },
+  {
+    "level": 5,
+    "q": "In welchem Jahr fiel die Berliner Mauer?",
+    "a": [
+      "1987",
+      "1989",
+      "1990",
+      "1991"
+    ],
+    "correct": 1,
+    "category": "Geschichte"
+  },
+  {
+    "level": 5,
+    "q": "Welches chemische Element hat das Symbol Au?",
+    "a": [
+      "Silber",
+      "Gold",
+      "Aluminium",
+      "Argon"
+    ],
+    "correct": 1,
+    "category": "Chemie"
+  },
+  {
+    "level": 5,
+    "q": "Wie heißt die größte heiße Wüste der Welt?",
+    "a": [
+      "Gobi",
+      "Kalahari",
+      "Sahara",
+      "Atacama"
+    ],
+    "correct": 2,
+    "category": "Geografie"
+  },
+  {
+    "level": 5,
+    "q": "Welcher Künstler malte die Mona Lisa?",
+    "a": [
+      "Michelangelo",
+      "Raffael",
+      "Leonardo da Vinci",
+      "Botticelli"
+    ],
+    "correct": 2,
+    "category": "Kunst"
+  },
+  {
+    "level": 5,
+    "q": "Welches Spiel wird mit einem Brett aus 64 Feldern gespielt?",
+    "a": [
+      "Dame",
+      "Schach",
+      "Backgammon",
+      "Mühle"
+    ],
+    "correct": 1,
+    "category": "Spiele"
+  },
+  {
+    "level": 6,
+    "q": "Wer schrieb den Roman Die Verwandlung?",
+    "a": [
+      "Hermann Hesse",
+      "Franz Kafka",
+      "Thomas Mann",
+      "Stefan Zweig"
+    ],
+    "correct": 1,
+    "category": "Literatur"
+  },
+  {
+    "level": 6,
+    "q": "Wie viele Knochen hat ein erwachsener Mensch ungefähr?",
+    "a": [
+      "186",
+      "206",
+      "256",
+      "306"
+    ],
+    "correct": 1,
+    "category": "Biologie"
+  },
+  {
+    "level": 6,
+    "q": "Welche Stadt war Gastgeber der Olympischen Sommerspiele 1972?",
+    "a": [
+      "Berlin",
+      "München",
+      "Frankfurt",
+      "Hamburg"
+    ],
+    "correct": 1,
+    "category": "Sport"
+  },
+  {
+    "level": 6,
+    "q": "In welchem US-Bundesstaat liegt Hollywood?",
+    "a": [
+      "New York",
+      "Texas",
+      "Kalifornien",
+      "Florida"
+    ],
+    "correct": 2,
+    "category": "Geografie"
+  },
+  {
+    "level": 6,
+    "q": "Welches Tier kann seinen Kopf um fast 270 Grad drehen?",
+    "a": [
+      "Chamäleon",
+      "Eule",
+      "Schlange",
+      "Fledermaus"
+    ],
+    "correct": 1,
+    "category": "Tiere"
+  },
+  {
+    "level": 7,
+    "q": "Wer komponierte die Mondscheinsonate?",
+    "a": [
+      "Mozart",
+      "Bach",
+      "Beethoven",
+      "Schubert"
+    ],
+    "correct": 2,
+    "category": "Musik"
+  },
+  {
+    "level": 7,
+    "q": "Welches Land hat die meisten Einwohner?",
+    "a": [
+      "China",
+      "Indien",
+      "USA",
+      "Indonesien"
+    ],
+    "correct": 1,
+    "category": "Geografie"
+  },
+  {
+    "level": 7,
+    "q": "Was bedeutet die Abkürzung URL?",
+    "a": [
+      "Universal Resource Link",
+      "Uniform Resource Locator",
+      "Unified Routing Layer",
+      "User Reference Line"
+    ],
+    "correct": 1,
+    "category": "Technik"
+  },
+  {
+    "level": 7,
+    "q": "Welcher deutsche Physiker formulierte das Unschärfeprinzip?",
+    "a": [
+      "Einstein",
+      "Planck",
+      "Heisenberg",
+      "Schrödinger"
+    ],
+    "correct": 2,
+    "category": "Wissenschaft"
+  },
+  {
+    "level": 7,
+    "q": "Welche Hauptstadt liegt am Bosporus?",
+    "a": [
+      "Athen",
+      "Istanbul",
+      "Sofia",
+      "Bukarest"
+    ],
+    "correct": 1,
+    "category": "Geografie"
+  },
+  {
+    "level": 8,
+    "q": "Welcher römische Kaiser ließ Rom angeblich brennen?",
+    "a": [
+      "Caesar",
+      "Augustus",
+      "Nero",
+      "Caligula"
+    ],
+    "correct": 2,
+    "category": "Geschichte"
+  },
+  {
+    "level": 8,
+    "q": "In welcher Stadt steht die Hagia Sophia?",
+    "a": [
+      "Athen",
+      "Kairo",
+      "Istanbul",
+      "Damaskus"
+    ],
+    "correct": 2,
+    "category": "Geografie"
+  },
+  {
+    "level": 8,
+    "q": "Welches Element wird durch das Symbol K dargestellt?",
+    "a": [
+      "Kohlenstoff",
+      "Kalium",
+      "Krypton",
+      "Kalzium"
+    ],
+    "correct": 1,
+    "category": "Chemie"
+  },
+  {
+    "level": 8,
+    "q": "Wer schrieb den Roman Der Steppenwolf?",
+    "a": [
+      "Bertolt Brecht",
+      "Hermann Hesse",
+      "Heinrich Böll",
+      "Günter Grass"
+    ],
+    "correct": 1,
+    "category": "Literatur"
+  },
+  {
+    "level": 8,
+    "q": "Welches Symbol findet sich auf der Flagge Kanadas?",
+    "a": [
+      "Eichenblatt",
+      "Ahornblatt",
+      "Birkenblatt",
+      "Tannenzweig"
+    ],
+    "correct": 1,
+    "category": "Geografie"
+  },
+  {
+    "level": 9,
+    "q": "Welcher Philosoph wurde wegen Verführung der Jugend zum Tod verurteilt?",
+    "a": [
+      "Platon",
+      "Aristoteles",
+      "Sokrates",
+      "Epikur"
+    ],
+    "correct": 2,
+    "category": "Philosophie"
+  },
+  {
+    "level": 9,
+    "q": "Welcher Stoff besteht aus Wasserstoff und Sauerstoff?",
+    "a": [
+      "Salz",
+      "Wasser",
+      "Ammoniak",
+      "Methan"
+    ],
+    "correct": 1,
+    "category": "Chemie"
+  },
+  {
+    "level": 9,
+    "q": "Wer schrieb Die Blechtrommel?",
+    "a": [
+      "Heinrich Böll",
+      "Günter Grass",
+      "Siegfried Lenz",
+      "Martin Walser"
+    ],
+    "correct": 1,
+    "category": "Literatur"
+  },
+  {
+    "level": 9,
+    "q": "Wie heißt das längste Gebirge der Welt?",
+    "a": [
+      "Himalaya",
+      "Rocky Mountains",
+      "Anden",
+      "Alpen"
+    ],
+    "correct": 2,
+    "category": "Geografie"
+  },
+  {
+    "level": 9,
+    "q": "In welcher Sprache wurde das Neue Testament ursprünglich verfasst?",
+    "a": [
+      "Hebräisch",
+      "Lateinisch",
+      "Griechisch",
+      "Aramäisch"
+    ],
+    "correct": 2,
+    "category": "Religion"
+  },
+  {
+    "level": 10,
+    "q": "Welcher Komponist schrieb die Zauberflöte?",
+    "a": [
+      "Haydn",
+      "Mozart",
+      "Mahler",
+      "Strauß"
+    ],
+    "correct": 1,
+    "category": "Musik"
+  },
+  {
+    "level": 10,
+    "q": "Welche Einheit misst elektrischen Widerstand?",
+    "a": [
+      "Volt",
+      "Ampere",
+      "Ohm",
+      "Watt"
+    ],
+    "correct": 2,
+    "category": "Physik"
+  },
+  {
+    "level": 10,
+    "q": "Welcher französische Maler ist für Seerosen-Bilder bekannt?",
+    "a": [
+      "Renoir",
+      "Cézanne",
+      "Monet",
+      "Degas"
+    ],
+    "correct": 2,
+    "category": "Kunst"
+  },
+  {
+    "level": 10,
+    "q": "Welche Sprache hat die meisten Muttersprachler weltweit?",
+    "a": [
+      "Englisch",
+      "Spanisch",
+      "Mandarin-Chinesisch",
+      "Hindi"
+    ],
+    "correct": 2,
+    "category": "Sprache"
+  },
+  {
+    "level": 10,
+    "q": "Welche Inselgruppe entdeckte Kolumbus 1492 zuerst?",
+    "a": [
+      "Indien",
+      "die Bahamas",
+      "Brasilien",
+      "Mexiko"
+    ],
+    "correct": 1,
+    "category": "Geschichte"
+  },
+  {
+    "level": 11,
+    "q": "Wer schrieb Also sprach Zarathustra?",
+    "a": [
+      "Schopenhauer",
+      "Kant",
+      "Hegel",
+      "Nietzsche"
+    ],
+    "correct": 3,
+    "category": "Philosophie"
+  },
+  {
+    "level": 11,
+    "q": "Welche Eisenbahnstrecke verbindet Moskau mit Wladiwostok?",
+    "a": [
+      "Sibirische Magistrale",
+      "Transsibirische Eisenbahn",
+      "Polarexpress",
+      "Eurasia-Linie"
+    ],
+    "correct": 1,
+    "category": "Geografie"
+  },
+  {
+    "level": 11,
+    "q": "Wie heißt der römische Kriegsgott?",
+    "a": [
+      "Jupiter",
+      "Neptun",
+      "Mars",
+      "Merkur"
+    ],
+    "correct": 2,
+    "category": "Mythologie"
+  },
+  {
+    "level": 11,
+    "q": "Welcher Maler schnitt sich angeblich ein Ohr ab?",
+    "a": [
+      "Gauguin",
+      "van Gogh",
+      "Cézanne",
+      "Toulouse-Lautrec"
+    ],
+    "correct": 1,
+    "category": "Kunst"
+  },
+  {
+    "level": 11,
+    "q": "Welche Hauptstadt liegt auf zwei Kontinenten?",
+    "a": [
+      "Kairo",
+      "Istanbul",
+      "Moskau",
+      "Athen"
+    ],
+    "correct": 1,
+    "category": "Geografie"
+  },
+  {
+    "level": 12,
+    "q": "Was bedeutet das lateinische carpe diem?",
+    "a": [
+      "Nutze den Tag",
+      "Ergreif die Sterne",
+      "Folge dem Schicksal",
+      "Glaube an Götter"
+    ],
+    "correct": 0,
+    "category": "Sprache"
+  },
+  {
+    "level": 12,
+    "q": "In welchem Jahr wurde die Bundesrepublik Deutschland gegründet?",
+    "a": [
+      "1945",
+      "1949",
+      "1955",
+      "1961"
+    ],
+    "correct": 1,
+    "category": "Geschichte"
+  },
+  {
+    "level": 12,
+    "q": "Wer war der erste deutsche Bundeskanzler?",
+    "a": [
+      "Willy Brandt",
+      "Konrad Adenauer",
+      "Helmut Kohl",
+      "Ludwig Erhard"
+    ],
+    "correct": 1,
+    "category": "Politik"
+  },
+  {
+    "level": 12,
+    "q": "Welche chemische Verbindung wird als Lachgas bezeichnet?",
+    "a": [
+      "NO",
+      "NO₂",
+      "N₂O",
+      "N₂O₅"
+    ],
+    "correct": 2,
+    "category": "Chemie"
+  },
+  {
+    "level": 12,
+    "q": "Welcher japanische Regisseur drehte Die sieben Samurai?",
+    "a": [
+      "Yasujirō Ozu",
+      "Akira Kurosawa",
+      "Hayao Miyazaki",
+      "Kenji Mizoguchi"
+    ],
+    "correct": 1,
+    "category": "Film"
+  },
+  {
+    "level": 13,
+    "q": "In welcher Stadt wurde Johann Sebastian Bach 1685 geboren?",
+    "a": [
+      "Leipzig",
+      "Eisenach",
+      "Köthen",
+      "Weimar"
+    ],
+    "correct": 1,
+    "category": "Musik"
+  },
+  {
+    "level": 13,
+    "q": "Welcher Begriff bezeichnet die Zerlegung von Licht in Spektralfarben durch ein Prisma?",
+    "a": [
+      "Beugung",
+      "Brechung",
+      "Dispersion",
+      "Reflexion"
+    ],
+    "correct": 2,
+    "category": "Physik"
+  },
+  {
+    "level": 13,
+    "q": "Welcher amerikanische Schriftsteller schrieb Der alte Mann und das Meer?",
+    "a": [
+      "Steinbeck",
+      "Hemingway",
+      "Faulkner",
+      "Fitzgerald"
+    ],
+    "correct": 1,
+    "category": "Literatur"
+  },
+  {
+    "level": 13,
+    "q": "Welcher Vertrag beendete offiziell den Ersten Weltkrieg?",
+    "a": [
+      "Vertrag von Verdun",
+      "Vertrag von Versailles",
+      "Vertrag von Tilsit",
+      "Vertrag von Rastatt"
+    ],
+    "correct": 1,
+    "category": "Geschichte"
+  },
+  {
+    "level": 13,
+    "q": "Was misst die Mohs-Skala?",
+    "a": [
+      "Erdbebenstärke",
+      "Härte von Mineralien",
+      "Lautstärke",
+      "Säuregehalt"
+    ],
+    "correct": 1,
+    "category": "Wissenschaft"
+  },
+  {
+    "level": 14,
+    "q": "Welcher französische König wurde 1793 hingerichtet?",
+    "a": [
+      "Ludwig XIV.",
+      "Ludwig XV.",
+      "Ludwig XVI.",
+      "Ludwig XVIII."
+    ],
+    "correct": 2,
+    "category": "Geschichte"
+  },
+  {
+    "level": 14,
+    "q": "Welche Hauptstadt ist die höchstgelegene der Welt?",
+    "a": [
+      "Quito",
+      "La Paz",
+      "Lhasa",
+      "Bogotá"
+    ],
+    "correct": 1,
+    "category": "Geografie"
+  },
+  {
+    "level": 14,
+    "q": "Wer schrieb die Oper Tristan und Isolde?",
+    "a": [
+      "Verdi",
+      "Puccini",
+      "Wagner",
+      "Strauß"
+    ],
+    "correct": 2,
+    "category": "Musik"
+  },
+  {
+    "level": 14,
+    "q": "In welchem Jahr starb Albert Einstein?",
+    "a": [
+      "1945",
+      "1955",
+      "1965",
+      "1975"
+    ],
+    "correct": 1,
+    "category": "Wissenschaft"
+  },
+  {
+    "level": 14,
+    "q": "Welche römische Zahl entspricht 1984?",
+    "a": [
+      "MCMLXXXIV",
+      "MCMLXIV",
+      "MDLXXXIV",
+      "MCMXCIV"
+    ],
+    "correct": 0,
+    "category": "Mathematik"
+  },
+  {
+    "level": 15,
+    "q": "Welcher Wissenschaftler erhielt 1921 den Nobelpreis für den photoelektrischen Effekt?",
+    "a": [
+      "Bohr",
+      "Einstein",
+      "Planck",
+      "Heisenberg"
+    ],
+    "correct": 1,
+    "category": "Wissenschaft"
+  },
+  {
+    "level": 15,
+    "q": "Welcher byzantinische Kaiser ließ den Codex Iustinianus zusammenstellen?",
+    "a": [
+      "Konstantin I.",
+      "Theodosius",
+      "Justinian I.",
+      "Heraklios"
+    ],
+    "correct": 2,
+    "category": "Geschichte"
+  },
+  {
+    "level": 15,
+    "q": "Wie heißt in der Astronomie der sonnennächste Punkt einer Planetenbahn?",
+    "a": [
+      "Aphel",
+      "Perihel",
+      "Apogäum",
+      "Perigäum"
+    ],
+    "correct": 1,
+    "category": "Astronomie"
+  },
+  {
+    "level": 15,
+    "q": "Wer schrieb das Gedicht Der Erlkönig?",
+    "a": [
+      "Schiller",
+      "Heine",
+      "Goethe",
+      "Lessing"
+    ],
+    "correct": 2,
+    "category": "Literatur"
+  },
+  {
+    "level": 15,
+    "q": "Welcher griechische Mathematiker formulierte das Parallelenpostulat?",
+    "a": [
+      "Pythagoras",
+      "Archimedes",
+      "Thales",
+      "Euklid"
+    ],
+    "correct": 3,
+    "category": "Mathematik"
+  }
+]

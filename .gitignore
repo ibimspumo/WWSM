@@ -1,0 +1,20 @@
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+.env
+.env.*
+!.env.example
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Recherche-Rohdaten (große Git-Repos, gehören nicht ins Hauptrepo)
+/research/
+/research-v2/
+
+# Generierte Fragen-Dateien (werden aus data/seed.json + data/external/ erzeugt)
+/static/questions/
+
+# zusätzliche externe Quellen (lokal nutzbar, nicht eingecheckt)
+/data/external/

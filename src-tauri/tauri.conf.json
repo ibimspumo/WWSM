@@ -1,0 +1,145 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Wer Wird Stream Millionär",
+  "version": "0.1.0",
+  "identifier": "de.agent-z.wwsm",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../build"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "control",
+        "title": "WWSM — Steuerung",
+        "url": "/",
+        "width": 1100,
+        "height": 760,
+        "minWidth": 900,
+        "minHeight": 600,
+        "transparent": false,
+        "decorations": true,
+        "resizable": true,
+        "center": true,
+        "focus": true,
+        "visible": true
+      },
+      {
+        "label": "overlay-question",
+        "title": "WWSM Overlay — Frage",
+        "url": "/overlay/question",
+        "width": 1280,
+        "height": 340,
+        "minWidth": 700,
+        "minHeight": 220,
+        "transparent": true,
+        "decorations": false,
+        "shadow": false,
+        "resizable": true,
+        "skipTaskbar": false,
+        "alwaysOnTop": false,
+        "focus": false,
+        "visible": true,
+        "x": 100,
+        "y": 540
+      },
+      {
+        "label": "overlay-jokers",
+        "title": "WWSM Overlay — Joker",
+        "url": "/overlay/jokers",
+        "width": 760,
+        "height": 160,
+        "minWidth": 400,
+        "minHeight": 110,
+        "transparent": true,
+        "decorations": false,
+        "shadow": false,
+        "resizable": true,
+        "skipTaskbar": false,
+        "alwaysOnTop": false,
+        "focus": false,
+        "visible": true,
+        "x": 360,
+        "y": 100
+      },
+      {
+        "label": "overlay-ladder",
+        "title": "WWSM Overlay — Geldleiter",
+        "url": "/overlay/ladder",
+        "width": 360,
+        "height": 720,
+        "minWidth": 240,
+        "minHeight": 400,
+        "transparent": true,
+        "decorations": false,
+        "shadow": false,
+        "resizable": true,
+        "skipTaskbar": false,
+        "alwaysOnTop": false,
+        "focus": false,
+        "visible": true,
+        "x": 1500,
+        "y": 200
+      },
+      {
+        "label": "overlay-joker-effect",
+        "title": "WWSM Overlay — Joker-Effekt",
+        "url": "/overlay/joker-effect",
+        "width": 980,
+        "height": 540,
+        "minWidth": 500,
+        "minHeight": 300,
+        "transparent": true,
+        "decorations": false,
+        "shadow": false,
+        "resizable": true,
+        "skipTaskbar": false,
+        "alwaysOnTop": false,
+        "focus": false,
+        "visible": true,
+        "x": 260,
+        "y": 120
+      }
+    ],
+    "security": {
+      "csp": null,
+      "assetProtocol": {
+        "enable": true,
+        "scope": ["$RESOURCE/**"]
+      }
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": ["nsis", "app", "dmg"],
+    "createUpdaterArtifacts": true,
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "nsis": {
+        "installMode": "currentUser",
+        "installerIcon": "icons/icon.ico",
+        "languages": ["German", "English"],
+        "displayLanguageSelector": false
+      }
+    },
+    "macOS": {
+      "minimumSystemVersion": "10.15"
+    }
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "https://github.com/agent-z-de/wwsm/releases/latest/download/latest.json"
+      ],
+      "pubkey": "REPLACE_WITH_TAURI_UPDATER_PUBKEY"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Berechtigungen für alle Fenster (Steuerung + Overlays).",
+  "windows": ["control", "overlay-question", "overlay-jokers", "overlay-ladder", "overlay-joker-effect"],
+  "permissions": [
+    "core:default",
+    "core:event:default",
+    "core:window:allow-start-dragging",
+    "core:window:allow-minimize",
+    "core:window:allow-close",
+    "core:window:allow-show",
+    "core:window:allow-hide",
+    "core:window:allow-set-always-on-top",
+    "core:window:allow-set-size",
+    "core:window:allow-set-position",
+    "core:window:allow-set-skip-taskbar",
+    "core:webview:allow-create-webview-window",
+    "opener:default",
+    "updater:default",
+    "process:default",
+    "process:allow-restart",
+    "window-state:default"
+  ]
+}
