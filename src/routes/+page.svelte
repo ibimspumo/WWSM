@@ -1,14 +1,25 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { game } from "$lib/game.svelte";
+  import { settings } from "$lib/settings.svelte";
+  import { questionStore } from "$lib/questionStore.svelte";
   import { PRIZE_LADDER } from "$lib/prizeLadder";
   import { broadcastState, onRequestState } from "$lib/bus";
+  import { styling } from "$lib/styling.svelte";
+  import { broadcastStyle, onRequestStyle } from "$lib/styleBus";
+  import { ensureFontsForValues } from "$lib/fontLoader";
   import { check } from "@tauri-apps/plugin-updater";
   import { relaunch } from "@tauri-apps/plugin-process";
   import { getAllWebviewWindows } from "@tauri-apps/api/webviewWindow";
-  import type { AnswerIndex } from "$lib/types";
+  import { listen } from "@tauri-apps/api/event";
+  import { invoke } from "@tauri-apps/api/core";
+  import type { AnswerIndex, ChatVotes } from "$lib/types";
+  import SettingsModal from "$lib/components/SettingsModal.svelte";
 
   let updaterStatus = $state<string>("");
+  let settingsOpen = $state(false);
+  let settingsLoaded = $state(false);
+  let stylingLoaded = $state(false);
 
   // Reaktiv: jede Änderung am Game-State broadcasten
   $effect(() => {
@@ -16,13 +27,55 @@
     broadcastState(snap);
   });
 
+  // Reaktiv: jede Änderung am Styling-State broadcasten + persistieren
+  $effect(() => {
+    if (!stylingLoaded) return;
+    const snap = { ...styling.values };
+    broadcastStyle(snap);
+    styling.save();
+  });
+
   onMount(() => {
+    settings.load();
+    settingsLoaded = true;
+    styling.load();
+    ensureFontsForValues(styling.values);
+    stylingLoaded = true;
+    // Fragen-Store einmalig laden (Defaults aus static/ + User-Overrides aus appDataDir).
+    questionStore.load().catch((e) => console.warn("questionStore.load fehlgeschlagen:", e));
     const unlistenPromise = onRequestState(() => {
       broadcastState(game.serialize());
     });
+    const unlistenStylePromise = onRequestStyle(() => {
+      broadcastStyle({ ...styling.values });
+    });
+    // Chat-Voting-Events vom Rust-Server in den Game-State spiegeln
+    const unlistenChat = listen<ChatVotes>("wwsm:chat-vote", (e) => {
+      game.applyChatVotes(e.payload);
+    });
     return () => {
       unlistenPromise.then((u) => u());
+      unlistenStylePromise.then((u) => u());
+      unlistenChat.then((u) => u());
     };
+  });
+
+  // Persistiere bei jeder Änderung an Settings — Reaktivität greift durch serialize()
+  $effect(() => {
+    if (!settingsLoaded) return;
+    settings.serialize();
+    settings.save();
+  });
+
+  // Webhook-Settings → Backend syncen (Server neu starten, wenn nötig)
+  $effect(() => {
+    if (!settingsLoaded) return;
+    const port = settings.webhookPort;
+    const enabled = settings.webhookEnabled;
+    const bindAll = settings.webhookBindAll;
+    invoke("webhook_apply_settings", { port, enabled, bindAll }).catch(() => {
+      // außerhalb von Tauri ignorieren
+    });
   });
 
   async function checkForUpdates() {
@@ -66,10 +119,13 @@
       <span class="sub">Steuerung · v0.1.0</span>
     </div>
     <div class="update">
+      <button class="btn ghost" onclick={() => (settingsOpen = true)}>⚙ Einstellungen</button>
       <button class="btn ghost" onclick={checkForUpdates}>Auf Updates prüfen</button>
       {#if updaterStatus}<span class="updater-msg">{updaterStatus}</span>{/if}
     </div>
   </header>
+
+  <SettingsModal open={settingsOpen} onClose={() => (settingsOpen = false)} />
 
   <section class="status">
     <div class="badge">
@@ -116,7 +172,13 @@
     </div>
 
     <div class="card flex">
-      <h2>Aktuelle Frage</h2>
+      <div class="card-head">
+        <h2>Aktuelle Frage</h2>
+        <label class="spoiler-toggle" title="Markiert die korrekte Antwort nur hier im Steuerfenster — Overlays bleiben unverändert.">
+          <input type="checkbox" bind:checked={settings.revealCorrectInControl} />
+          <span>👁 Lösung anzeigen</span>
+        </label>
+      </div>
       {#if game.question}
         <p class="question-text">{game.question.q}</p>
         <div class="answers-grid">
@@ -128,6 +190,7 @@
             {@const revealed = game.phase === "reveal" || game.phase === "won-level" || game.phase === "won-game" || game.phase === "lost"}
             {@const isCorrect = revealed && idx === game.question.correct}
             {@const isWrongLocked = revealed && locked && idx !== game.question.correct}
+            {@const isSpoiler = !revealed && settings.revealCorrectInControl && idx === game.question.correct}
             <button
               class="answer"
               class:selected
@@ -135,10 +198,12 @@
               class:removed
               class:correct={isCorrect}
               class:wrong={isWrongLocked}
+              class:spoiler={isSpoiler}
               disabled={removed || game.phase !== "question"}
               onclick={() => pickAnswer(idx)}>
               <span class="letter">{["A", "B", "C", "D"][i]}</span>
               <span class="text">{removed ? "" : text}</span>
+              {#if isSpoiler}<span class="spoiler-badge" aria-label="korrekte Antwort">✓</span>{/if}
             </button>
           {/each}
         </div>
@@ -160,18 +225,56 @@
           <span>2 falsche Antworten weg</span>
         </button>
         <button class="joker" disabled={!game.canUseJoker || game.jokersUsed.has("audience")} onclick={() => game.useAudience()}>
-          <span class="joker-icon">👥</span>
+          <span class="joker-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </span>
           <span>Publikumsjoker</span>
         </button>
         <button class="joker" disabled={!game.canUseJoker || game.jokersUsed.has("phone")} onclick={() => game.usePhone()}>
-          <span class="joker-icon">📞</span>
+          <span class="joker-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+          </span>
           <span>Telefonjoker</span>
         </button>
-        <button class="joker" disabled={!game.canUseJoker || game.jokersUsed.has("swap")} onclick={() => game.useSwap()}>
-          <span class="joker-icon">🔁</span>
-          <span>Publikums-Tausch</span>
+        <button class="joker" disabled={!game.canUseJoker || game.jokersUsed.has("chat")} onclick={() => game.useChat()}>
+          <span class="joker-icon">
+            <!-- Lucide: message-circle (Chat) -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+            </svg>
+          </span>
+          <span>Chat-Joker</span>
         </button>
       </div>
+
+      <!-- Live-Anzeige der Chat-Stimmen (immer aktiv, sobald Voting läuft) -->
+      <div class="chat-live" class:dimmed={game.chatVotes.total === 0}>
+        <div class="chat-live-head">
+          <span class="chat-live-title">Chat-Voting</span>
+          <span class="chat-live-total">{game.chatVotes.total} {game.chatVotes.total === 1 ? "Stimme" : "Stimmen"}</span>
+        </div>
+        <div class="chat-live-bars">
+          {#each [0, 1, 2, 3] as i (i)}
+            {@const count = game.chatVotes.counts[i]}
+            {@const pct = game.chatVotes.total > 0 ? Math.round((count / game.chatVotes.total) * 100) : 0}
+            <div class="chat-bar">
+              <span class="chat-letter">{["A", "B", "C", "D"][i]}</span>
+              <div class="chat-track">
+                <div class="chat-fill" style="width: {pct}%"></div>
+              </div>
+              <span class="chat-count">{count}<span class="chat-pct"> · {pct}%</span></span>
+            </div>
+          {/each}
+        </div>
+      </div>
+
       {#if game.audienceVotes}
         <div class="audience">
           {#each [0, 1, 2, 3] as i (i)}
@@ -255,6 +358,22 @@
     padding: 16px 18px;
   }
   .card h2 { margin: 0 0 12px; font-size: 14px; font-weight: 600; color: #b9c8ec; text-transform: uppercase; letter-spacing: 1px; }
+  .card-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .card-head h2 { margin: 0 0 12px; }
+  .spoiler-toggle {
+    display: inline-flex; align-items: center; gap: 6px;
+    cursor: pointer;
+    padding: 4px 10px;
+    border-radius: 6px;
+    background: rgba(62, 208, 121, 0.08);
+    border: 1px solid rgba(62, 208, 121, 0.3);
+    color: #a8e6c2;
+    font-size: 11px;
+    margin-bottom: 12px;
+    user-select: none;
+  }
+  .spoiler-toggle:hover { background: rgba(62, 208, 121, 0.16); }
+  .spoiler-toggle input { accent-color: #3ed079; }
 
   .btn-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
   .btn {
@@ -292,6 +411,18 @@
   .answer.correct { background: linear-gradient(180deg, #3ed079, #1d8a48); color: #052; border-color: #82e6a8; }
   .answer.wrong { background: linear-gradient(180deg, #e64b4b, #8e1d1d); color: #fff; border-color: #f29f9f; }
   .answer.removed { background: rgba(255,255,255,0.04); border-style: dashed; color: transparent; }
+  .answer.spoiler {
+    border-color: #3ed079;
+    box-shadow: inset 0 0 0 1px rgba(62, 208, 121, 0.5);
+  }
+  .answer.spoiler.selected { box-shadow: inset 0 0 0 1px rgba(62, 208, 121, 0.5); }
+  .spoiler-badge {
+    margin-left: auto;
+    color: #3ed079;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+  }
   .answer .letter { font-weight: 700; color: #ffd97a; min-width: 18px; }
   .answer.selected .letter, .answer.correct .letter, .answer.wrong .letter { color: inherit; }
 
@@ -306,7 +437,8 @@
   }
   .joker:hover:not(:disabled) { background: rgba(70, 113, 214, 0.32); }
   .joker:disabled { opacity: 0.35; cursor: not-allowed; text-decoration: line-through; }
-  .joker-icon { font-size: 18px; font-weight: 700; color: #f3c050; }
+  .joker-icon { font-size: 18px; font-weight: 700; color: #f3c050; display: inline-flex; align-items: center; justify-content: center; height: 22px; }
+  .joker-icon svg { width: 22px; height: 22px; }
 
   .audience { margin-top: 12px; display: flex; flex-direction: column; gap: 6px; }
   .audience-bar { display: grid; grid-template-columns: 20px 1fr 40px; gap: 8px; align-items: center; }
@@ -314,6 +446,43 @@
   .audience-track { background: rgba(255,255,255,0.08); height: 14px; border-radius: 4px; overflow: hidden; }
   .audience-fill { height: 100%; background: linear-gradient(90deg, #4671d6, #f3c050); }
   .audience-pct { font-variant-numeric: tabular-nums; font-size: 12px; }
+
+  /* Live-Chat-Voting im Steuerfenster — immer sichtbar während des Spiels */
+  .chat-live {
+    margin-top: 12px;
+    padding: 10px 12px;
+    background: rgba(110, 161, 240, 0.08);
+    border: 1px solid rgba(110, 161, 240, 0.25);
+    border-radius: 8px;
+    transition: opacity 0.25s;
+  }
+  .chat-live.dimmed { opacity: 0.55; }
+  .chat-live-head {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-bottom: 8px;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .chat-live-title { color: #6ea1f0; font-weight: 600; }
+  .chat-live-total { color: #8aa0d0; font-variant-numeric: tabular-nums; }
+  .chat-live-bars { display: flex; flex-direction: column; gap: 5px; }
+  .chat-bar { display: grid; grid-template-columns: 18px 1fr 80px; gap: 8px; align-items: center; }
+  .chat-letter { font-weight: 700; color: #6ea1f0; font-size: 12px; }
+  .chat-track { background: rgba(255,255,255,0.06); height: 10px; border-radius: 3px; overflow: hidden; }
+  .chat-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #6ea1f0, #a37bff);
+    transition: width 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .chat-count {
+    font-variant-numeric: tabular-nums;
+    font-size: 12px;
+    color: #e6ecff;
+    text-align: right;
+    font-weight: 600;
+  }
+  .chat-pct { color: #8aa0d0; font-weight: 400; }
 
   .hint { margin-top: 10px; padding: 8px 12px; background: rgba(243,192,80,0.1); border: 1px solid rgba(243,192,80,0.3); border-radius: 8px; font-size: 13px; }
 
