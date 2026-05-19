@@ -16,6 +16,7 @@ Verwandtes Projekt im Nachbarverzeichnis `../RunMMO` — gleicher Stack-Stil (Ta
 - **State-Sync zwischen Fenstern**: Tauri-Events (`@tauri-apps/api/event` `emit`/`listen`)
 - **Persistenz von Fenster-Position/-Größe**: `tauri-plugin-window-state` (automatisch, keine API-Calls nötig)
 - **Fragen-Datenbank**: JSON-Dateien pro Preisstufe in `static/questions/level-XX.json`, gebaut aus `data/seed.json` + `data/external/*.json` durch `scripts/seed-questions.mjs`
+- **Sound-Engine**: HTMLAudioElement-basiert (`src/lib/audio.svelte.ts`), läuft NUR im Steuerfenster (Overlays importieren `audio` nicht). Volume pro Kategorie + Master in `settings.svelte.ts`. MP3s in `static/sounds/<slug>.mp3` (gitignored, via `scripts/download-sounds.mjs`).
 
 ## Architektur
 
@@ -120,6 +121,27 @@ Schema pro Eintrag:
 Beim Build (`node scripts/seed-questions.mjs`) wird gemergt, deduppt nach Frage-Text und in `static/questions/level-XX.json` gesplittet. Die App lädt zur Laufzeit nur die Datei der aktuellen Stufe via `fetch`.
 
 **Neue externe Quellen einbauen**: Adapter unter `scripts/adapters/<quelle>.py` schreiben, der ins obige Schema konvertiert und nach `data/external/<quelle>.json` schreibt. Difficulty-Mapping siehe `dekuel.py` (`BASE_MAPPING = [1, 2, 4, 5, 7, 8, 10, 11, 13, 15]` + stabile Hash-Jitter ±1).
+
+## Sound-Pipeline
+
+Original-WWM-Sounds aus dem [Internet-Archive](https://archive.org/details/WerWirdMillionaerSoundtracks) (25 MP3s, deutsche Originalfassung). Werden **nicht ins Repo eingecheckt** (Urheberrecht RTL/Endemol).
+
+**Setup**: `node scripts/download-sounds.mjs` lädt alle MP3s als `static/sounds/<slug>.mp3` (z.B. `intro.mp3`, `bed-1k.mp3`, `joker-fifty.mp3`). Slug-Mapping: siehe `SOUND_FILES`-Array im Skript.
+
+**Engine** (`src/lib/audio.svelte.ts`):
+- `audio.play(key)` — one-shot, cloned (überlappendes Abspielen möglich)
+- `audio.startBed(key)` / `audio.stopBed()` — looped Hintergrundmusik (Stufenbereich)
+- `audio.stopAll()` — Cleanup
+- `audio.refreshVolumes()` — Live-Update aller laufenden Sounds (für Slider in den Settings)
+- `variantForLevel(level)` — gibt `"50"` / `"1k"` / `"32k"` / `"1m"` für die aktuelle Stufe (1–15) zurück. Suffix für `bed-`, `correct-`, `wrong-`.
+
+**Trigger** sind direkt in `game.svelte.ts` verdrahtet (nicht via `$effect`), damit One-shots nicht mehrfach feuern: `startGame()` → intro; `loadNextQuestion()` → `startBed(bed-<variant>)`; `lockIn()` → `lock-in`; `reveal()` → `stopBed` + `correct-<variant>` oder `wrong-<variant>`, nach 1.8 s je nach Ausgang `win-1` / `safety-1|2` / `outro`; `takeMoney()` → `win-1`; `useFiftyFifty/useAudience/usePhone()` → entsprechender Joker; `backToMenu()` → `stopAll`. Chat-Joker hat bewusst keinen Sound.
+
+**Audio läuft nur im Steuerfenster.** Streamer routet über OBS „Application Audio Capture" (Windows) oder Desktop-Audio. Overlays importieren `audio` nicht.
+
+**Lautstärke**: Master + Pro-Kategorie (`audioMaster`, `audioBedVolume`, `audioJokerVolume`, …) + Mute pro Kategorie + Master-Mute. UI: `src/lib/components/settings/AudioTab.svelte` (Tab „Audio" im Einstellungs-Modal).
+
+**Neue Sound-Kategorie**: in `audio.svelte.ts` Slug zu `SoundKey` + Kategorie-Mapping, in `settings.svelte.ts` Volume- und Mute-Felder + Reset, in `AudioTab.svelte` Eintrag im `CATEGORIES`-Array.
 
 ## OBS-Spezifikationen (Windows)
 

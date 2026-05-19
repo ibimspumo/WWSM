@@ -2,6 +2,7 @@ import type { AnswerIndex, AudienceVotes, ChatVotes, JokerKind, Phase, Question 
 import { PRIZE_LADDER, safeFallback } from "./prizeLadder";
 import { questionStore } from "./questionStore.svelte";
 import { settings } from "./settings.svelte";
+import { audio, variantForLevel } from "./audio.svelte";
 import { invoke } from "@tauri-apps/api/core";
 
 function shuffle<T>(arr: T[]): T[] {
@@ -61,6 +62,8 @@ class GameState {
   phoneHint = $state<string | null>(null);
 
   jokersUsed = $state<Set<JokerKind>>(new Set());
+  /** Snapshot des Joker-Stands beim Laden der aktuellen Frage — für Skip-Refund. */
+  private jokersUsedBeforeQuestion: JokerKind[] = [];
   /** IDs (siehe questionStore) der bereits in dieser Session gestellten Fragen. */
   seenQuestions = $state<Set<string>>(new Set());
   /** ID der aktuellen Frage — für die History und damit nicht-shuffled erkennbar. */
@@ -121,6 +124,8 @@ class GameState {
     this.finalAmount = 0;
     this.chatVotes = ZERO_CHAT;
     this.chatRevealAt = null;
+    audio.stopAll();
+    audio.play("intro");
     await this.loadNextQuestion();
   }
 
@@ -147,6 +152,7 @@ class GameState {
 
     this.seenQuestions.add(picked.id);
     this.currentQuestionId = picked.id;
+    this.jokersUsedBeforeQuestion = [...this.jokersUsed];
 
     const tagged = picked.a.map((text, i) => ({ text, isCorrect: i === picked.correct }));
     const shuffled = shuffle(tagged);
@@ -166,8 +172,21 @@ class GameState {
     });
 
     this.phase = "question";
+    // Hintergrund-Loop für aktuellen Stufenbereich.
+    audio.startBed(`bed-${variantForLevel(level)}`);
     // 3s-Puffer: Stimmen, die noch zur alten Frage gehören, werden verworfen.
     tauri("webhook_arm_question", { bufferSeconds: 3.0 });
+  }
+
+  /**
+   * Aktuelle Frage überspringen — neue Frage aus derselben Preisstufe ziehen.
+   * Joker, die nur für die geskipte Frage eingesetzt wurden, werden zurückerstattet.
+   * Die geskipte Frage bleibt in `seenQuestions`, damit sie nicht direkt wiederkommt.
+   */
+  async skipQuestion() {
+    if (this.phase !== "question") return;
+    this.jokersUsed = new Set(this.jokersUsedBeforeQuestion);
+    await this.loadNextQuestion();
   }
 
   selectAnswer(idx: AnswerIndex) {
@@ -180,6 +199,7 @@ class GameState {
     if (this.phase !== "question" || this.selectedAnswer === null) return;
     this.lockedAnswer = this.selectedAnswer;
     this.phase = "locked";
+    audio.play("lock-in");
     // Voting für diese Frage einfrieren
     tauri("webhook_disarm_question");
   }
@@ -188,17 +208,28 @@ class GameState {
     if (this.phase !== "locked" || this.lockedAnswer === null || !this.question) return;
     this.phase = "reveal";
     const correct = this.lockedAnswer === this.question.correct;
+    const variant = variantForLevel(this.currentLevelIndex + 1);
+    // Bed stoppen, Sting drüberlegen (während der 1.8s-Dramatik-Pause).
+    audio.stopBed();
+    audio.play(correct ? `correct-${variant}` : `wrong-${variant}`);
     setTimeout(() => {
       if (correct) {
         if (this.currentLevelIndex >= PRIZE_LADDER.length - 1) {
           this.finalAmount = this.currentStep.amount;
           this.phase = "won-game";
+          audio.play("win-1");
         } else {
           this.phase = "won-level";
+          // Sicherheitsstufe erreicht? → extra Sting (500€ = safety-1, 16.000€ = safety-2).
+          if (this.currentStep.safe) {
+            const idx = PRIZE_LADDER.filter((s) => s.safe).indexOf(this.currentStep);
+            audio.play(idx >= 1 ? "safety-2" : "safety-1");
+          }
         }
       } else {
         this.finalAmount = safeFallback(this.currentLevelIndex);
         this.phase = "lost";
+        audio.play("outro");
       }
     }, 1800);
   }
@@ -219,6 +250,8 @@ class GameState {
         : 0;
     }
     this.phase = "won-game";
+    audio.stopBed();
+    audio.play("win-1");
     tauri("webhook_disarm_question");
   }
 
@@ -227,6 +260,7 @@ class GameState {
   useFiftyFifty() {
     if (!this.canUseJoker || !this.question || this.jokersUsed.has("fifty")) return;
     this.jokersUsed.add("fifty");
+    audio.play("joker-fifty");
     const wrong: AnswerIndex[] = [0, 1, 2, 3].filter(
       (i) => i !== this.question!.correct,
     ) as AnswerIndex[];
@@ -237,6 +271,7 @@ class GameState {
   useAudience() {
     if (!this.canUseJoker || !this.question || this.jokersUsed.has("audience")) return;
     this.jokersUsed.add("audience");
+    audio.play("joker-audience");
     const correct = this.question.correct;
     const available: AnswerIndex[] = [0, 1, 2, 3].filter(
       (i) => !this.removedAnswers.has(i as AnswerIndex),
@@ -300,6 +335,7 @@ class GameState {
   usePhone() {
     if (!this.canUseJoker || !this.question || this.jokersUsed.has("phone")) return;
     this.jokersUsed.add("phone");
+    audio.play("joker-phone");
     const confidence = Math.max(
       settings.phoneFloor,
       settings.phoneBaseConfidence - this.currentLevelIndex * settings.phoneLevelDecay,
@@ -345,6 +381,7 @@ class GameState {
     this.phoneHint = null;
     this.chatVotes = ZERO_CHAT;
     this.chatRevealAt = null;
+    audio.stopAll();
     tauri("webhook_reset_session");
   }
 }

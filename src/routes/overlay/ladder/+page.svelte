@@ -33,12 +33,13 @@
     height: 100vh;
     display: flex; flex-direction: column;
     gap: clamp(2px, 0.5vh, 6px);
-    padding: clamp(6px, 1.2vh, 12px);
+    /* Horizontal-Padding muss den Glow der current-Row aufnehmen (~22 px), sonst clippt OBS ihn — fester Wert, kein vw-Scaling */
+    padding: clamp(8px, 1.2vh, 14px) 30px;
     box-sizing: border-box;
     font-family: var(--l-row-font, "Trebuchet MS", "Segoe UI", system-ui, sans-serif);
     overflow: hidden;
   }
-  .ladder.edit { padding-top: clamp(32px, 4.5vh, 40px); }
+  .ladder.edit { padding-top: clamp(36px, 5vh, 44px); }
 
   .row {
     flex: 1 1 0;

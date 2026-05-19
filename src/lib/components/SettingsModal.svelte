@@ -3,14 +3,16 @@
   import WebhookTab from "./settings/WebhookTab.svelte";
   import QuestionsTab from "./settings/QuestionsTab.svelte";
   import StylingTab from "./settings/StylingTab.svelte";
+  import AudioTab from "./settings/AudioTab.svelte";
 
   let { open, onClose }: { open: boolean; onClose: () => void } = $props();
 
   // Neue Tabs hier ergänzen, dann Komponente im Markup unten anhängen.
-  type TabId = "questions" | "balancing" | "webhook" | "styling";
+  type TabId = "questions" | "balancing" | "audio" | "webhook" | "styling";
   const tabs: { id: TabId; label: string }[] = [
     { id: "questions", label: "Fragen" },
     { id: "balancing", label: "Balancing" },
+    { id: "audio", label: "Audio" },
     { id: "webhook", label: "Webhook" },
     { id: "styling", label: "Styling" },
   ];
@@ -62,6 +64,8 @@
             <QuestionsTab />
           {:else if activeTab === "balancing"}
             <BalancingTab />
+          {:else if activeTab === "audio"}
+            <AudioTab />
           {:else if activeTab === "webhook"}
             <WebhookTab />
           {:else if activeTab === "styling"}

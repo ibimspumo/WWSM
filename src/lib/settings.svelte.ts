@@ -47,6 +47,31 @@ class Settings {
   /** Streamer-Spickzettel: korrekte Antwort im Steuerfenster markieren (Overlays unbeeinflusst) */
   revealCorrectInControl = $state(false);
 
+  // ============== Audio ==============
+  // Master und Per-Kategorie. Effektive Lautstärke = master * kategorie (0..1).
+  // Mute-Flags überschreiben den jeweiligen Volume-Wert mit 0, ohne den Slider zu verändern.
+  audioMaster = $state(0.7);
+  audioMuted = $state(false);
+
+  audioIntroVolume = $state(0.9);
+  audioIntroMuted = $state(false);
+  audioOutroVolume = $state(0.9);
+  audioOutroMuted = $state(false);
+  audioBedVolume = $state(0.45);
+  audioBedMuted = $state(false);
+  audioLockInVolume = $state(0.9);
+  audioLockInMuted = $state(false);
+  audioCorrectVolume = $state(0.9);
+  audioCorrectMuted = $state(false);
+  audioWrongVolume = $state(0.9);
+  audioWrongMuted = $state(false);
+  audioSafetyVolume = $state(0.9);
+  audioSafetyMuted = $state(false);
+  audioWinVolume = $state(0.9);
+  audioWinMuted = $state(false);
+  audioJokerVolume = $state(0.85);
+  audioJokerMuted = $state(false);
+
   // ============== (Hier weitere Settings-Slices anhängen) ==============
 
   serialize() {
@@ -68,6 +93,26 @@ class Settings {
       webhookEnabled: this.webhookEnabled,
       webhookBindAll: this.webhookBindAll,
       revealCorrectInControl: this.revealCorrectInControl,
+      audioMaster: this.audioMaster,
+      audioMuted: this.audioMuted,
+      audioIntroVolume: this.audioIntroVolume,
+      audioIntroMuted: this.audioIntroMuted,
+      audioOutroVolume: this.audioOutroVolume,
+      audioOutroMuted: this.audioOutroMuted,
+      audioBedVolume: this.audioBedVolume,
+      audioBedMuted: this.audioBedMuted,
+      audioLockInVolume: this.audioLockInVolume,
+      audioLockInMuted: this.audioLockInMuted,
+      audioCorrectVolume: this.audioCorrectVolume,
+      audioCorrectMuted: this.audioCorrectMuted,
+      audioWrongVolume: this.audioWrongVolume,
+      audioWrongMuted: this.audioWrongMuted,
+      audioSafetyVolume: this.audioSafetyVolume,
+      audioSafetyMuted: this.audioSafetyMuted,
+      audioWinVolume: this.audioWinVolume,
+      audioWinMuted: this.audioWinMuted,
+      audioJokerVolume: this.audioJokerVolume,
+      audioJokerMuted: this.audioJokerMuted,
     };
   }
 
@@ -115,6 +160,26 @@ class Settings {
     this.webhookEnabled = true;
     this.webhookBindAll = false;
     this.revealCorrectInControl = false;
+    this.audioMaster = 0.7;
+    this.audioMuted = false;
+    this.audioIntroVolume = 0.9;
+    this.audioIntroMuted = false;
+    this.audioOutroVolume = 0.9;
+    this.audioOutroMuted = false;
+    this.audioBedVolume = 0.45;
+    this.audioBedMuted = false;
+    this.audioLockInVolume = 0.9;
+    this.audioLockInMuted = false;
+    this.audioCorrectVolume = 0.9;
+    this.audioCorrectMuted = false;
+    this.audioWrongVolume = 0.9;
+    this.audioWrongMuted = false;
+    this.audioSafetyVolume = 0.9;
+    this.audioSafetyMuted = false;
+    this.audioWinVolume = 0.9;
+    this.audioWinMuted = false;
+    this.audioJokerVolume = 0.85;
+    this.audioJokerMuted = false;
   }
 }
 

@@ -116,7 +116,7 @@
   <header>
     <div class="brand">
       <h1>Wer Wird Stream Millionär</h1>
-      <span class="sub">Steuerung · v0.2.1</span>
+      <span class="sub">Steuerung · v0.3.0</span>
     </div>
     <div class="update">
       <button class="btn ghost" onclick={() => (settingsOpen = true)}>⚙ Einstellungen</button>
@@ -157,6 +157,9 @@
         </button>
         <button class="btn" disabled={game.selectedAnswer === null || game.phase !== "question"} onclick={() => game.lockIn()}>
           Antwort sperren
+        </button>
+        <button class="btn" disabled={game.phase !== "question"} onclick={() => game.skipQuestion()} title="Aktuelle Frage verwerfen und eine neue aus derselben Preisstufe ziehen. Eingesetzte Joker werden zurückerstattet.">
+          Frage überspringen
         </button>
         <button class="btn warn" disabled={game.phase !== "locked"} onclick={() => game.reveal()}>
           Auflösen

@@ -17,3 +17,7 @@ vite.config.ts.timestamp-*
 # damit das Repo nach git clone direkt lauffähig ist (auch im GH-Build).
 # Neu generieren via: node scripts/seed-questions.mjs
 /.env
+
+# WWM-Original-Sounds (Urheberrecht RTL/Endemol — nicht ins Repo).
+# User lädt selbst via: node scripts/download-sounds.mjs
+/static/sounds/

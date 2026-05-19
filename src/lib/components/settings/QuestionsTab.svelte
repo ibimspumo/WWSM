@@ -8,6 +8,7 @@
 
   let search = $state("");
   let sortMode = $state<SortMode>("level");
+  let levelFilter = $state<number | "all">("all");
   let onlyEdited = $state(false);
   let onlyUser = $state(false);
 
@@ -39,6 +40,7 @@
   const filtered = $derived.by(() => {
     const term = search.trim().toLowerCase();
     let arr = allQuestions;
+    if (levelFilter !== "all") arr = arr.filter((q) => q.level === levelFilter);
     if (onlyEdited) arr = arr.filter((q) => q.edited);
     if (onlyUser) arr = arr.filter((q) => q.origin === "user");
     if (term) {
@@ -222,6 +224,15 @@
           <option value="level">Nach Preisstufe</option>
           <option value="alpha">Alphabetisch (A–Z)</option>
           <option value="recent">Zuletzt gestellt</option>
+        </select>
+      </div>
+      <div class="sort">
+        <label for="level-filter">Preisstufe</label>
+        <select id="level-filter" bind:value={levelFilter}>
+          <option value="all">Alle Stufen</option>
+          {#each PRIZE_LADDER as step (step.level)}
+            <option value={step.level}>{step.label}</option>
+          {/each}
         </select>
       </div>
       <label class="check"><input type="checkbox" bind:checked={onlyEdited} /> Nur editierte</label>

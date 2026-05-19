@@ -50,10 +50,11 @@
   .bar {
     width: 100vw; height: 100vh;
     display: flex; align-items: center; justify-content: center; gap: 22px;
-    padding: 12px;
+    /* Padding muss die Schatten-/Glow-Extents der Orbs aufnehmen (~24 px), sonst clippt OBS sie */
+    padding: 28px 32px;
     box-sizing: border-box;
   }
-  .bar.edit { padding-top: 36px; }
+  .bar.edit { padding-top: 44px; }
   .joker {
     position: relative;
     width: var(--j-orb-size, 110px);

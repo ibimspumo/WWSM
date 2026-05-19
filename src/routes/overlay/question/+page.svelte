@@ -58,7 +58,7 @@
 {/if}
 
 <style>
-  :global(html), :global(body) { background: transparent !important; }
+  :global(html), :global(body) { background: transparent !important; overflow: hidden; }
 
   .stage {
     width: 100vw; height: 100vh;
@@ -199,9 +199,17 @@
     font-size: var(--q-answer-size, 22px);
     letter-spacing: var(--q-answer-letter-spacing, 0.3px);
     line-height: var(--q-answer-line-height, 1.15);
+    flex: 1 1 auto;
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
   }
 
   /* ============= ZUSTAND: SELECTED / LOCKED (orange-gold) ============= */
