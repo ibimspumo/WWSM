@@ -166,9 +166,13 @@ Pattern parallel zu `RunMMO/scripts/generate-icon-library.mjs`.
 
 ## App-Version hochsetzen
 
-Vor einem Release Tag:
-- `package.json` → `version`
-- `src-tauri/tauri.conf.json` → `version`
-- `src-tauri/Cargo.toml` → `version`
+Vor einem Release-Tag müssen **alle** folgenden Stellen synchron auf die neue Version gesetzt werden:
 
-Alle drei müssen synchron sein, sonst meckert `tauri build`.
+1. `package.json` → `version`
+2. `src-tauri/tauri.conf.json` → `version`
+3. `src-tauri/Cargo.toml` → `version` (danach `cd src-tauri && cargo update -p wwsm` ausführen, damit `Cargo.lock` mitzieht — sonst meckert `tauri build`)
+4. `src/routes/+page.svelte` → `<span class="sub">Steuerung · vX.Y.Z</span>` (UI-Anzeige im Steuerfenster-Header, hardcoded)
+
+Sanity-Check: `grep -rn "v0\." src/ --include="*.svelte" --include="*.ts"` — sollte nur die eine Stelle in `+page.svelte` zeigen. Falls neue Stellen mit Versionsstring dazukommen, hier ergänzen.
+
+Release-Trigger danach: `git tag vX.Y.Z && git push origin main && git push origin vX.Y.Z` → `.github/workflows/release.yml` baut NSIS + `latest.json`.

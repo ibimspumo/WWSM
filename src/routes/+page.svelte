@@ -116,7 +116,7 @@
   <header>
     <div class="brand">
       <h1>Wer Wird Stream Millionär</h1>
-      <span class="sub">Steuerung · v0.1.0</span>
+      <span class="sub">Steuerung · v0.2.0</span>
     </div>
     <div class="update">
       <button class="btn ghost" onclick={() => (settingsOpen = true)}>⚙ Einstellungen</button>
