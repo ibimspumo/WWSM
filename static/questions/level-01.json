@@ -1,0 +1,2930 @@
+[
+  {
+    "q": "Wie viele Beine hat eine Spinne?",
+    "a": [
+      "6",
+      "8",
+      "10",
+      "4"
+    ],
+    "correct": 1,
+    "source": "seed",
+    "category": "Tiere"
+  },
+  {
+    "q": "Welche Farbe entsteht, wenn man Blau und Gelb mischt?",
+    "a": [
+      "Orange",
+      "Lila",
+      "Grün",
+      "Braun"
+    ],
+    "correct": 2,
+    "source": "seed",
+    "category": "Allgemein"
+  },
+  {
+    "q": "Wie heißt die Hauptstadt von Deutschland?",
+    "a": [
+      "München",
+      "Berlin",
+      "Hamburg",
+      "Köln"
+    ],
+    "correct": 1,
+    "source": "seed",
+    "category": "Geografie"
+  },
+  {
+    "q": "In welchem Monat beginnt der Frühling?",
+    "a": [
+      "Februar",
+      "März",
+      "April",
+      "Mai"
+    ],
+    "correct": 1,
+    "source": "seed",
+    "category": "Allgemein"
+  },
+  {
+    "q": "Welches Tier hält Winterschlaf?",
+    "a": [
+      "Bär",
+      "Fuchs",
+      "Wolf",
+      "Hase"
+    ],
+    "correct": 0,
+    "source": "seed",
+    "category": "Tiere"
+  },
+  {
+    "q": "Was ist die Hauptaufgabe des ÖPNV (Öffentlicher Personennahverkehr)?",
+    "a": [
+      "Güter zwischen verschiedenen Ländern zu transportieren",
+      "Personen innerhalb eines Bundeslandes mit dem Auto zu befördern",
+      "Personen innerhalb einer Stadt oder Region mit Bussen und Straßenbahnen zu befördern",
+      "Personen mit dem Flugzeug zu befördern"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Kosten fallen typischerweise für die Haltung eines Hundes an?",
+    "a": [
+      "Tierarztrechnungen und Futterkosten",
+      "Heizkosten und Wasserversorgung",
+      "Renovierungskosten und Hausratversicherung",
+      "Grundsteuer und Grunderwerbssteuer"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was sollte man bei der Einrichtung eines Homeoffice-Bereichs beachten?",
+    "a": [
+      "Keine spezielle Beleuchtung verwenden",
+      "Einen ergonomischen Arbeitsplatz schaffen",
+      "Nur einen Laptop auf den Küchentisch stellen",
+      "Den Fernseher als Hauptbildschirm nutzen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was ist die maximale Geschwindigkeit für Busse im Stadtgebiet?",
+    "a": [
+      "40 km/h",
+      "50 km/h",
+      "30 km/h",
+      "60 km/h"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welches dieser Vitamine ist bekannt dafür, das Immunsystem zu unterstützen und in Zitrusfrüchten vorkommt?",
+    "a": [
+      "Vitamin C",
+      "Vitamin B12",
+      "Vitamin A",
+      "Vitamin D"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Was ist eine der Hauptzutaten, die zur Herstellung von Kombucha benötigt wird?",
+    "a": [
+      "Mineralwasser",
+      "Apfelsaft",
+      "Traubensaft",
+      "Schwarztee"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Fest ist traditionell mit dem Verzehr von Raclette oder Fondue verbunden?",
+    "a": [
+      "Silvester",
+      "Weihnachten",
+      "Oktoberfest",
+      "Erntedankfest"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche der folgenden Pflanzen gilt als eine der ersten kultivierten Nutzpflanzen der Menschheit?",
+    "a": [
+      "Reis",
+      "Kartoffel",
+      "Weizen",
+      "Tomate"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "In welchem Bereich des Kühlschranks sollten frische Lebensmittel wie Fleisch und Fisch gelagert werden, um die Haltbarkeit zu maximieren?",
+    "a": [
+      "Auf dem Gemüsefach, wo die Luftfeuchtigkeit höher ist.",
+      "In der Tür, wo die Temperaturen am wechselhaftesten sind.",
+      "Im unteren Fach, wo die kältesten Temperaturen herrschen.",
+      "Im oberen Fach, wo es am wärmsten ist."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche der folgenden Nutzpflanzen war eine der ersten, die von Menschen domestiziert wurde?",
+    "a": [
+      "Kartoffel",
+      "Banane",
+      "Tomate",
+      "Weizen"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Gemüse ist typischerweise im Winter erhältlich und gilt als saisonal nachhaltig?",
+    "a": [
+      "Paprika",
+      "Erdbeeren",
+      "Tomaten",
+      "Karotten"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Lebensmittel ist eine gute Quelle für Eiweiß?",
+    "a": [
+      "Kartoffeln",
+      "Äpfel",
+      "Hähnchenbrust",
+      "Weißbrot"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Was bezeichnet das Mindesthaltbarkeitsdatum auf Lebensmitteln?",
+    "a": [
+      "Den ersten Tag, an dem das Lebensmittel verkauft werden darf.",
+      "Den Zeitpunkt, bis zu dem der Hersteller die beste Qualität garantiert.",
+      "Den Zeitpunkt, an dem das Lebensmittel zubereitet werden muss.",
+      "Den letzten Tag, an dem das Lebensmittel gegessen werden darf."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches traditionelle Gericht stammt ursprünglich aus Italien und besteht hauptsächlich aus Teig, Tomatensauce und Käse?",
+    "a": [
+      "Paella",
+      "Pizza",
+      "Sushi",
+      "Tacos"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Gemüse hat in Deutschland typischerweise Saison von Juni bis August?",
+    "a": [
+      "Apfel",
+      "Kürbis",
+      "Tomate",
+      "Rosenkohl"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche dieser Ernährungsformen basiert hauptsächlich auf pflanzlichen Lebensmitteln und schließt tierische Produkte weitgehend aus?",
+    "a": [
+      "Flexitarismus",
+      "Paleo-Diät",
+      "Mediterrane Ernährung",
+      "Veganismus"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches der folgenden Lebensmittel ist ein Hauptbestandteil in der asiatischen Küche und wird häufig in Form von Reis oder Soja verwendet?",
+    "a": [
+      "Kartoffeln",
+      "Mais",
+      "Quinoa",
+      "Reis"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Getränk ist typischerweise aus der Region Champagne in Frankreich und unterliegt strengen Herstellungsrichtlinien?",
+    "a": [
+      "Sake",
+      "Tequila",
+      "Champagner",
+      "Scotch Whisky"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Gemüse gilt als besonders saisonal und ist typischerweise im Frühjahr und Sommer erhältlich?",
+    "a": [
+      "Spargel",
+      "Kartoffeln",
+      "Kürbis",
+      "Karotten"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Getreide ist die Hauptzutat für Sushi-Reis, der häufig in der japanischen Küche verwendet wird?",
+    "a": [
+      "Mais",
+      "Hirse",
+      "Weizen",
+      "Reis"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche Hauptstadt liegt in Japan?",
+    "a": [
+      "Tokio",
+      "Peking",
+      "Bangkok",
+      "Seoul"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welcher der folgenden Seen ist abflusslos?",
+    "a": [
+      "Salton Sea",
+      "Müritz",
+      "Bodensee",
+      "Chiemsee"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Stadt ist bekannt für ihre Funktion als bedeutendes Finanzzentrum in Europa?",
+    "a": [
+      "Frankfurt am Main",
+      "Köln",
+      "Hamburg",
+      "München"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Meer liegt zwischen Europa und Afrika?",
+    "a": [
+      "Nordsee",
+      "Karibisches Meer",
+      "Mittelmeer",
+      "Beringmeer"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Stadt ist bekannt als das politische Zentrum Deutschlands?",
+    "a": [
+      "Frankfurt",
+      "Berlin",
+      "Stuttgart",
+      "München"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Meer ist eine Teil des Atlantischen Ozeans und liegt zwischen Europa und Afrika?",
+    "a": [
+      "Mittelmeer",
+      "Karibisches Meer",
+      "Ostsee",
+      "Nordsee"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche dieser Städte ist die Hauptstadt von Frankreich?",
+    "a": [
+      "Paris",
+      "Lyon",
+      "Marseille",
+      "Bordeaux"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches der folgenden Gebirge liegt in Europa?",
+    "a": [
+      "Andes",
+      "Rocky Mountains",
+      "Himalaya",
+      "Alpen"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Land hat die Nachbarn Frankreich und Deutschland?",
+    "a": [
+      "Österreich",
+      "Italien",
+      "Spanien",
+      "Belgien"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Stadt liegt am meisten nördlich von den folgenden vier Städten?",
+    "a": [
+      "Kopenhagen",
+      "Stockholm",
+      "Oslo",
+      "Helsinki"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Hauptstadt gehört zu China?",
+    "a": [
+      "Tokio",
+      "Seoul",
+      "Bangkok",
+      "Peking"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Farbe ist auf der Flagge von Spanien prominent vertreten?",
+    "a": [
+      "Blau",
+      "Grün",
+      "Gelb",
+      "Rot"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Gebirge erstreckt sich hauptsächlich durch die Länder Österreich und Deutschland?",
+    "a": [
+      "Karpaten",
+      "Alpen",
+      "Anden",
+      "Pyrenäen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden Inseln ist eine Koralleninsel?",
+    "a": [
+      "Island",
+      "Grönland",
+      "Malediven",
+      "Neuguinea"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Hauptstadt gehört zu Deutschland?",
+    "a": [
+      "Bern",
+      "Amsterdam",
+      "Berlin",
+      "Wien"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Gebirge erstreckt sich hauptsächlich zwischen Frankreich und Spanien?",
+    "a": [
+      "Karpaten",
+      "Apenninen",
+      "Pyrenäen",
+      "Alpen"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welcher der folgenden Kreuzzüge fand im Jahr 1096 statt?",
+    "a": [
+      "Zweiter Kreuzzug",
+      "Dritter Kreuzzug",
+      "Erster Kreuzzug",
+      "Vierter Kreuzzug"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches antike Volk war bekannt für seine Seefahrt und Handelsrouten im Mittelmeer?",
+    "a": [
+      "Ägypter",
+      "Römer",
+      "Griechen",
+      "Phönizier"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche von den folgenden Waren wurde typischerweise im transatlantischen Handel zwischen Europa und Amerika transportiert?",
+    "a": [
+      "Handys",
+      "Zucker",
+      "Automobile",
+      "Eisenbahnen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche Art von Kleidung trugen die meisten Männer im antiken Rom?",
+    "a": [
+      "Kilt",
+      "Kimono",
+      "Anzug",
+      "Toga"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Bauwerk ist ein bekanntes Beispiel griechischer Architektur?",
+    "a": [
+      "Forum Romanum",
+      "Kolosseum",
+      "Parthenon",
+      "Akropolis"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Wer war der erste König des Frankenreichs, der das Christentum annahm?",
+    "a": [
+      "Karl der Große",
+      "Chlodwig I.",
+      "Heinrich IV.",
+      "Ludwig der Fromme"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Land war im 19. Jahrhundert als das 'British Empire' bekannt?",
+    "a": [
+      "Portugal",
+      "Spanien",
+      "Frankreich",
+      "Großbritannien"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Was war ein häufiges Ereignis, bei dem Ritter ihre Fähigkeiten im Kampf und ihre Ehre unter Beweis stellten?",
+    "a": [
+      "Märkte",
+      "Hochzeiten",
+      "Pilgerreisen",
+      "Turniere"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Ereignis wird oft als Beginn der Neuzeit angesehen?",
+    "a": [
+      "Fall des Weströmischen Reiches",
+      "Entdeckung Amerikas",
+      "Französische Revolution",
+      "Erfindung des Buchdrucks"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Wann begann die Neuzeit in der europäischen Geschichte?",
+    "a": [
+      "1789",
+      "1600",
+      "1453",
+      "1492"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches der folgenden Reiche war im antiken Griechenland bekannt?",
+    "a": [
+      "Rom",
+      "Byzanz",
+      "Frankreich",
+      "Sparta"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche Bewegung setzte sich in den 1960er Jahren für Bürgerrechte und soziale Gleichheit in den USA ein?",
+    "a": [
+      "Arbeitsbewegung",
+      "Suffragettenbewegung",
+      "Umweltbewegung",
+      "Bürgerrechtsbewegung"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Land war während des Zweiten Weltkriegs Teil der Achsenmächte?",
+    "a": [
+      "Frankreich",
+      "Deutschland",
+      "Vereinigtes Königreich",
+      "Sowjetunion"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Was war ein häufiges Grundnahrungsmittel im Mittelalter?",
+    "a": [
+      "Brot",
+      "Kartoffeln",
+      "Reis",
+      "Pasta"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher Kreuzzug wurde im Jahr 1096 initiiert?",
+    "a": [
+      "Vierter Kreuzzug",
+      "Zweiter Kreuzzug",
+      "Dritter Kreuzzug",
+      "Erster Kreuzzug"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches der folgenden Tiere wurde im Mittelalter häufig als Nutztier gehalten?",
+    "a": [
+      "Elefant",
+      "Löwe",
+      "Schaf",
+      "Adler"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche Erfindung wurde in den 1960er Jahren populär und revolutionierte die Kommunikation weltweit?",
+    "a": [
+      "Der Computer",
+      "Das Mobiltelefon",
+      "Das Internet",
+      "Der Fernseher"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Ereignis markierte den Beginn des Kalten Krieges?",
+    "a": [
+      "Der Vietnamkrieg",
+      "Der Berliner Blockade",
+      "Der Fall der Mauer",
+      "Die Gründung der NATO"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches der folgenden Wörter beschreibt am besten eine Gruppe von Handwerkern, die in einer Stadt oder Region zusammenarbeiten und bestimmte Standards für ihre Berufe festlegen?",
+    "a": [
+      "Monarchie",
+      "Handelsrouten",
+      "Feudalismus",
+      "Zünfte"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher Mönchsorden wurde im Mittelalter für seine strengen Regeln und seine Rolle in der Bildungs- und Klosterreform bekannt?",
+    "a": [
+      "Franziskaner",
+      "Jesuiten",
+      "Dominikaner",
+      "Benediktiner"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Wer waren die ersten Menschen laut der biblischen Erzählung im Alten Testament?",
+    "a": [
+      "Kain und Abel",
+      "Abraham und Sara",
+      "Adam und Eva",
+      "Noah und seine Familie"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher Gott ist in der nordischen Mythologie als Gott des Donners bekannt?",
+    "a": [
+      "Thor",
+      "Odin",
+      "Loki",
+      "Freyja"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Wer ist der Hauptgott in der nordischen Mythologie?",
+    "a": [
+      "Freya",
+      "Odin",
+      "Loki",
+      "Thor"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Was ist das zentrale Symbol des Christentums?",
+    "a": [
+      "Der Halbmond",
+      "Der Davidstern",
+      "Die Lotusblume",
+      "Das Kreuz"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Was ist das heilige Buch des Islam?",
+    "a": [
+      "Bibel",
+      "Koran",
+      "Tora",
+      "Veden"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Was feiert man im Christentum an Weihnachten?",
+    "a": [
+      "Die Himmelfahrt Jesu Christi",
+      "Die Taufe Jesu Christi",
+      "Die Auferstehung Jesu Christi",
+      "Die Geburt Jesu Christi"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher der folgenden Götter ist als König der Götter in der griechischen Mythologie bekannt?",
+    "a": [
+      "Poseidon",
+      "Hermes",
+      "Zeus",
+      "Apollon"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Wer war der ägyptische Gott der Sonne?",
+    "a": [
+      "Osiris",
+      "Anubis",
+      "Horus",
+      "Ra"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher der folgenden Götter gehört zur nordischen Mythologie?",
+    "a": [
+      "Odin",
+      "Zeus",
+      "Thor",
+      "Ra"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Wer gilt als Begründer der Bahá'í-Religion?",
+    "a": [
+      "Bahá'u'lláh",
+      "Mani",
+      "Muhammad",
+      "Zarathustra"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher Gott ist in der nordischen Mythologie als der Gott des Donners bekannt?",
+    "a": [
+      "Thor",
+      "Loki",
+      "Freyja",
+      "Odin"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher Gott ist in der ägyptischen Mythologie als Gott des Jenseits und der Unterwelt bekannt?",
+    "a": [
+      "Osiris",
+      "Ra",
+      "Horus",
+      "Anubis"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Wer führte die Israeliten aus der Sklaverei in Ägypten?",
+    "a": [
+      "David",
+      "Salomo",
+      "Abraham",
+      "Mose"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Was gehört zu den fünf Säulen des Islam?",
+    "a": [
+      "Buddhistische Meditation",
+      "Pilgern zum Vulkan",
+      "Jüdische Koshervorschriften",
+      "Das Gebet (Salah)"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher Künstler ist bekannt für seine Beiträge zur surrealistischen Bewegung in den 1920er Jahren?",
+    "a": [
+      "Vincent van Gogh",
+      "Salvador Dalí",
+      "Pablo Picasso",
+      "Claude Monet"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches berühmte Zitat stammt von William Shakespeare?",
+    "a": [
+      "'Der Weg ist das Ziel.'",
+      "'Die beste aller möglichen Welten.'",
+      "'Ich denke, also bin ich.'",
+      "'Sein oder Nichtsein, das ist hier die Frage.'"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches Tier ist die Hauptfigur in Aesops Fabel 'Der Fuchs und die Trauben'?",
+    "a": [
+      "Wolf",
+      "Hase",
+      "Löwe",
+      "Fuchs"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher Begriff bezeichnet die Kunstform, die mit Farben auf einer Fläche arbeitet, meist auf Leinwand oder Papier?",
+    "a": [
+      "Malerei",
+      "Grafik",
+      "Fotografie",
+      "Skulptur"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher berühmte deutsche Dichter sagte: 'Die Gedanken sind frei'?",
+    "a": [
+      "Johann Wolfgang von Goethe",
+      "Ludwig Uhland",
+      "Friedrich Schiller",
+      "Heinrich Heine"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher Künstler gewann 2022 den Grammy für das Album des Jahres?",
+    "a": [
+      "Justin Bieber",
+      "The Weeknd",
+      "Ed Sheeran",
+      "Jon Batiste"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche Maltechnik war im 19. Jahrhundert besonders beliebt und setzte auf die Darstellung von Natur und Licht im Freien?",
+    "a": [
+      "Temperamalerei",
+      "Fresko",
+      "Pleinairmalerei",
+      "Aquarellmalerei"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Wer sagte das berühmte Zitat: \"Ich denke, also bin ich\"?",
+    "a": [
+      "René Descartes",
+      "Arthur Schopenhauer",
+      "Immanuel Kant",
+      "Friedrich Nietzsche"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher berühmte Musiker wird oft als 'King of Rock and Roll' bezeichnet?",
+    "a": [
+      "Elvis Presley",
+      "Chuck Berry",
+      "Buddy Holly",
+      "Little Richard"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher literarischen Epoche wird die Verwendung von einfachen, klaren Strukturen und eine Rückkehr zur Natur zugeschrieben?",
+    "a": [
+      "Romantik",
+      "Aufklärung",
+      "Barock",
+      "Realismus"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches der folgenden Bauwerke ist ein bekanntes Symbol der alten ägyptischen Kultur?",
+    "a": [
+      "Der Taj Mahal in Indien",
+      "Die Pyramiden von Gizeh",
+      "Der Eiffelturm in Paris",
+      "Das Kolosseum in Rom"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche der folgenden Kunstformen ist eng mit der japanischen Kultur und dem Begriff 'Ukiyo-e' verbunden?",
+    "a": [
+      "Holzschnitt",
+      "Aquarelltechnik",
+      "Fresko",
+      "Ölmalerei"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches Musikgenre ist bekannt für seine lauten Gitarrenriffs und oft rebellischen Texte?",
+    "a": [
+      "Punk",
+      "Blues",
+      "Klassik",
+      "Jazz"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche der folgenden Figuren ist eine Protagonistin von Leo Tolstois Roman \"Anna Karenina\"?",
+    "a": [
+      "Ophelia",
+      "Don Quijote",
+      "Anna Karenina",
+      "Faust"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches berühmte Museum befindet sich in Paris und beherbergt unter anderem die Mona Lisa?",
+    "a": [
+      "Uffizien",
+      "British Museum",
+      "Louvre",
+      "Rijksmuseum"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches der folgenden Werke wird allgemein als ein Beispiel für die epische Dichtung angesehen?",
+    "a": [
+      "Der Steppenwolf",
+      "Die Illias",
+      "Die Verwandlung",
+      "Der Prozess"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher Komponist ist bekannt für das Werk \"Die vier Jahreszeiten\"?",
+    "a": [
+      "Georg Friedrich Händel",
+      "Johann Sebastian Bach",
+      "Antonio Vivaldi",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche der folgenden Strukturen ist ein bekanntes Bauwerk der alten Ägypter?",
+    "a": [
+      "Die Akropolis",
+      "Die Pyramiden",
+      "Der Parthenon",
+      "Das Kolosseum"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher Fisch ist bekannt für seine Fähigkeit, in Süß- und Salzwasser zu leben?",
+    "a": [
+      "Guppy",
+      "Lachs",
+      "Goldfisch",
+      "Karpfen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Klimazone ist durch hohe Temperaturen und viel Niederschlag das ganze Jahr über gekennzeichnet?",
+    "a": [
+      "Gemäßigte Zone",
+      "Tropen",
+      "Subtropen",
+      "Polarzone"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches Tier ist bekannt dafür, in großen Herden zu leben und oft als 'König der Tiere' bezeichnet wird?",
+    "a": [
+      "Giraffe",
+      "Löwe",
+      "Zebra",
+      "Elefant"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche dieser Pflanzen ist bekannt für ihre großen, handförmigen Blätter, die oft in tropischen Regionen vorkommen?",
+    "a": [
+      "Monstera",
+      "Tanne",
+      "Kaktus",
+      "Farn"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Pflanze steht in Deutschland auf der Roten Liste der bedrohten Arten und ist bekannt für ihre roten Blüten?",
+    "a": [
+      "Löwenzahn",
+      "Eiche",
+      "Sonnenblume",
+      "Klatschmohn"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Pflanzenarten steht auf der Roten Liste der gefährdeten Arten in Deutschland?",
+    "a": [
+      "Der Weißtannenbaum",
+      "Der Auerhahn",
+      "Die Eiche",
+      "Der Gelbe Enzian"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches Verhalten zeigen viele Vögel während der Balzzeit, um Partner anzuziehen?",
+    "a": [
+      "Lärmen und Singen",
+      "Futtersuche im Wasser",
+      "Schlafen in großen Gruppen",
+      "Nestbau im Boden"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches Tier gehört zu den Pflanzenfressern?",
+    "a": [
+      "Adler",
+      "Hai",
+      "Elefant",
+      "Wolf"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Pflanzenarten ist ein typisches Beispiel für einen Produzenten in einem Nahrungsnetz?",
+    "a": [
+      "Füchse",
+      "Adler",
+      "Gräser",
+      "Kaninchen"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Was ist der Hauptvorgang, durch den Pflanzen Sonnenlicht in Energie umwandeln?",
+    "a": [
+      "Atmung",
+      "Photosynthese",
+      "Mineralaufnahme",
+      "Verdunstung"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches der folgenden Tiere gehört zu den Wirbeltieren?",
+    "a": [
+      "Goldfisch",
+      "Spinne",
+      "Schnecke",
+      "Qualle"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Pflanze ist bekannt für ihre Fähigkeit, in trockenen Wüstenregionen zu überleben?",
+    "a": [
+      "Orchidee",
+      "Kaktus",
+      "Rosmarin",
+      "Sonnenblume"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches Blütenorgan ist hauptsächlich für die Fortpflanzung verantwortlich?",
+    "a": [
+      "Blatt",
+      "Staubblatt",
+      "Kelchblatt",
+      "Wurzel"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Pflanze ist bekannt dafür, dass sie in vielen Gärten als Zierpflanze verwendet wird und oft auch in der Küche Verwendung findet?",
+    "a": [
+      "Kiefer",
+      "Birke",
+      "Eiche",
+      "Basilikum"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Pflanzen ist bekannt dafür, dass sie häufig in Gärten als Zierpflanze verwendet wird?",
+    "a": [
+      "Brennnessel",
+      "Eiche",
+      "Rose",
+      "Fichte"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches Tier ernährt sich hauptsächlich von Pflanzen und wird somit als Herbivor bezeichnet?",
+    "a": [
+      "Adler",
+      "Löwe",
+      "Hai",
+      "Elefant"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Was sind Van-der-Waals-Kräfte?",
+    "a": [
+      "Kovalente Bindungen zwischen Atomen.",
+      "Schwache Anziehungskräfte zwischen Molekülen.",
+      "Elektromagnetische Wechselwirkungen zwischen geladenen Teilchen.",
+      "Starke ionische Bindungen zwischen Atomen."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Physik"
+  },
+  {
+    "q": "Was versteht man unter verallgemeinerten Potentialen in der analytischen Mechanik?",
+    "a": [
+      "Sie beschreiben die Energie eines Systems in Abhängigkeit von den generalisierten Koordinaten.",
+      "Sie beziehen sich ausschließlich auf elektrische Felder.",
+      "Sie sind eine spezielle Form der kinetischen Energie.",
+      "Sie sind identisch mit den klassischen Potentialen der Mechanik."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Physik"
+  },
+  {
+    "q": "In welcher Stadt befindet sich der Hauptsitz/Sitz von Internationaler Gerichtshof (IGH)?",
+    "a": [
+      "New York",
+      "Brüssel",
+      "Den Haag",
+      "Luxemburg"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für das Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen?",
+    "a": [
+      "Olaf Scholz",
+      "Klara Geywitz",
+      "Heiko Maas",
+      "Annegret Kramp-Karrenbauer"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für \"Bundesministerium des Innern und für Heimat\"?",
+    "a": [
+      "Heiko Maas",
+      "Annegret Kramp-Karrenbauer",
+      "Olaf Scholz",
+      "Nancy Faeser"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die/der amtierende oberste Amtsinhaber(in) der Organisation für Sicherheit und Zusammenarbeit in Europa (OSZE)?",
+    "a": [
+      "Antonio Guterres",
+      "Ursula von der Leyen",
+      "Helga Schmid",
+      "Jens Stoltenberg"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Regierungschef von Vereinigtes Königreich?",
+    "a": [
+      "David Cameron",
+      "Rishi Sunak",
+      "Theresa May",
+      "Boris Johnson"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die/der amtierende oberste Amtsinhaber(in) der Europäischen Zentralbank (EZB)?",
+    "a": [
+      "Jens Weidmann",
+      "Mario Draghi",
+      "Christine Lagarde",
+      "Mark Carney"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wofür steht das Parteikürzel „FDP“ in Deutschland?",
+    "a": [
+      "Freiheitlich Demokratische Partei",
+      "Freidemokratische Partei",
+      "Freie Demokraten Partei",
+      "Freie Demokratische Partei"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Regierungschef von Brasilien?",
+    "a": [
+      "Dilma Rousseff",
+      "Fernando Henrique Cardoso",
+      "Luiz Inácio Lula da Silva",
+      "Jair Bolsonaro"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die/der amtierende oberste Amtsinhaber(in) der Organisation „Federal Reserve“?",
+    "a": [
+      "Jerome Powell",
+      "Janet Yellen",
+      "Alan Greenspan",
+      "Ben Bernanke"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "In welcher Stadt befindet sich der Hauptsitz der NATO?",
+    "a": [
+      "Den Haag (Niederlande)",
+      "New York City (USA)",
+      "Brüssel (Belgien)",
+      "Genf (Schweiz)"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister für das Auswärtige Amt?",
+    "a": [
+      "Johann Wadephul",
+      "Annalena Baerbock",
+      "Sigmar Gabriel",
+      "Heiko Maas"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesministerin für das Bundesministerium für Arbeit und Soziales?",
+    "a": [
+      "Andrea Nahles",
+      "Ursula von der Leyen",
+      "Olaf Scholz",
+      "Katarina Barley"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "In welcher Stadt befindet sich der Hauptsitz des Internationalen Gerichtshofs (IGH)?",
+    "a": [
+      "Den Haag (Friedenspalast, Niederlande)",
+      "Straßburg (Frankreich)",
+      "Genf (Schweiz)",
+      "Luxemburg (Luxemburg)"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "In welcher Stadt befindet sich der Hauptsitz der OECD?",
+    "a": [
+      "Wien (Österreich)",
+      "Paris (Château de la Muette, Frankreich)",
+      "Straßburg (Frankreich)",
+      "Genf (Schweiz)"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer war Bundeskanzler(in) der Bundesrepublik Deutschland in der Amtszeit 1949–1963?",
+    "a": [
+      "Ludwig Erhard",
+      "Konrad Adenauer",
+      "Willy Brandt",
+      "Helmut Kohl"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die amtierende oberste Amtsinhaberin der Organisation „Europäische Zentralbank“?",
+    "a": [
+      "Mark Carney",
+      "Christine Lagarde",
+      "Mario Draghi",
+      "Jens Weidmann"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "In welcher Stadt befindet sich der Hauptsitz des Europäischen Gerichtshofs (EuGH)?",
+    "a": [
+      "Luxemburg (Kirchberg-Plateau, Luxemburg)",
+      "Den Haag (Niederlande)",
+      "Paris (Frankreich)",
+      "Straßburg (Frankreich)"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer war Bundeskanzler(in) der Bundesrepublik Deutschland in der Amtszeit 2021–?",
+    "a": [
+      "Helmut Schmidt",
+      "Olaf Scholz",
+      "Konrad Adenauer",
+      "Ludwig Erhard"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer war Bundeskanzler(in) der Bundesrepublik Deutschland in der Amtszeit 1966–1969?",
+    "a": [
+      "Olaf Scholz",
+      "Kurt Georg Kiesinger",
+      "Willy Brandt",
+      "Konrad Adenauer"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister für das Bundesministerium der Finanzen?",
+    "a": [
+      "Christian Lindner",
+      "Jörg Kukies",
+      "Peter Altmaier",
+      "Olaf Scholz"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister für das Bundesministerium für Ernährung und Landwirtschaft?",
+    "a": [
+      "Cem Özdemir",
+      "Julia Klöckner",
+      "Christian Schmidt",
+      "Alois Rainer"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für das Bundesministerium für Ernährung und Landwirtschaft?",
+    "a": [
+      "Alois Rainer",
+      "Christian Schmidt",
+      "Julia Klöckner",
+      "Cem Özdemir"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für das Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung?",
+    "a": [
+      "Annalena Baerbock",
+      "Olaf Scholz",
+      "Svenja Schulze",
+      "Horst Seehofer"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die/der amtierende oberste Amtsinhaber(in) der Organisation „Europarat“?",
+    "a": [
+      "António Guterres",
+      "Alain Berset",
+      "Ursula von der Leyen",
+      "Jens Stoltenberg"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer war Bundeskanzler(in) der Bundesrepublik Deutschland in der Amtszeit 1969–1974?",
+    "a": [
+      "Willy Brandt",
+      "Olaf Scholz",
+      "Helmut Kohl",
+      "Helmut Schmidt"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "In welcher Stadt befindet sich der Hauptsitz der Vereinten Nationen (UN)?",
+    "a": [
+      "Straßburg (Frankreich)",
+      "Luxemburg (Luxemburg)",
+      "Paris (Frankreich)",
+      "New York City (UN-Hauptquartier, USA)"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für Bundesministerium für Wirtschaft und Klimaschutz?",
+    "a": [
+      "Olaf Scholz",
+      "Helmut Schmidt",
+      "Annalena Baerbock",
+      "Christian Lindner"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Regierungschef von Mexiko?",
+    "a": [
+      "Enrique Peña Nieto",
+      "Andrés Manuel López Obrador",
+      "Vicente Fox",
+      "Claudia Sheinbaum"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer war Bundeskanzler(in) der Bundesrepublik Deutschland in der Amtszeit 1998–2005?",
+    "a": [
+      "Helmut Schmidt",
+      "Gerhard Schröder",
+      "Ludwig Erhard",
+      "Willy Brandt"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Regierungschef von Spanien?",
+    "a": [
+      "Pedro Sánchez",
+      "José Luis Rodríguez Zapatero",
+      "Felipe González",
+      "Mariano Rajoy"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für das Bundesministerium für Familie, Senioren, Frauen und Jugend?",
+    "a": [
+      "Karin Prien",
+      "Julia Klöckner",
+      "Franziska Giffey",
+      "Manuela Schwesig"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer war Bundeskanzler(in) der Bundesrepublik Deutschland in der Amtszeit 1982–1998?",
+    "a": [
+      "Gerhard Schröder",
+      "Helmut Kohl",
+      "Angela Merkel",
+      "Konrad Adenauer"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Regierungschef von Frankreich?",
+    "a": [
+      "Jean Castex",
+      "Emmanuel Macron",
+      "Édouard Philippe",
+      "Sébastien Lecornu"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die amtierende oberste Amtsinhaberin der Organisation „Internationaler Währungsfonds“?",
+    "a": [
+      "Janet Yellen",
+      "Kristalina Georgiewa",
+      "Christine Lagarde",
+      "Ursula von der Leyen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für das Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz?",
+    "a": [
+      "Svenja Schulze",
+      "Anja Karliczek",
+      "Barbara Hendricks",
+      "Julia Klöckner"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister für das Bundesministerium der Verteidigung?",
+    "a": [
+      "Olaf Scholz",
+      "Helmut Schmidt",
+      "Peter Altmaier",
+      "Ursula von der Leyen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister für das Bundesministerium des Innern und für Heimat?",
+    "a": [
+      "Olaf Scholz",
+      "Alexander Dobrindt",
+      "Horst Seehofer",
+      "Annegret Kramp-Karrenbauer"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer war Bundeskanzler(in) der Bundesrepublik Deutschland in der Amtszeit 1974–1982?",
+    "a": [
+      "Helmut Schmidt",
+      "Angela Merkel",
+      "Kurt Georg Kiesinger",
+      "Olaf Scholz"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für das Bundesministerium der Verteidigung?",
+    "a": [
+      "Thomas de Maizière",
+      "Helmut Schmidt",
+      "Annegret Kramp-Karrenbauer",
+      "Ursula von der Leyen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesministerin für das Bundesministerium für Familie, Senioren, Frauen und Jugend?",
+    "a": [
+      "Karin Prien",
+      "Manuela Schwesig",
+      "Annette Widmann-Mauz",
+      "Franziska Giffey"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "In welcher Stadt befindet sich der Hauptsitz des Europarats?",
+    "a": [
+      "New York City (USA)",
+      "Straßburg (Palais de l’Europe, Frankreich)",
+      "Brüssel (Belgien)",
+      "Genf (Schweiz)"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wofür steht das Parteikürzel „CSU“ in Deutschland?",
+    "a": [
+      "Christlich-Soziale Union in Bayern",
+      "Christlich-Soziale Union",
+      "Christliche Sozial-Union",
+      "Christliche Soziale Union"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die amtierende oberste Amtsinhaberin der Organisation „Welthandelsorganisation“?",
+    "a": [
+      "Roberto Azevêdo",
+      "Pascal Lamy",
+      "Mike Moore",
+      "Ngozi Okonjo-Iweala"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer war Bundeskanzler(in) der Bundesrepublik Deutschland in der Amtszeit 1963–1966?",
+    "a": [
+      "Angela Merkel",
+      "Ludwig Erhard",
+      "Helmut Kohl",
+      "Kurt Georg Kiesinger"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die amtierende oberste Amtsinhaberin der Organisation „Europäische Kommission“?",
+    "a": [
+      "Angela Merkel",
+      "Christine Lagarde",
+      "Ursula von der Leyen",
+      "Emmanuel Macron"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wofür steht das Parteikürzel „CDU“ in Deutschland?",
+    "a": [
+      "Christlich Demokratische Union Deutschlands",
+      "Christlich Demokratische Union",
+      "Christlich Demokratische Unionisten",
+      "Christdemokratische Union"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer war Bundeskanzler(in) der Bundesrepublik Deutschland in der Amtszeit 2005–2021?",
+    "a": [
+      "Olaf Scholz",
+      "Kurt Georg Kiesinger",
+      "Angela Merkel",
+      "Gerhard Schröder"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister für „Bundesministerium des Innern und für Heimat“?",
+    "a": [
+      "Horst Seehofer",
+      "Alexander Dobrindt",
+      "Annegret Kramp-Karrenbauer",
+      "Olaf Scholz"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen?",
+    "a": [
+      "Olaf Scholz",
+      "Christian Lindner",
+      "Klaus Töpfer",
+      "Annalena Baerbock"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Was ist der Zweck eines Tennisballs?",
+    "a": [
+      "Um den Schiedsrichter zu verwirren.",
+      "Um den Gegner zu treffen.",
+      "Um das Spiel zu verlieren.",
+      "Um Punkte zu erzielen."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "In welcher Stadt fanden die ersten modernen Olympischen Spiele im Jahr 1896 statt?",
+    "a": [
+      "Berlin",
+      "Paris",
+      "Athen",
+      "London"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches Sportgerät wird häufig im Tennis verwendet?",
+    "a": [
+      "Volleyball",
+      "Fußball",
+      "Tennisracket",
+      "Badminton Federball"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Wie lautet der Spitzname der deutschen Nationalmannschaft im Fußball?",
+    "a": [
+      "Die Adler",
+      "Die Löwen",
+      "Die Mannschaft",
+      "Die Kicker"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Was symbolisieren die fünf Ringe der Olympischen Spiele?",
+    "a": [
+      "Die fünf Kontinente der Welt",
+      "Die fünf Hauptsportarten der Olympischen Spiele",
+      "Die fünf Disziplinen der Leichtathletik",
+      "Die fünf größten Städte der Welt"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches Hilfsmittel wird oft von Sportler:innen im Parasport verwendet, um die Mobilität zu unterstützen?",
+    "a": [
+      "Boxhandschuhe",
+      "Rennrad",
+      "Rollstuhl",
+      "Sprungbrett"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches Gremium ist für die Vergabe der Olympischen Spiele verantwortlich?",
+    "a": [
+      "Die Nationale Olympische Kommission (NOK)",
+      "Das Internationale Olympische Komitee (IOC)",
+      "Die Vereinten Nationen (UN)",
+      "Der Deutsche Olympische Sportbund (DOSB)"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welche Sportart wird mit einem Schläger und einem Ball auf einem Tennisplatz gespielt?",
+    "a": [
+      "Badminton",
+      "Tennis",
+      "Squash",
+      "Tischtennis"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches dieser Hilfsmittel wird häufig im Parasport verwendet, um Athleten mit Sehbehinderung zu unterstützen?",
+    "a": [
+      "Gewichthebergürtel",
+      "Sprunglatten",
+      "Schutzausrüstung",
+      "Akustische Bälle"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher Wettbewerb ist bekannt als der nationale Pokalwettbewerb im spanischen Fußball?",
+    "a": [
+      "DFB-Pokal",
+      "FA Cup",
+      "Copa del Rey",
+      "Bundesliga"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher Gürtel hat in vielen Kampfsportarten oft die höchste Graduierung?",
+    "a": [
+      "Weiß",
+      "Blau",
+      "Schwarz",
+      "Grün"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Wie viele Spieler befinden sich während eines Eishockeyspiels maximal pro Team gleichzeitig auf dem Eis?",
+    "a": [
+      "3",
+      "5",
+      "6",
+      "4"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Was ist das Hauptziel im Schachspiel?",
+    "a": [
+      "Die meisten Figuren zu nehmen",
+      "Den gegnerischen König schachmatt setzen",
+      "Schnellstmöglich die Partie zu beenden",
+      "Die eigene Dame zu schützen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher Schläger wird hauptsächlich im Tennis verwendet?",
+    "a": [
+      "Golfschläger",
+      "Squashschläger",
+      "Tennisschläger",
+      "Badmintonschläger"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welche Position im Basketball ist hauptsächlich für das Scoring und das Werfen verantwortlich?",
+    "a": [
+      "Shooting Guard",
+      "Point Guard",
+      "Power Forward",
+      "Center"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher Verband ist für die Organisation der Olympischen Spiele zuständig?",
+    "a": [
+      "UEFA",
+      "IOC",
+      "FIFA",
+      "FIBA"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Wie viele Figuren hat jeder Spieler zu Beginn eines Schachspiels auf dem Brett?",
+    "a": [
+      "20",
+      "12",
+      "16",
+      "8"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welche der folgenden Distanzen ist typischerweise eine Wettkampfstrecke im Schwimmen für Erwachsene im Hallenbad?",
+    "a": [
+      "1500 Meter",
+      "250 Meter",
+      "500 Meter",
+      "100 Meter"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Wie viele Spieler sind in einer Rugby-Mannschaft auf dem Feld?",
+    "a": [
+      "5",
+      "15",
+      "7",
+      "11"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welche Anredeform verwendet man in Deutschland, um höflich mit jemandem zu sprechen, den man nicht gut kennt?",
+    "a": [
+      "Hey",
+      "Alter",
+      "Du",
+      "Sie"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welcher Satz ist grammatikalisch korrekt im Deutschen?",
+    "a": [
+      "Ich habe ein Hund.",
+      "Ich habe Hund.",
+      "Ich habe die Hund.",
+      "Ich habe einen Hund."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Woher stammt das deutsche Wort 'Tisch'?",
+    "a": [
+      "Aus dem Englischen",
+      "Aus dem Französischen",
+      "Aus dem Slawischen",
+      "Aus dem Lateinischen"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche Herkunft hat das Wort \"Büro\"?",
+    "a": [
+      "Französisch",
+      "Englisch",
+      "Latein",
+      "Slawisch"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Wie sagt man 'Hallo' auf Französisch?",
+    "a": [
+      "Ciao",
+      "Hola",
+      "Bonjour",
+      "Hallo"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Wort hat seinen Ursprung im Französischen?",
+    "a": [
+      "Restaurant",
+      "Apfel",
+      "Wasser",
+      "Hund"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche Sprache wird hauptsächlich in Spanien gesprochen?",
+    "a": [
+      "Französisch",
+      "Italienisch",
+      "Deutsch",
+      "Spanisch"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Wort bedeutet 'Danke' auf Französisch?",
+    "a": [
+      "Gracias",
+      "Hola",
+      "Ciao",
+      "Merci"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche der folgenden Redewendungen bezieht sich NICHT auf den Seefahrt-Kontext?",
+    "a": [
+      "Auf der Stelle treten",
+      "Über Bord gehen",
+      "Den Anker werfen",
+      "In ruhigen Gewässern segeln"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches dieser Wörter stammt NICHT aus dem Lateinischen?",
+    "a": [
+      "Universität",
+      "Paket",
+      "Computer",
+      "Bibliothek"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche der folgenden Sprachen ist die am häufigsten gesprochene Sprache der Welt?",
+    "a": [
+      "Spanisch",
+      "Französisch",
+      "Mandarin",
+      "Englisch"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche Sprache ist die am häufigsten gesprochene in Frankreich?",
+    "a": [
+      "Englisch",
+      "Deutsch",
+      "Französisch",
+      "Spanisch"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche der folgenden Sprachen ist nicht romanisch?",
+    "a": [
+      "Französisch",
+      "Italienisch",
+      "Deutsch",
+      "Spanisch"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Was bedeutet die Redewendung 'Jemandem einen Bären aufbinden'?",
+    "a": [
+      "Jemanden überraschen",
+      "Jemandem etwas Unwahres erzählen",
+      "Jemanden beschützen",
+      "Jemandem helfen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche der folgenden Wörter ist ein häufig verwendetes englisches Wort für 'Haus'?",
+    "a": [
+      "Dog",
+      "Tree",
+      "Car",
+      "House"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Wort bedeutet 'Hallo' auf Spanisch?",
+    "a": [
+      "Adiós",
+      "Por favor",
+      "Hola",
+      "Gracias"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche Plattform ist bekannt für das Teilen von Fotos und Videos, oft mit Filtern und Effekten?",
+    "a": [
+      "LinkedIn",
+      "Instagram",
+      "Twitter",
+      "Facebook"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welches Unternehmen entwickelt das iOS-Betriebssystem?",
+    "a": [
+      "Google",
+      "Apple",
+      "Samsung",
+      "Microsoft"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welches Betriebssystem wird hauptsächlich auf iPhones verwendet?",
+    "a": [
+      "Windows Phone",
+      "HarmonyOS",
+      "Android",
+      "iOS"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche Plattform wird hauptsächlich für Video-Sharing genutzt?",
+    "a": [
+      "YouTube",
+      "Twitch",
+      "Vimeo",
+      "Dailymotion"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Was bedeutet es, wenn ein Beitrag in sozialen Medien viele 'Likes' erhält?",
+    "a": [
+      "Der Beitrag wurde von vielen Nutzern erstellt",
+      "Der Beitrag ist zu einer Werbung geworden",
+      "Der Beitrag hat viele technische Fehler",
+      "Der Beitrag findet große Zustimmung bei den Nutzern ✓"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welcher Browser wird häufig als Standardbrowser auf Windows-Computern verwendet?",
+    "a": [
+      "Firefox",
+      "Safari",
+      "Opera",
+      "Microsoft Edge"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Was ist die Hauptfunktion einer E-Mail?",
+    "a": [
+      "Nachrichten elektronisch zu versenden ✓",
+      "Musik zu streamen",
+      "Bilder zu bearbeiten",
+      "Webseiten zu gestalten"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche Website ist bekannt für das Teilen von Videos?",
+    "a": [
+      "YouTube",
+      "LinkedIn",
+      "Amazon",
+      "Wikipedia"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche Plattform wird hauptsächlich für den Download von Apps auf Android-Geräten genutzt?",
+    "a": [
+      "Google Play Store",
+      "Microsoft Store",
+      "App Store",
+      "Amazon Appstore"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welches Unternehmen war maßgeblich an der Entwicklung des ursprünglichen World Wide Web beteiligt?",
+    "a": [
+      "Mark Zuckerberg",
+      "Bill Gates",
+      "Steve Jobs",
+      "Tim Berners-Lee"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welcher Webbrowser ist bekannt für seine schnelle Ladezeit und die Benutzerfreundlichkeit?",
+    "a": [
+      "Internet Explorer",
+      "Safari",
+      "Chrome",
+      "Firefox"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welches soziale Netzwerk ist bekannt für seine 280 Zeichen langen Beiträge?",
+    "a": [
+      "Instagram",
+      "LinkedIn",
+      "Twitter",
+      "Facebook"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welcher Dienst wird hauptsächlich zum Versenden von E-Mails genutzt?",
+    "a": [
+      "Google Maps",
+      "Google Drive",
+      "Gmail",
+      "Google Docs"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Was ist das kleinste Bauteil eines Atoms?",
+    "a": [
+      "Neutron",
+      "Proton",
+      "Elektron",
+      "Atomkern"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist das Hauptorgan, das für den Gasaustausch in der Lunge verantwortlich ist?",
+    "a": [
+      "Trachea",
+      "Alveolen",
+      "Bronchien",
+      "Zwerchfell"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche Aussage beschreibt den ersten Hauptsatz der Thermodynamik?",
+    "a": [
+      "Temperatur ist eine Maßzahl für die Geschwindigkeit von Molekülen.",
+      "Energie kann nicht erzeugt oder vernichtet werden, nur umgewandelt.",
+      "Alle Gase verhalten sich bei hohen Temperaturen wie ideale Gase.",
+      "Wärmeübertragung erfolgt immer von kalten zu warmen Körpern."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche Hormone produziert die Schilddrüse?",
+    "a": [
+      "Insulin und Glukagon",
+      "Östrogen und Testosteron",
+      "Adrenalin und Noradrenalin",
+      "Thyroxin und Trijodthyronin"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche der folgenden Organellen ist für die Energieproduktion in tierischen Zellen verantwortlich?",
+    "a": [
+      "Chloroplasten",
+      "Ribosomen",
+      "Zellkern",
+      "Mitochondrien"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist der Hauptmechanismus der evolutionären Veränderung von Arten?",
+    "a": [
+      "Geologische Veränderungen",
+      "Künstliche Intelligenz",
+      "Natürliche Selektion",
+      "Magnetische Felder"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist die Hauptfunktion des menschlichen Gehirns?",
+    "a": [
+      "Verdauung von Nahrung",
+      "Steuerung und Koordination von Körperfunktionen",
+      "Produktion von roten Blutkörperchen",
+      "Regulierung des Blutdrucks"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist die einfachste chemische Verbindung?",
+    "a": [
+      "Ammoniak (NH₃)",
+      "Kochsalz (NaCl)",
+      "Wasser (H₂O)",
+      "Methan (CH₄)"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist der erste Schritt in der Entwicklung eines Sterns?",
+    "a": [
+      "Eine Molekülwolke kollabiert.",
+      "Ein Stern explodiert.",
+      "Ein Stern wird geboren.",
+      "Ein Planet entsteht."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was beschreibt das Gesetz der Reflexion in der Optik?",
+    "a": [
+      "Licht wird immer absorbiert.",
+      "Der Einfallswinkel ist gleich dem Reflexionswinkel.",
+      "Licht bewegt sich schneller in Wasser als in Luft.",
+      "Licht kann nicht gebrochen werden."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was beschreibt der Begriff 'Kraft' in der Physik?",
+    "a": [
+      "Die Masse eines Körpers multipliziert mit seiner Beschleunigung.",
+      "Eine Art von Energie, die in einem System gespeichert ist.",
+      "Eine Wechselwirkung, die die Bewegung eines Körpers ändern kann.",
+      "Die Geschwindigkeit eines Körpers zu einem bestimmten Zeitpunkt."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welches der folgenden Moleküle ist ein Baustein von Proteinen?",
+    "a": [
+      "Nukleotid",
+      "Fettsäure",
+      "Aminosäure",
+      "Glukose"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was beschreibt das Phänomen, wenn Lichtstrahlen an einer Oberfläche gebrochen werden?",
+    "a": [
+      "Absorption",
+      "Streuung",
+      "Reflexion",
+      "Brechung"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist der Hauptbestandteil von Wasser?",
+    "a": [
+      "Kohlendioxid",
+      "Wasserstoff",
+      "Sauerstoff",
+      "Stickstoff"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist die Hauptfunktion der Neuronen im Nervensystem?",
+    "a": [
+      "Sie transportieren Sauerstoff.",
+      "Sie produzieren Hormone.",
+      "Sie speichern Erinnerungen.",
+      "Sie leiten elektrische Signale weiter."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was besagt die Relativitätstheorie von Albert Einstein über die Zeit?",
+    "a": [
+      "Die Zeit vergeht langsamer, je schneller man sich bewegt.",
+      "Die Zeit wird von der Schwerkraft nicht beeinflusst.",
+      "Die Zeit kann in der Zukunft angehalten werden.",
+      "Die Zeit ist für alle Menschen gleich."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welches der folgenden Moleküle ist ein Beispiel für einen einfachen Kohlenwasserstoff?",
+    "a": [
+      "Wasser",
+      "Essigsäure",
+      "Methan",
+      "Salzsäure"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist der Hauptzweck der Atmung bei Menschen?",
+    "a": [
+      "Fortpflanzung und Wachstum",
+      "Sauerstoffaufnahme und Kohlenstoffdioxidabgabe",
+      "Nahrungsaufnahme und Verdauung",
+      "Temperaturregulation des Körpers"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was beschreibt die Fähigkeit eines Festkörpers, eine Form beizubehalten, wenn er einer Kraft ausgesetzt wird?",
+    "a": [
+      "Elastizität",
+      "Wärmeleitung",
+      "Dichte",
+      "Magnetismus"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist der kleinste Baustein der Materie?",
+    "a": [
+      "Molekül",
+      "Proton",
+      "Elektron",
+      "Atom"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was sind die kleinsten lebenden Organismen, die nur unter dem Mikroskop sichtbar sind?",
+    "a": [
+      "Insekten",
+      "Bakterien",
+      "Pflanzen",
+      "Vögel"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist KEIN Grundrecht im Sinne des Grundgesetzes (GG)?",
+    "a": [
+      "Recht auf Arbeit",
+      "Recht auf Gleichheit vor dem Gesetz",
+      "Recht auf Unverletzlichkeit der Wohnung",
+      "Recht auf freie Meinungsäußerung"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für Bundesministerium für Verkehr und Digitales?",
+    "a": [
+      "Volker Wissing",
+      "Anja Karliczek",
+      "Olaf Scholz",
+      "Andreas Scheuer"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für Auswärtiges Amt?",
+    "a": [
+      "Sigmar Gabriel",
+      "Frank-Walter Steinmeier",
+      "Annalena Baerbock",
+      "Heiko Maas"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für \"Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz\"?",
+    "a": [
+      "Steffi Lemke",
+      "Christian Lindner",
+      "Annalena Baerbock",
+      "Olaf Scholz"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "In welcher Stadt befindet sich der Hauptsitz/Sitz von Vereinte Nationen (UN) – Hauptquartier?",
+    "a": [
+      "New York",
+      "Genf",
+      "Luxemburg",
+      "Paris"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für Bundesministerium für Arbeit und Soziales?",
+    "a": [
+      "Christine Lambrecht",
+      "Anja Karliczek",
+      "Katarina Barley",
+      "Olaf Scholz"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Regierungschef von USA?",
+    "a": [
+      "Barack Obama",
+      "George W. Bush",
+      "Donald Trump",
+      "Joe Biden"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz?",
+    "a": [
+      "Anja Karliczek",
+      "Barbara Hendricks",
+      "Svenja Schulze",
+      "Olaf Scholz"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Regierungschef von Türkei?",
+    "a": [
+      "Ahmet Davutoğlu",
+      "Süleyman Soylu",
+      "Kemal Kılıçdaroğlu",
+      "Recep Tayyip Erdoğan"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Bundesminister(in) für das Bundesministerium des Innern und für Heimat?",
+    "a": [
+      "Annalena Baerbock",
+      "Christian Lindner",
+      "Nancy Faeser",
+      "Olaf Scholz"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die amtierende oberste Amtsinhaberin der Organisation „OSZE“?",
+    "a": [
+      "Antonio Guterres",
+      "Ivica Dačić",
+      "Ursula von der Leyen",
+      "Jens Stoltenberg"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die/der amtierende oberste Amtsinhaber(in) der Organisation „Weltgesundheitsorganisation“?",
+    "a": [
+      "Tedros Adhanom Ghebreyesus",
+      "Anthony Fauci",
+      "Gro Harlem Brundtland",
+      "Margaret Chan"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die amtierende Präsidentin der Europäischen Zentralbank?",
+    "a": [
+      "Christine Lagarde",
+      "Ursula von der Leyen",
+      "Jens Weidmann",
+      "Mario Draghi"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wer ist Regierungschef von Japan?",
+    "a": [
+      "Fumio Kishida",
+      "Shinzo Abe",
+      "Sanae Takaichi",
+      "Yoshihide Suga"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  },
+  {
+    "q": "Wie heißt die amtierende oberste Amtsinhaberin der Organisation „Weltbank“?",
+    "a": [
+      "Janet Yellen",
+      "David Malpass",
+      "Kristalina Georgiewa",
+      "Christine Lagarde"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Politiker"
+  }
+]

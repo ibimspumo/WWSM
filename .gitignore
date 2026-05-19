@@ -13,9 +13,7 @@ vite.config.ts.timestamp-*
 /research/
 /research-v2/
 
-# Generierte Fragen-Dateien (werden aus data/seed.json + data/external/ erzeugt)
-/static/questions/
-
-# zusätzliche externe Quellen (lokal nutzbar, nicht eingecheckt)
-/data/external/
+# Hinweis: data/external/ und static/questions/ werden bewusst eingecheckt,
+# damit das Repo nach git clone direkt lauffähig ist (auch im GH-Build).
+# Neu generieren via: node scripts/seed-questions.mjs
 /.env

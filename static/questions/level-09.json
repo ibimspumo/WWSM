@@ -1,0 +1,5186 @@
+[
+  {
+    "q": "Welcher Philosoph wurde wegen Verführung der Jugend zum Tod verurteilt?",
+    "a": [
+      "Platon",
+      "Aristoteles",
+      "Sokrates",
+      "Epikur"
+    ],
+    "correct": 2,
+    "source": "seed",
+    "category": "Philosophie"
+  },
+  {
+    "q": "Welcher Stoff besteht aus Wasserstoff und Sauerstoff?",
+    "a": [
+      "Salz",
+      "Wasser",
+      "Ammoniak",
+      "Methan"
+    ],
+    "correct": 1,
+    "source": "seed",
+    "category": "Chemie"
+  },
+  {
+    "q": "Wer schrieb Die Blechtrommel?",
+    "a": [
+      "Heinrich Böll",
+      "Günter Grass",
+      "Siegfried Lenz",
+      "Martin Walser"
+    ],
+    "correct": 1,
+    "source": "seed",
+    "category": "Literatur"
+  },
+  {
+    "q": "Wie heißt das längste Gebirge der Welt?",
+    "a": [
+      "Himalaya",
+      "Rocky Mountains",
+      "Anden",
+      "Alpen"
+    ],
+    "correct": 2,
+    "source": "seed",
+    "category": "Geografie"
+  },
+  {
+    "q": "In welcher Sprache wurde das Neue Testament ursprünglich verfasst?",
+    "a": [
+      "Hebräisch",
+      "Lateinisch",
+      "Griechisch",
+      "Aramäisch"
+    ],
+    "correct": 2,
+    "source": "seed",
+    "category": "Religion"
+  },
+  {
+    "q": "Welcher der folgenden Aspekte sollte beim Leasing eines Fahrzeugs besonders beachtet werden?",
+    "a": [
+      "Bei Leasing sind keine Wartungskosten eingeplant.",
+      "Leasingfahrzeuge müssen immer mehr als 100.000 km gefahren werden.",
+      "Der Leasingvertrag umfasst in der Regel eine Kilometerbegrenzung pro Jahr.",
+      "Die monatlichen Raten sind unabhängig vom Fahrzeugtyp."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Maßnahme trägt am meisten zur Reduzierung der Energiekosten in einem Haushalt bei?",
+    "a": [
+      "Erhöhung der Nebenkostenpauschale",
+      "Installation von Solarthermie-Anlagen",
+      "Verwendung von Heizöl anstelle von Erdgas",
+      "Erhöhung der Grundsteuer"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche finanzielle Unterstützung erhalten Eltern in Deutschland für ihr Kind bis zum 18. Lebensjahr?",
+    "a": [
+      "Kinderfreibetrag",
+      "Elterngeld",
+      "Sonderbedarfskosten",
+      "Kindergeld"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Wie lange sollte man bei einer Herz-Lungen-Wiederbelebung im Idealfall mit der Herzmassage fortfahren, bevor Hilfe eintrifft?",
+    "a": [
+      "1-2 Minuten",
+      "5-10 Minuten",
+      "20-30 Minuten",
+      "Bis die professionelle Hilfe eintrifft"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Wie lange dauert es in der Regel, ein Elektroauto an einer Schnellladestation vollständig aufzuladen?",
+    "a": [
+      "30 Minuten",
+      "1 Stunde",
+      "2 Stunden",
+      "10 Minuten"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten die Funktion eines Smart Home Hubs?",
+    "a": [
+      "Er berechnet die Mietpreisbremse für Wohnungen.",
+      "Er steuert und verbindet verschiedene IoT-Geräte im Haushalt.",
+      "Er ermittelt die Energiekosten pro Quadratmeter.",
+      "Er erhöht die Grundsteuer eines Hauses."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welcher dieser Abschlüsse qualifiziert in der Regel nicht für den Zugang zu einer dualen Ausbildung?",
+    "a": [
+      "Abitur",
+      "Hauptschulabschluss",
+      "Realschulabschluss",
+      "Fachabitur"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was ist ein Testament?",
+    "a": [
+      "Eine finanzielle Unterstützung für Studierende",
+      "Ein Vertrag über die Aufteilung von Kindergeld",
+      "Ein Dokument, in dem der letzte Wille einer Person festgehalten wird",
+      "Eine Regelung für die Elternzeit nach der Geburt eines Kindes"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was ist eine häufige Auswirkung von Mobbing auf die betroffenen Schüler in der Schule?",
+    "a": [
+      "Psychische Gesundheitsprobleme",
+      "Höhere schulische Leistungen",
+      "Erhöhte Kreativität",
+      "Verbesserte sozialen Fähigkeiten"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche der folgenden Pflanzen eignet sich am besten für die Begrünung eines Balkons im urbanen Raum?",
+    "a": [
+      "Ficus elastica",
+      "Sonnenblume",
+      "Kiefern",
+      "Kräuter wie Basilikum und Thymian"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Schulform führt normalerweise zum höchsten allgemeinbildenden Abschluss in Deutschland?",
+    "a": [
+      "Gesamtschule",
+      "Förderschule",
+      "Realschule",
+      "Hauptschule"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche digitale Plattform wird häufig für den Austausch von Lernmaterialien und die Kommunikation zwischen Lehrern und Schülern in deutschen Schulen genutzt?",
+    "a": [
+      "Moodle",
+      "Instagram",
+      "WhatsApp",
+      "Microsoft Excel"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was ist der durchschnittliche Quadratmeterpreis für Mietwohnungen in urbanen Zentren in Deutschland im Jahr 2023?",
+    "a": [
+      "15,50 Euro",
+      "5,00 Euro",
+      "12,00 Euro",
+      "8,50 Euro"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was ist der gesetzliche Mindestlohn in Deutschland (Stand 2023)?",
+    "a": [
+      "12,00 Euro",
+      "10,45 Euro",
+      "9,50 Euro",
+      "11,25 Euro"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was ist eine wichtige Maßnahme zur eigenen Karriereentwicklung?",
+    "a": [
+      "Firmenwagenregelung",
+      "Urlaubsanspruch",
+      "Weiterbildungskurse",
+      "Kündigungsschutz"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was ist die gesetzliche Mindestfrist für eine Kündigung durch den Arbeitgeber nach zwei Jahren Betriebszugehörigkeit?",
+    "a": [
+      "2 Monate",
+      "3 Monate",
+      "4 Wochen",
+      "1 Monat"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Wie oft sollten Erwachsene eine Auffrischungsimpfung gegen Tetanus und Diphtherie durchführen lassen?",
+    "a": [
+      "Alle 15 Jahre",
+      "Alle 10 Jahre",
+      "Alle 5 Jahre",
+      "Alle 20 Jahre"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Kosten fallen typischerweise bei der Renovierung eines Raumes an?",
+    "a": [
+      "Kosten für die Haftpflichtversicherung",
+      "Grunderwerbssteuer",
+      "Materialkosten für Farben und Werkzeuge",
+      "Grundsteuer"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was ist die maximale Geschwindigkeit, mit der E-Bikes in Deutschland auf Radwegen fahren dürfen?",
+    "a": [
+      "25 km/h",
+      "35 km/h",
+      "20 km/h",
+      "30 km/h"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche der folgenden Aussagen über Pho, ein traditionelles vietnamesisches Gericht, ist korrekt?",
+    "a": [
+      "Pho wird typischerweise mit einer süßen Sauce als Hauptbegleitung serviert.",
+      "Pho ist ein fermentiertes Gericht, das in Vietnam vor allem als Frühstück serviert wird.",
+      "Pho wird hauptsächlich aus Reisnudeln, Rindfleisch und einer Brühe, die mit Fischsauce gewürzt ist, zubereitet.",
+      "Pho enthält keine Kräuter und wird ausschließlich mit Gemüse serviert."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches dieser Lebensmittel gilt als besonders anfällig für Food Waste aufgrund seiner kurzen Haltbarkeit und sollte daher am besten in kleinen Mengen eingekauft werden?",
+    "a": [
+      "Frische Kräuter",
+      "Konserven",
+      "Reis",
+      "Hartkäse"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Gewürz, das einst mit Gold aufgewogen wurde, spielte eine zentrale Rolle im Handel entlang der Seidenstraße und wurde vor allem in der Antike als Heilmittel geschätzt?",
+    "a": [
+      "Zimt",
+      "Nelken",
+      "Pfeffer",
+      "Muskat"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches der folgenden Elemente spielt eine entscheidende Rolle beim Fermentationsprozess von Joghurt und ist für die Bildung der charakteristischen Konsistenz verantwortlich?",
+    "a": [
+      "Milchsäurebakterien",
+      "Proteasen",
+      "Hefe",
+      "Essigsäurebakterien"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche der folgenden Traditionen ist eng mit dem Fest des Erntedanks in den USA verbunden, bei dem ein Festmahl zubereitet wird, das häufig Truthahn beinhaltet?",
+    "a": [
+      "Thanksgiving",
+      "Bastille Day",
+      "Oktoberfest",
+      "Diwali"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches der folgenden Lebensmittel ist besonders reich an Ballaststoffen und wird oft in flexitarischen und pflanzenbasierten Ernährungsformen empfohlen?",
+    "a": [
+      "Kichererbsen",
+      "Hähnchenbrust",
+      "Weißbrot",
+      "Milch"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche der folgenden Methoden ist primär für die Entwicklung komplexer Aromen durch chemische Reaktionen während des Kochens verantwortlich?",
+    "a": [
+      "Maillard-Reaktion",
+      "Blanchieren",
+      "Sous-vide-Garen",
+      "Dämpfen"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches der folgenden Lebensmittel wurde während der Entdeckungszeit aus Amerika nach Europa gebracht und hatte einen erheblichen Einfluss auf die europäische Küche?",
+    "a": [
+      "Olivenöl",
+      "Weizen",
+      "Kartoffeln",
+      "Reis"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welcher dieser Tees ist bekannt für seine Herstellung in einer speziellen Zeremonie, die oft mit der japanischen Kultur verbunden wird?",
+    "a": [
+      "Assam",
+      "Oolong",
+      "Darjeeling",
+      "Matcha"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welcher der folgenden Grundgeschmäcker wird oft mit der Geschmacksrichtung von Speisen in Verbindung gebracht, die reich an Aminosäuren sind, wie sie beispielsweise in Sojasauce vorkommen?",
+    "a": [
+      "Umami",
+      "Sauer",
+      "Süß",
+      "Bitter"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche der folgenden Saucen ist typischerweise eine Grundlage der klassischen französischen Küche und wird oft für die Zubereitung von Saucen verwendet?",
+    "a": [
+      "Salsa",
+      "Pesto",
+      "Chimichurri",
+      "Béchamel"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Verfahren zur Konservierung von Lebensmitteln wurde im 19. Jahrhundert von Louis Pasteur entwickelt und hat die Haltbarkeit von Milch erheblich verlängert?",
+    "a": [
+      "Pasteurisierung",
+      "Fermentation",
+      "Räucherung",
+      "Einlegen"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches dieser Produkte trägt das Schutzsiegel IGP und ist typisch für die italienische Region Emilia-Romagna?",
+    "a": [
+      "Parmigiano Reggiano",
+      "Prosciutto di Parma",
+      "Aceto Balsamico di Modena",
+      "Mozzarella di Bufala"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches der folgenden Produkte ist gemäß der EU-Verordnung als 'geschützte Ursprungsbezeichnung' (g.U.) klassifiziert?",
+    "a": [
+      "Gouda Käse",
+      "Roquefort Käse",
+      "Parmigiano Reggiano",
+      "Olivenöl aus Italien"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche Bakterienart ist hauptsächlich für die Fermentation von Joghurt verantwortlich?",
+    "a": [
+      "Bacillus subtilis",
+      "Escherichia coli",
+      "Lactobacillus bulgaricus",
+      "Streptococcus pneumoniae"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche Mahlzeit wurde historisch in Europa als die wichtigste angesehen und oft als Hauptmahlzeit des Tages bezeichnet?",
+    "a": [
+      "Mittagessen",
+      "Frühstück",
+      "Snacking",
+      "Abendessen"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Was beschreibt den Prozess der Kreuzkontamination in der Küchenhygiene?",
+    "a": [
+      "Die Verwendung von frischen Kräutern zur Verbesserung des Geschmacks.",
+      "Die Lagerung von Lebensmitteln in der Nähe von Kochutensilien.",
+      "Das gleichzeitige Kochen von verschiedenen Lebensmitteln in einem Topf.",
+      "Die Übertragung von Krankheitserregern von einem Lebensmittel auf ein anderes."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Unternehmen gilt als Pionier in der Entwicklung von Instant-Nahrungsmitteln und ist bekannt für seine Bouillonwürfel?",
+    "a": [
+      "Unilever",
+      "Nestlé",
+      "Maggi",
+      "Kellogg"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welcher Bierstil zeichnet sich typischerweise durch eine hohe Hopfenbittere und fruchtige Aromen aus?",
+    "a": [
+      "Lager",
+      "Stout",
+      "IPA",
+      "Ale"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche der folgenden Texturen wird typischerweise mit einer knusprigen Konsistenz assoziiert, die oft als angenehm beim Essen empfunden wird?",
+    "a": [
+      "Chewy",
+      "Creamy",
+      "Silky",
+      "Crisp"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welcher Aufgussparameter hat den größten Einfluss auf die Extraktion von Aromastoffen bei der Zubereitung von grünem Tee?",
+    "a": [
+      "Teesorte",
+      "Ziehzeit",
+      "Wasserhärte",
+      "Wassertemperatur"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche dieser Städte liegt an der Mündung eines großen Flusses in das Meer?",
+    "a": [
+      "Denver",
+      "Zürich",
+      "New Orleans",
+      "Ottawa"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Hauptstadt liegt an der Donau und ist die größte Stadt ihres Landes?",
+    "a": [
+      "Zagreb",
+      "Bratislava",
+      "Budapest",
+      "Wien"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welcher Vulkanische Inselbogen entsteht hauptsächlich durch die Subduktion der Nordamerikanischen Platte unter die Pazifische Platte?",
+    "a": [
+      "Hawaii",
+      "Japan",
+      "Antillen",
+      "Aleuten"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden geologischen Formen entsteht typischerweise durch Gletscherbewegungen und zeigt eine charakteristische Form, die wie ein länglicher Hügel aussieht?",
+    "a": [
+      "Frostmusterboden",
+      "Drumlins",
+      "Moränen",
+      "Solifluktion"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden Pflanzenarten ist am besten an die extremen Bedingungen der polarisierten Tundra angepasst?",
+    "a": [
+      "Moos",
+      "Kaktus",
+      "Weizen",
+      "Eiche"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Verkehrssystem zeichnet sich durch hohe Kapazität und häufige Haltestellen aus, um die Erreichbarkeit innerhalb urbaner Räume zu verbessern?",
+    "a": [
+      "Autobahn",
+      "Regionalbahn",
+      "Fußgängerzone",
+      "Schnellbahn"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Hauptstadt liegt am weitesten nördlich in Europa?",
+    "a": [
+      "Reykjavik",
+      "Oslo",
+      "Stockholm",
+      "Helsinki"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Aussage beschreibt am besten die Hauptursache für die Entstehung von korallenatollen?",
+    "a": [
+      "Sie entstehen durch vulkanische Aktivitäten, die neue Landmassen an die Oberfläche bringen.",
+      "Sie entstehen durch den Aufbau von Korallenriffen um vulkanische Inseln, die im Laufe der Zeit absinken.",
+      "Sie bilden sich durch Erosion und Ablagerung von Sedimenten in Küstengebieten.",
+      "Sie sind das Resultat von Gletscherschmelze in polaren Regionen."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Gebirgssystem in Asien ist bekannt für seine extrem hohen Gipfel und wird oft als 'Dach der Welt' bezeichnet?",
+    "a": [
+      "Ural",
+      "Tian Shan",
+      "Himalaya",
+      "Pamir"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Kartenprojektion ist besonders geeignet, um Flächenverhältnisse möglichst originalgetreu darzustellen?",
+    "a": [
+      "Lambert-Konforme Projektion",
+      "Albers-Ebenenprojektion",
+      "UTM-Projektion",
+      "Mercator-Projektion"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden Länderflaggen weist eine asymmetrische Form auf, die nicht rechteckig ist?",
+    "a": [
+      "Schweiz",
+      "Katar",
+      "Nepal",
+      "Deutschland"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten das Konzept der Exposition in Bezug auf Naturkatastrophen?",
+    "a": [
+      "Exposition bezieht sich auf die Wahrscheinlichkeit, dass eine Naturkatastrophe auftritt.",
+      "Exposition bezieht sich auf die geografische Lage und die Umgebungsbedingungen, die die Anfälligkeit für Naturkatastrophen beeinflussen.",
+      "Exposition beschreibt die Anzahl der Menschen, die von einer Naturkatastrophe direkt betroffen sind.",
+      "Exposition ist der Grad der Verletzlichkeit von Infrastruktur gegenüber Naturkatastrophen."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welcher der folgenden Seewege verbindet den Indischen Ozean mit dem Pazifischen Ozean und ist für den globalen Handel von entscheidender Bedeutung?",
+    "a": [
+      "Bosporus",
+      "Straße von Malakka",
+      "Straße von Hormus",
+      "Suezkanal"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Hauptstadt liegt direkt am Fluss Donau und ist gleichzeitig die Hauptstadt eines der grünsten Länder Europas?",
+    "a": [
+      "Budapest",
+      "Wien",
+      "Belgrad",
+      "Bratislava"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Aussage zu Metadaten in der Kartographie ist korrekt?",
+    "a": [
+      "Metadaten beschreiben ausschließlich den Maßstab der Karte.",
+      "Metadaten enthalten Informationen zur Herkunft und Genauigkeit einer Karte.",
+      "Metadaten sind optional und können weggelassen werden.",
+      "Metadaten sind nur für digitale Karten relevant, nicht für gedruckte."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden Agglomerationen ist hauptsächlich in den Provinzen Guangdong und Hongkong in China zu finden?",
+    "a": [
+      "San Francisco Bay Area",
+      "Randstad",
+      "Pearl River Delta",
+      "Rhein-Ruhr"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Gebirge erstreckt sich hauptsächlich über die Grenze zwischen Europa und Asien und ist bekannt für seine hohe Erhebung, die oft als der höchste Punkt Europas bezeichnet wird?",
+    "a": [
+      "Karpaten",
+      "Ural",
+      "Alpen",
+      "Pyrenäen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welcher der folgenden Flüsse hat seine Quelle in den Alpen und fließt in die Nordsee?",
+    "a": [
+      "Elbe",
+      "Rhein",
+      "Rhône",
+      "Donau"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welchen Einfluss hat die chemische Verwitterung auf die Landschaftsgestaltung in Gebirgen?",
+    "a": [
+      "Sie verursacht hauptsächlich Erdrutsche und Steinschläge.",
+      "Sie führt zur Bildung von fruchtbaren Böden durch Mineralumwandlungen.",
+      "Sie führt ausschließlich zu einer Erhöhung der Höhenlage.",
+      "Sie hat keinen nennenswerten Einfluss auf die Landschaft."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Ereignis gilt als Beginn des Kalten Krieges?",
+    "a": [
+      "Der Vietnamkrieg 1955-1975",
+      "Der Koreakrieg 1950-1953",
+      "Die Berliner Blockade 1948-1949",
+      "Der Fall der Mauer 1989"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche Region war im 19. Jahrhundert besonders für die Entwicklung der Schwerindustrie bekannt?",
+    "a": [
+      "Die Ostsee",
+      "Das Rheintal",
+      "Die Alpen",
+      "Das Ruhrgebiet"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche Bewegung setzte im 14. Jahrhundert in Italien ein und legte den Schwerpunkt auf die Wiederbelebung klassischer Antike sowie das Individuum?",
+    "a": [
+      "Renaissance",
+      "Humanismus",
+      "Aufklärung",
+      "Feudalismus"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher der folgenden Staaten war während des Kalten Krieges ein Beispiel für ein sozialistisches System?",
+    "a": [
+      "Frankreich",
+      "Sowjetunion",
+      "Großbritannien",
+      "Vereinigte Staaten"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher Theologe und Reformer gilt als ein Vorläufer der Reformation und setzte sich für die Übersetzung der Bibel ins Englische ein?",
+    "a": [
+      "John Wyclif",
+      "Jan Hus",
+      "Ulrich Zwingli",
+      "Martin Luther"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche berühmte Entdeckungsfahrt wurde von Christoph Kolumbus im Jahr 1492 unternommen?",
+    "a": [
+      "Die Umsegelung Afrikas",
+      "Die Erkundung der Polarregionen",
+      "Die Entdeckung Amerikas",
+      "Die Entdeckung des Seewegs nach Indien"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher bedeutende Vertrag, der 1122 zwischen Papst Calixtus II. und Kaiser Heinrich V. geschlossen wurde, beendete den Investiturstreit?",
+    "a": [
+      "Vertrag von Worms",
+      "Vertrag von Verdun",
+      "Vertrag von Augsburg",
+      "Vertrag von Utrecht"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten die Rolle der Stadtstaaten (Polis) im antiken Griechenland während der Dunklen Jahrhunderte?",
+    "a": [
+      "Die Polis waren unabhängige Stadtstaaten, die häufig in militärische Konflikte miteinander verwickelt waren.",
+      "Die Polis entwickelten sich aus langanhaltenden monarchischen Strukturen, die das gesamte Land umfassten.",
+      "Die Polis waren religiöse Zentren, die keine politischen Funktionen hatten.",
+      "Die Polis waren große Reichsgebilde, die das gesamte griechische Festland kontrollierten."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher Entdecker war maßgeblich an der ersten Umsegelung der Erde beteiligt?",
+    "a": [
+      "James Cook",
+      "Ferdinand Magellan",
+      "Vasco da Gama",
+      "Christoph Kolumbus"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches antike Bauwerk gilt als eines der sieben Weltwunder der Antike und befand sich in der Stadt Babylon?",
+    "a": [
+      "Hängende Gärten",
+      "Zeus-Statue von Olympia",
+      "Pyramiden von Gizeh",
+      "Koloss von Rhodos"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Ereignis markierte den Beginn der Perserkriege?",
+    "a": [
+      "Der Frieden von Kallias",
+      "Die Schlacht von Marathon",
+      "Die Belagerung von Troja",
+      "Der Ionische Aufstand"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher bedeutende Handelsplatz gehörte zur phönizischen Stadt Karthago und war für seine maritime Handelsmacht bekannt?",
+    "a": [
+      "Sidon",
+      "Gades",
+      "Alexandria",
+      "Tyros"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher Vertrag beendete im Jahr 1453 den Hundertjährigen Krieg zwischen England und Frankreich?",
+    "a": [
+      "Vertrag von Arras",
+      "Vertrag von Picquigny",
+      "Vertrag von Troyes",
+      "Vertrag von Cateau-Cambrésis"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Ereignis wird oft als erster großer Schritt der Raumfahrt im Wettlauf zwischen den USA und der Sowjetunion angesehen?",
+    "a": [
+      "Der Start von Sputnik 1",
+      "Die erste bemannte Weltraummission von Gemini 4",
+      "Die Mondlandung von Apollo 11",
+      "Der erste Space Shuttle Flug"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Handelsbündnis spielte eine wichtige Rolle im Handel der Nord- und Ostsee während des Mittelalters?",
+    "a": [
+      "Fugger",
+      "Medici",
+      "Hanse",
+      "Zähringer"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches der folgenden Merkmale war typischerweise für die Kindheit im Mittelalter charakteristisch?",
+    "a": [
+      "Alle Kinder lebten in städtischen Gebieten und hatten Zugang zu Freizeitaktivitäten.",
+      "Die meisten Kinder wurden bis zur Volljährigkeit von ihren Eltern im Elternhaus betreut.",
+      "Kinder wurden häufig bereits im Alter von sieben Jahren in die Arbeitswelt integriert.",
+      "Kinder erhielten eine umfassende Schulbildung, die auf eine akademische Laufbahn vorbereitete."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche der folgenden Schriften ist ein Teil des Mahabharata?",
+    "a": [
+      "Tao Te Ching",
+      "Veda",
+      "Upanishaden",
+      "Bhagavad Gita"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher Aspekt wird häufig als eine der Herausforderungen des Monotheismus in der modernen Gesellschaft angesehen?",
+    "a": [
+      "Die absolute Ablehnung aller Formen von Spiritualität.",
+      "Die Tendenz zur Säkularisierung und das Aufkommen pluralistischer Weltanschauungen.",
+      "Die Uneinigkeit über die Schriften der Heiligen Texte.",
+      "Die Notwendigkeit, religiöse Rituale im Alltag zu integrieren."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welches Ereignis wird im Neuen Testament als der Moment beschrieben, in dem Jesus die Beziehung zwischen Gott und den Menschen durch sein Opfer erneuert?",
+    "a": [
+      "Die Auferstehung",
+      "Die Taufe Jesu",
+      "Das letzte Abendmahl",
+      "Die Versuchung in der Wüste"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher griechische Gott wurde in der nordischen Mythologie als der Gott der Dichtkunst und der Prophezeiung adaptiert?",
+    "a": [
+      "Odin",
+      "Loki",
+      "Freyja",
+      "Thor"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten das Konzept von Ma’at in der ägyptischen Mythologie?",
+    "a": [
+      "Ma’at steht für die kosmische Ordnung, Wahrheit und Gerechtigkeit.",
+      "Ma’at ist der Gott des Krieges und der Zerstörung.",
+      "Ma’at symbolisiert die Fruchtbarkeit und Ernte.",
+      "Ma’at ist eine Schutzgöttin des Geburtsprozesses."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher der folgenden Götter der kanaanäischen Religion wird häufig als Wetter- und Fruchtbarkeitsgott verehrt?",
+    "a": [
+      "Baal",
+      "El",
+      "Moloch",
+      "Aschera"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher Held besiegte die Medusa und brachte ihren Kopf als eine Waffe zu Perseus?",
+    "a": [
+      "Perseus",
+      "Theseus",
+      "Jason",
+      "Herakles"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Was ist ein zentrales Ziel des Sufismus im Islam?",
+    "a": [
+      "Die Verbreitung des Islam durch militärische Eroberungen",
+      "Die strikte Einhaltung der Scharia",
+      "Die Ablehnung aller sichtbaren Formen der Anbetung",
+      "Die unmittelbare Erfahrung und Vereinigung mit Gott"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher nordische Gott ist bekannt für seinen Hammer, der Blitz und Donner symbolisiert?",
+    "a": [
+      "Freyja",
+      "Thor",
+      "Odin",
+      "Loki"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welches Element ist sowohl in der nordischen als auch in der klassischen Mythologie häufig mit Schöpfung und Zerstörung verbunden?",
+    "a": [
+      "Feuer",
+      "Erde",
+      "Luft",
+      "Wasser"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welches Buch des Neuen Testaments wird oft als das älteste angesehen und enthält Briefe des Apostels Paulus?",
+    "a": [
+      "Der Markusevangelium",
+      "Das Johannes-Evangelium",
+      "Die Apostelgeschichte",
+      "Der Römerbrief"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher dieser Propheten wird im Islam nicht als Sohn Gottes, sondern als ein Mensch angesehen?",
+    "a": [
+      "Jesus",
+      "Abraham",
+      "Moses",
+      "Mohammed"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welche Schrift ist die zentrale heilige Schrift im Judentum?",
+    "a": [
+      "Bhagavad Gita",
+      "Bibel",
+      "Koran",
+      "Tora"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher römische Gott war der Gott des Handels und der Reisenden und wurde oft mit einem Flügelhelm dargestellt?",
+    "a": [
+      "Neptun",
+      "Jupiter",
+      "Merkur",
+      "Mars"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher Autor gilt als Begründer des literarischen Realismus im 19. Jahrhundert?",
+    "a": [
+      "Gustave Flaubert",
+      "Leo Tolstoi",
+      "Charles Dickens",
+      "Franz Kafka"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher berühmte Reggae-Künstler ist bekannt für Songs wie 'No Woman, No Cry' und 'One Love'?",
+    "a": [
+      "Bob Marley",
+      "Toots Hibbert",
+      "Peter Tosh",
+      "Jimmy Cliff"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher Roman wird häufig als Beispiel für einen Bildungsroman angesehen, der die Entwicklung des Protagonisten von der Kindheit bis zum Erwachsenenleben thematisiert?",
+    "a": [
+      "'Der Weg zum Glück' von Hermann Hesse",
+      "'Der Steppenwolf' von Hermann Hesse",
+      "'Die Verwandlung' von Franz Kafka",
+      "'Die Unendliche Geschichte' von Michael Ende"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches bekannte Liebeslied wurde von der Band 'The Beatles' im Jahr 1967 veröffentlicht?",
+    "a": [
+      "I Want to Hold Your Hand",
+      "Let It Be",
+      "All You Need Is Love",
+      "Hey Jude"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches Zitat stammt von Friedrich Nietzsche?",
+    "a": [
+      "'Wenn du lange in den Abgrund blickst, blickt der Abgrund auch in dich hinein.'",
+      "'Das Leben ist absurd.'",
+      "'Der Mensch ist das Maß aller Dinge.'",
+      "'Der Sinn des Lebens besteht darin, den eigenen Weg zu finden.'"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches Merkmal ist charakteristisch für den Realismus im Gegensatz zur Romantik?",
+    "a": [
+      "Eine idealisierte Darstellung der Natur und der Gefühle.",
+      "Eine starke Betonung von Emotionen und individuellen Erlebnissen.",
+      "Ein Fokus auf das Alltägliche und die sozialen Realitäten.",
+      "Die Verwendung von übernatürlichen Elementen und Märchenmotiven."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches Werk wird oft als eines der ersten modernen Essays angesehen und stammt von Michel de Montaigne?",
+    "a": [
+      "Briefe über die ästhetische Erziehung des Menschen",
+      "Essais",
+      "Die Unschuldigen",
+      "Über die Dummheit"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher Autor ist bekannt für seinen Roman 'Der Prozess', der Themen wie Macht und Absurdität behandelt?",
+    "a": [
+      "Thomas Mann",
+      "Franz Kafka",
+      "Rainer Maria Rilke",
+      "Hermann Hesse"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches musikalische Formprinzip beinhaltet die Wiederholung von Themen in einem bestimmten Muster und wird oft in der Form A-B-A dargestellt?",
+    "a": [
+      "Periode",
+      "Fuge",
+      "Sonate",
+      "Rondo"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche der folgenden Bewegungen ist eng mit dem Konzept des 'Weltsehens' verbunden, das die subjektive Wahrnehmung und Emotionen in den Vordergrund stellt?",
+    "a": [
+      "Barock",
+      "Romantik",
+      "Klassizismus",
+      "Impressionismus"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher Maler ist bekannt für seine romantischen Landschaftsdarstellungen mit einem Fokus auf das Gefühl des Erhabenen und die Natur?",
+    "a": [
+      "Vincent van Gogh",
+      "Claude Monet",
+      "Caspar David Friedrich",
+      "Pablo Picasso"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches der folgenden Merkmale ist typischerweise nicht Teil einer formalen Bildanalyse?",
+    "a": [
+      "Linienführung",
+      "Farbkomposition",
+      "Künstlerbiografie",
+      "Kompositionsstruktur"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches der folgenden Merkmale wird typischerweise nicht dem Kunsthandwerk zugeschrieben?",
+    "a": [
+      "Funktionalität der Objekte",
+      "Massenproduktion der Werke",
+      "Individuelle künstlerische Ausdrucksform",
+      "Verwendung traditioneller Techniken"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches Zitat beschreibt die Bedeutung des Schreibens als eine Form des Lebens und Denkens?",
+    "a": [
+      "\"Der Schriftsteller ist ein Gefangener seiner eigenen Einbildungskraft.\"",
+      "\"Lesen ist träumen mit offenen Augen.\"",
+      "\"Jede Geschichte ist ein Abbild der Welt, die wir kennen.\"",
+      "\"Schreiben heißt, die eigene Seele auf Papier zu bringen.\""
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches dieser Motive ist typischerweise NICHT in der Street Art vertreten?",
+    "a": [
+      "Politische Botschaften",
+      "Landschaftsmalerei",
+      "Soziale Themen",
+      "Ikonische Markenlogos"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher Autor wird oft mit der postmodernen Literatur in Verbindung gebracht und ist bekannt für seine experimentellen Erzählstrukturen?",
+    "a": [
+      "Franz Kafka",
+      "Rainer Maria Rilke",
+      "Hermann Hesse",
+      "Thomas Pynchon"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten den Unterschied zwischen Kunst und Design?",
+    "a": [
+      "Kunst bezieht sich ausschließlich auf Malerei, während Design sich auf digitale Medien konzentriert.",
+      "Kunst ist primär auf ästhetische Erfahrungen ausgerichtet, während Design funktionale Lösungen für bestimmte Probleme bietet.",
+      "Kunst und Design sind identisch und unterscheiden sich nur durch die verwendeten Materialien.",
+      "Design ist immer kommerziell, während Kunst niemals verkauft wird."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches charakteristische Element ist typisch für die Pop Art, insbesondere in den Werken von Andy Warhol?",
+    "a": [
+      "Der Einsatz von naturalistischen Darstellungen von Landschaften.",
+      "Die Verwendung von pastellfarbenen Aquarellen.",
+      "Die Verwendung von Alltagsgegenständen und Massenkultur als Sujet.",
+      "Die Konzentration auf abstrakte Formen und Farben."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches dieser Zitate stammt von Oscar Wilde, der bekannt für seinen scharfsinnigen Humor und seine ironischen Selbstbetrachtungen war?",
+    "a": [
+      "\"Ich kann allem widerstehen, außer der Versuchung.\"",
+      "\"Die beste Art, die Zukunft vorherzusagen, ist, sie zu erschaffen.\"",
+      "\"Jeder Mensch ist ein Künstler.\"",
+      "\"Das Leben ist zu wichtig, um ernst genommen zu werden.\""
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche der folgenden Blumen ist bekannt für ihre Fähigkeit, in verschiedenen Farben zu blühen, abhängig von der Bodenbeschaffenheit?",
+    "a": [
+      "Hortensie",
+      "Rose",
+      "Sonnenblume",
+      "Lilie"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches Tier nutzt die Seitenlinie, um Bewegungen und Strömungen im Wasser wahrzunehmen?",
+    "a": [
+      "Adler",
+      "Hai",
+      "Elefant",
+      "Fuchs"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Anpassung hilft Pflanzen in Wiesen und Savannen, in Perioden von Trockenheit und Feuer zu überleben?",
+    "a": [
+      "Tiefe Wurzeln, die Wasser aus dem Untergrund aufnehmen können.",
+      "Helle Blüten, die Insekten anlocken und Bestäubung fördern.",
+      "Breite Blätter, die eine hohe Verdunstung ermöglichen.",
+      "Zweijährige Lebenszyklen, die eine schnelle Fortpflanzung fördern."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Aussage beschreibt am besten den Prozess der Photosynthese bei Pflanzen?",
+    "a": [
+      "Pflanzen nehmen Kohlendioxid auf und setzen Sauerstoff frei, während sie Lichtenergie in chemische Energie umwandeln.",
+      "Pflanzen produzieren nur während der Nacht Sauerstoff und nehmen tagsüber Kohlendioxid auf.",
+      "Pflanzen benötigen keinen Sonnenlicht, um Photosynthese durchzuführen, da sie auch künstliche Lichtquellen nutzen können.",
+      "Pflanzen nutzen ausschließlich Wasser und Nährstoffe aus dem Boden, um Energie zu produzieren."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches Tier ist typischerweise im tropischen Regenwald anzutreffen?",
+    "a": [
+      "Jaguar",
+      "Steinbock",
+      "Känguru",
+      "Eisbär"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Was beschreibt das Territorialverhalten bei vielen Singvögeln?",
+    "a": [
+      "Singvögel haben keine spezifischen Fortpflanzungszeiten und können das ganze Jahr über brüten.",
+      "Singvögel nutzen Gesang, um ihr Revier abzugrenzen und andere Artgenossen zu warnen.",
+      "Singvögel sind in der Regel Einzelgänger und leben nicht in Gruppen.",
+      "Singvögel bevorzugen es, in städtischen Gebieten ohne natürliche Feinde zu nisten."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Tiere ist bekannt dafür, dass es sich in Wintermonaten in einen Zustand versetzt, in dem der Stoffwechsel stark reduziert wird, um Energie zu sparen?",
+    "a": [
+      "Braunbär",
+      "Fuchs",
+      "Schaf",
+      "Adler"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Rolle spielen Feuchtgebiete und Moore im globalen Kohlenstoffkreislauf?",
+    "a": [
+      "Sie sind bedeutende Kohlenstoffsenken und tragen zur Minderung von Treibhausgasen bei.",
+      "Sie dienen vor allem als Nahrungsquelle für Landtiere und beeinflussen den Kohlenstoffkreislauf nicht.",
+      "Sie erhöhen die Verdunstung und wirken somit als Hauptquelle für atmosphärische Feuchtigkeit.",
+      "Sie sind primär Lebensräume für Fischarten und haben keinen Einfluss auf den Kohlenstoffkreislauf."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Rolle spielen Mykorrhizapilze in einem Waldökosystem?",
+    "a": [
+      "Sie leben ausschließlich im Wasser und haben keinen Einfluss auf landbasierte Pflanzen.",
+      "Sie produzieren Sauerstoff und sind für die Photosynthese verantwortlich.",
+      "Sie fördern die Nährstoffaufnahme der Pflanzen und stärken deren Widerstandskraft gegen Krankheiten.",
+      "Sie sind Hauptzerstörer von Baumstämmen und tragen zur Zersetzung von Holz bei."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Tiergruppen gehört zur Klasse der Mammalia (Säugetiere)?",
+    "a": [
+      "Schlangen",
+      "Krokodile",
+      "Fledermäuse",
+      "Amphibien"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Funktion haben Luftsäcke bei Vögeln, die über das normale Atmen hinausgeht?",
+    "a": [
+      "Sie helfen Vögeln, ihre Körpertemperatur zu regulieren.",
+      "Sie dienen der Aufbewahrung von Nahrung während des Flugs.",
+      "Sie schützen die Federn vor Nässe und Schmutz.",
+      "Sie ermöglichen eine effiziente Sauerstoffaufnahme während des Fluges."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Aussage beschreibt am besten den Unterschied zwischen relativer und absoluter Luftfeuchtigkeit?",
+    "a": [
+      "Die relative Luftfeuchtigkeit ist immer höher als die absolute Luftfeuchtigkeit.",
+      "Die relative Luftfeuchtigkeit gibt an, wie viel Wasser in der Luft im Vergleich zur maximal möglichen Menge bei einer bestimmten Temperatur enthalten ist.",
+      "Die absolute Luftfeuchtigkeit beschreibt den Anteil an Wasserdampf in der Luft, unabhängig von Temperatur und Druck.",
+      "Die absolute Luftfeuchtigkeit misst die Temperatur der Luft zu einem bestimmten Zeitpunkt."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Blütenorgane sind hauptsächlich für die Fortpflanzung der Pflanze verantwortlich?",
+    "a": [
+      "Stängel",
+      "Staubgefäße",
+      "Kelchblätter",
+      "Blütenblätter"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Aussage beschreibt am besten den Lebenszyklus von Moosen im Vergleich zu Farnen?",
+    "a": [
+      "In beiden Gruppen ist das Sporophyt die dominierende Lebensphase während des gesamten Lebenszyklus.",
+      "Moose durchlaufen einen Generationswechsel, bei dem das Gametophyt die dominante Lebensphase darstellt.",
+      "Farne reproduzieren sich ausschließlich über Samen und benötigen keinen Wasserfilm für die Befruchtung.",
+      "Moose sind ausschließlich terrestrisch und wachsen nur in trockenen Gebieten."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten die Rolle der Bestäuber in der Pflanze-Blüte-Interaktion?",
+    "a": [
+      "Bestäuber transportieren Pollen von einer Blüte zur anderen, was die Befruchtung ermöglicht.",
+      "Bestäuber sind ausschließlich Vögel, die Nektar aus Blüten sammeln.",
+      "Bestäuber produzieren den Nektar, der die Insekten anzieht.",
+      "Bestäuber tragen zur Fruchtbildung bei, indem sie die Blätter der Pflanze polieren."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Wolkenart ist typischerweise mit stabilen Wetterbedingungen und meist klarem Himmel assoziiert?",
+    "a": [
+      "Cirrus",
+      "Nimbus",
+      "Stratus",
+      "Cumulus"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Tierart nutzt die Seitenlinie zur Wahrnehmung von Bewegungen im Wasser und zur Orientierung in ihrer Umgebung?",
+    "a": [
+      "Hai",
+      "Elefant",
+      "Adler",
+      "Schildkröte"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Eigenschaften ist charakteristisch für Farne, nicht jedoch für Moose?",
+    "a": [
+      "Farne wachsen ausschließlich in schattigen Gebieten.",
+      "Farne sind meist größer als Moose.",
+      "Farne benötigen kein Wasser zur Fortpflanzung.",
+      "Farne haben gefiederte Blätter."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Pflanzen ist bekannt dafür, in Moorgebieten zu wachsen und nutzt spezielle Anpassungen zur Nährstoffaufnahme?",
+    "a": [
+      "Wasserpest",
+      "Sumpfblüte",
+      "Torfmoos",
+      "Schilfrohr"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welcher Bestandteil eines Ökosystems beschreibt die Menge an Energie, die in Form von Biomasse von Produzenten erzeugt wird?",
+    "a": [
+      "Tertiärproduktion",
+      "Nahrungsnetz",
+      "Primärproduktion",
+      "Sekundärproduktion"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Methode der vegetativen Vermehrung nutzen Pflanzen, um durch Wurzelknollen neue Triebe zu bilden?",
+    "a": [
+      "Knollen",
+      "Ausläufer",
+      "Rhizome",
+      "Stecklinge"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt korrekt die Polarisation einer ebenen Welle?",
+    "a": [
+      "Polarisation beschreibt die Richtung der Schwingungen der Welle im Raum.",
+      "Polarisation hat keinen Einfluss auf die Energie einer elektromagnetischen Welle.",
+      "Polarisation ist das Ergebnis der Interferenz von zwei Wellen gleicher Frequenz.",
+      "Polarisation ist ein Phänomen, das nur in longitudinalen Wellen auftritt."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Physik"
+  },
+  {
+    "q": "Was beschreibt die Gibb’sche Phasenregel in einem thermodynamischen System?",
+    "a": [
+      "Die Anzahl der Phasen in einem System in Abhängigkeit von der Anzahl der Komponenten und Freiheitsgrade.",
+      "Die maximale Temperatur, die ein System erreichen kann.",
+      "Die Beziehung zwischen Druck und Volumen in einem idealen Gas.",
+      "Die Energieumwandlung zwischen verschiedenen Phasen eines Stoffes."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Physik"
+  },
+  {
+    "q": "Welcher Klub hat die meisten Titel in der Geschichte der EuroLeague gewonnen?",
+    "a": [
+      "CSKA Moskau",
+      "Real Madrid",
+      "Panathinaikos",
+      "FC Barcelona"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher internationale Pokal wird seit 2001 für die besten Frauenmannschaften in Europa ausgetragen?",
+    "a": [
+      "Olympisches Fußballturnier der Frauen",
+      "UEFA Women's Champions League",
+      "Frauenfußball-Weltpokal",
+      "FIFA Frauen-Weltmeisterschaft"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher Spieler hält den Rekord für die meisten Tore in einer einzigen Premier-League-Saison?",
+    "a": [
+      "Andrew Cole",
+      "Thierry Henry",
+      "Alan Shearer",
+      "Mohamed Salah"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches Schiedsrichterzeichen zeigt an, dass ein Spieler für ein gefährliches Spiel verwarnt wird?",
+    "a": [
+      "Der Schiedsrichter zeigt mit beiden Armen nach vorne.",
+      "Der Schiedsrichter kreuzt die Arme vor der Brust.",
+      "Der Schiedsrichter hebt eine Hand mit flacher Handfläche nach oben.",
+      "Der Schiedsrichter hebt eine gelbe Karte in die Luft."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welche Figur im Schach kann sich diagonal, horizontal und vertikal bewegen?",
+    "a": [
+      "Turm",
+      "Springer",
+      "Läufer",
+      "Dame"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welche Nation gewann die erste Frauenfußball-Weltmeisterschaft im Jahr 1991?",
+    "a": [
+      "Deutschland",
+      "USA",
+      "Norwegen",
+      "Schweden"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Wie viele Spieler sind pro Mannschaft auf dem Spielfeld in einem Rugby-Match aktiv?",
+    "a": [
+      "15",
+      "11",
+      "7",
+      "13"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher der folgenden Faktoren hat den größten Einfluss auf die maximale Sauerstoffaufnahme (VO2max) von Ausdauersportlern?",
+    "a": [
+      "Die anaerobe Schwelle",
+      "Die genetische Veranlagung",
+      "Die Ernährung vor dem Wettkampf",
+      "Die Trainingsintensität"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches dieser Elemente ist kein Teil der Zählweise im Badminton?",
+    "a": [
+      "Ein Spiel besteht aus drei Sätzen.",
+      "Bei 20:20 muss ein Spieler zwei Punkte Vorsprung haben.",
+      "Ein Satz wird bis 21 Punkte gespielt.",
+      "Die Punkte werden nur bei eigenem Aufschlag gezählt."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches Training zielt primär darauf ab, die maximale Leistung über kurze Zeiträume zu steigern?",
+    "a": [
+      "Schnelligkeitstraining",
+      "Ausdauertraining",
+      "Krafttraining",
+      "Flexibilitätstraining"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher Schläger wird typischerweise im Badminton verwendet, um den Federball zu schlagen?",
+    "a": [
+      "Tennisracket",
+      "Badmintonschläger",
+      "Tischtennisschläger",
+      "Squashschläger"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches der folgenden deutschen Wörter hat eine etymologisch falsche Freundschaft mit dem englischen Wort 'gift'?",
+    "a": [
+      "Rat",
+      "Gift",
+      "Schicksal",
+      "Rock"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Wort hat seine Wurzeln im französischen 'mariage', das die Ehe beschreibt?",
+    "a": [
+      "Heirat",
+      "Trauung",
+      "Verlobung",
+      "Hochzeit"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches der folgenden Wörter hat KEINE slawische Herkunft?",
+    "a": [
+      "Kiefern",
+      "Zelt",
+      "Karpfen",
+      "Borschtsch"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Wort ist ein Nomen?",
+    "a": [
+      "schnell",
+      "oft",
+      "laufen",
+      "der Tisch"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Wort ist im Englischen ein Synonym für 'happy'?",
+    "a": [
+      "Joyful",
+      "Tired",
+      "Angry",
+      "Sad"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Wort hat seine Wurzeln in der lateinischen Sprache und bezeichnet einen Zustand der Unruhe oder Aufregung?",
+    "a": [
+      "Zufriedenheit",
+      "Nervosität",
+      "Ruhe",
+      "Gelassenheit"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches französische Wort bedeutet 'Haus'?",
+    "a": [
+      "École",
+      "Bureau",
+      "Maison",
+      "Appartement"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches der folgenden Wörter hat eine Bedeutung, die NICHT durch Metonymie entstanden ist?",
+    "a": [
+      "Tisch",
+      "Sessel",
+      "Gaumen",
+      "Kopf"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches der folgenden Wörter hat seine Herkunft am häufigsten im Englischen?",
+    "a": [
+      "Bäcker",
+      "Wasser",
+      "Schule",
+      "Ketchup"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches der folgenden Wörter ist kein Erbwort, sondern ein Lehnwort im Deutschen?",
+    "a": [
+      "Haus",
+      "Fenster",
+      "Balkon",
+      "Apfel"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welcher Satz verwendet den Dativ korrekt?",
+    "a": [
+      "Ich höre die Stimme des Mannes.",
+      "Ich sehe den Mann.",
+      "Ich frage den Mann nach dem Weg.",
+      "Ich gebe dem Mann das Buch."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welcher Satz enthält den korrekten Gebrauch des unbestimmten Artikels?",
+    "a": [
+      "Ich habe einen Hund.",
+      "Ich habe ein die Hund.",
+      "Ich habe die Hund.",
+      "Ich habe Hund."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche Redewendung stammt ursprünglich aus dem Handwerk und bedeutet, dass man sich in einer falschen Richtung befindet?",
+    "a": [
+      "das Handtuch werfen",
+      "auf dem Holzweg sein",
+      "den Nagel auf den Kopf treffen",
+      "ein Brett vor dem Kopf haben"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches der folgenden Beispiele stellt kein Zustandspassiv dar?",
+    "a": [
+      "Das Auto ist gewaschen.",
+      "Die Tür ist geschlossen.",
+      "Der Brief wird geschrieben.",
+      "Die Aufgabe wird erledigt."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches dieser Länder hat Spanisch nicht als Amtssprache?",
+    "a": [
+      "Spanien",
+      "Brasilien",
+      "Argentinien",
+      "Mexiko"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Unternehmen ist bekannt für die Entwicklung von Drohnentechnologie, die unter anderem in der Landwirtschaft eingesetzt wird?",
+    "a": [
+      "Boeing",
+      "DJI",
+      "Intel",
+      "Tesla"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche der folgenden Metriken wird häufig verwendet, um das Engagement auf sozialen Medien zu messen?",
+    "a": [
+      "Server-Latenz",
+      "Click-Through-Rate",
+      "Download-Rate",
+      "Netzwerkauslastung"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche Technologie ermöglicht es, mit Smartphones kontaktlos zu bezahlen?",
+    "a": [
+      "NFC",
+      "RFID",
+      "Bluetooth",
+      "QR-Code"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welches Unternehmen bietet einen der bekanntesten Cloud-Speicherdienste mit dem Namen 'OneDrive' an?",
+    "a": [
+      "Amazon",
+      "Google",
+      "Microsoft",
+      "Dropbox"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche Komponente ist für die kurzfristige Speicherung von Daten zuständig, die vom Prozessor benötigt werden?",
+    "a": [
+      "PSU",
+      "RAM",
+      "HDD",
+      "GPU"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche Plattform wird häufig für die Unternehmenskommunikation und das Networking genutzt, insbesondere im B2B-Bereich?",
+    "a": [
+      "TikTok",
+      "LinkedIn",
+      "Pinterest",
+      "Instagram"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche Plattform nutzt hauptsächlich das Konzept der 'Stories', die nach 24 Stunden verschwinden?",
+    "a": [
+      "Facebook",
+      "Pinterest",
+      "LinkedIn",
+      "Instagram"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Was bezeichnet der Begriff 'Content Marketing' im Kontext sozialer Medien?",
+    "a": [
+      "Das Erstellen von Inhalten ausschließlich für Suchmaschinenoptimierung (SEO).",
+      "Die Verwendung von bezahlten Anzeigen, um Produkte direkt zu verkaufen.",
+      "Die Erstellung und Verbreitung von wertvollen Inhalten, um eine Zielgruppe zu erreichen und zu binden.",
+      "Eine Methode zur Steigerung der Follower-Zahlen durch den Einsatz von Bots."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Was beschreibt der Begriff \"Call-Option\" im Kontext von Derivaten?",
+    "a": [
+      "Eine Pflicht, einen Basiswert zu einem wählbaren Preis zu kaufen",
+      "Das Recht, einen bestimmten Basiswert zu einem festgelegten Preis zu kaufen",
+      "Eine Vereinbarung, die zukünftige Dividendenzahlungen eines Unternehmens garantiert",
+      "Das Recht, einen bestimmten Basiswert zu einem festgelegten Preis zu verkaufen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist der Hauptzweck des Mining im Zusammenhang mit Proof of Work?",
+    "a": [
+      "Smart Contracts ausführen",
+      "Neue Coins generieren und das Netzwerk sichern",
+      "Transaktionen anonymisieren",
+      "Gebühren für Wallet-Transaktionen senken"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Wann wurde das Allgemeine Zoll- und Handelsabkommen (GATT) gegründet, das ein wichtiger Schritt in der Entwicklung des Freihandels war?",
+    "a": [
+      "1947",
+      "1965",
+      "1957",
+      "1973"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten die Regulierung von Kryptowährungen in Deutschland?",
+    "a": [
+      "Kryptowährungen unterliegen den gleichen Vorschriften wie herkömmliche Währungen und Banken.",
+      "Der Handel mit Kryptowährungen ist nur für Unternehmen erlaubt, nicht für Privatpersonen.",
+      "Kryptowährungen werden als Finanzinstrumente betrachtet und fallen unter das Wertpapiergesetz",
+      "Kryptowährungen sind vollständig unreguliert und dürfen nicht gehandelt werden."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was bezeichnet der Begriff \"Liquidity Pool\" im DeFi-Bereich?",
+    "a": [
+      "Ein Ort, an dem Benutzer Kryptowährungen gegen Fiat-Währungen tauschen",
+      "Eine Sammlung von Kryptowährungen, die zur Bereitstellung von Liquidität für dezentrale Handelsplattformen genutzt wird",
+      "Ein Vertrag, der den Handel von Futures auf Bitcoin ermöglicht",
+      "Ein Wallet, das ausschließlich für die Speicherung von Stablecoins gedacht ist"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was beschreibt die Rendite einer Anleihe?",
+    "a": [
+      "Den Betrag der Zinszahlungen im Verhältnis zum Kaufpreis der Anleihe",
+      "Den Preis, zu dem die Anleihe verkauft wird",
+      "Die Höhe der Dividendenzahlungen an Aktionäre",
+      "Den langfristigen Kursindex für Staatsanleihen"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche der folgenden Ursachen wird oft als ein Hauptfaktor für die Finanzkrise von 2008 angesehen?",
+    "a": [
+      "Subprime-Hypothekarkredite und daraus resultierende Wertpapierkrisen",
+      "Die Platzen der Dotcom-Blase im Jahr 2001",
+      "Die Bankenkrise von 1998 in Russland",
+      "Übermäßige staatliche Verschuldung in den USA"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches Unternehmen wurde 1994 gegründet und ist bekannt für seine Cloud-Computing-Dienste?",
+    "a": [
+      "Microsoft",
+      "Amazon Web Services",
+      "Google",
+      "IBM"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist der Hauptunterschied zwischen einem ETF und einem herkömmlichen Indexfonds?",
+    "a": [
+      "ETFs müssen immer einen Mindestanlagebetrag erfüllen.",
+      "ETFs haben immer höhere Gebühren als Indexfonds.",
+      "ETFs können jederzeit während der Handelszeiten gekauft und verkauft werden.",
+      "ETFs werden nur einmal täglich an der Börse gehandelt."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist ein wesentlicher Vorteil eines Tagesgeldkontos im Vergleich zu einem Festgeldkonto?",
+    "a": [
+      "Flexibilität bei der Verfügbarkeit des Geldes",
+      "Höhere Zinssätze in der Regel",
+      "Längere Laufzeiten für die Geldanlage",
+      "Garantierte Zinsen über einen festen Zeitraum"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche Rolle spielte die Treuhandanstalt nach der Wiedervereinigung in Deutschland?",
+    "a": [
+      "Sie wurde 1989 gegründet, um den ostdeutschen Markt zu stabilisieren.",
+      "Sie privatisierte und sanierte viele staatliche Betriebe in der ehemaligen DDR.",
+      "Sie war verantwortlich für die Einführung des Euro in Ostdeutschland.",
+      "Sie wurde 1995 aufgelöst, nachdem alle Betriebe erfolgreich privatisiert wurden."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was beschreibt am besten die Funktion eines Wallets im Zusammenhang mit Bitcoin?",
+    "a": [
+      "Ein Wallet dient dazu, den Preis von Bitcoin in Echtzeit anzuzeigen.",
+      "Ein Wallet speichert private Schlüssel, die benötigt werden, um auf Bitcoins zuzugreifen.",
+      "Ein Wallet ist eine Art von Kryptowährung, die direkt mit Bitcoin verbunden ist.",
+      "Ein Wallet ist eine Plattform zum Kauf und Verkauf von Kryptowährungen."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche der folgenden Kryptowährungen wird häufig als \"digitales Gold\" bezeichnet und hat eine begrenzte maximale Menge von 21 Millionen Coins?",
+    "a": [
+      "Monero",
+      "Bitcoin",
+      "Bitcoin Cash",
+      "Litecoin"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was unterscheidet Trading von Investieren in Bezug auf den Anlagehorizont?",
+    "a": [
+      "Investieren konzentriert sich häufig auf den langfristigen Vermögensaufbau.",
+      "Investieren zielt auf kurzfristige Gewinne ab.",
+      "Trading erfolgt in der Regel über viele Monate oder Jahre.",
+      "Trading hat einen langfristigen Anlagehorizont."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche Fusion zwischen zwei großen Technologieunternehmen fand im Jahr 2016 statt?",
+    "a": [
+      "Microsoft und Yahoo",
+      "Intel und IBM",
+      "Google und Facebook",
+      "Dell und EMC"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Wie viel beträgt die gesetzliche Einlagensicherung in Deutschland pro Anleger und Bank?",
+    "a": [
+      "50.000 Euro",
+      "250.000 Euro",
+      "100.000 Euro",
+      "200.000 Euro"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches Unternehmen wurde 1994 von Jeff Bezos gegründet?",
+    "a": [
+      "Alibaba",
+      "Amazon",
+      "eBay",
+      "Facebook"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches der folgenden Gesetze in Deutschland regelt die Transparenzvorgaben für Krypto-Assets?",
+    "a": [
+      "Kreditwesengesetz (KWG)",
+      "Investmentgesetz (InvG)",
+      "Wertpapierhandelsgesetz (WpHG)",
+      "Geldwäschegesetz (GwG)"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist der Hauptunterschied zwischen einem ETF und einem aktiv verwalteten Fonds?",
+    "a": [
+      "ETFs haben immer höhere Gebühren als aktiv verwaltete Fonds",
+      "ETFs werden passiv verwaltet und bilden einen Index ab",
+      "ETFs sind nur für institutionelle Anleger zugänglich",
+      "ETFs investieren nur in Immobilien"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist ein Hauptvorteil von NFTs im Vergleich zu traditionellen digitalen Assets?",
+    "a": [
+      "Sie können nur auf einer zentralen Exchange gehandelt werden.",
+      "Sie können nicht kopiert oder dupliziert werden.",
+      "Sie basieren ausschließlich auf dem Ethereum-Netzwerk.",
+      "Sie sind immer anonym und nicht rückverfolgbar."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt den Hauptunterschied zwischen Trading und Investieren am besten?",
+    "a": [
+      "Investieren ist der kurzfristige Kauf und Verkauf von Aktien zur Spekulation.",
+      "Trading erfordert häufigere Transaktionen und kürzere Haltedauern als Investieren.",
+      "Beim Investieren geht es hauptsächlich um den Handel mit Rohstoffen.",
+      "Trading beinhaltet den Kauf von Aktien, um sie langfristig zu halten."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist das Hauptziel des Mining-Prozesses im Zusammenhang mit Proof of Work?",
+    "a": [
+      "Wallet-Adressen generieren",
+      "Neue Blöcke zur Blockchain hinzufügen",
+      "Transaktionen anonymisieren",
+      "Smart Contracts ausführen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist eine häufige Nebenwirkung von Chemotherapie bei Krebspatienten?",
+    "a": [
+      "Haarausfall",
+      "Gewichtsreduktion",
+      "Schneller Heilungsprozess",
+      "Erhöhte Sehkraft"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welches der folgenden Kriterien ist entscheidend, um einen Exoplaneten als potenziell bewohnbar zu klassifizieren?",
+    "a": [
+      "Er hat einen Durchmesser von mindestens dem der Erde.",
+      "Er besitzt einen Mond.",
+      "Er umkreist einen roten Zwergstern.",
+      "Er befindet sich in der habitablen Zone seiner Sonne."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche der folgenden Aminosäuren ist eine essenzielle Aminosäure, die der menschliche Körper nicht selbst herstellen kann?",
+    "a": [
+      "Serin",
+      "Glycin",
+      "Alanin",
+      "Leucin"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welches Molekül ist ein häufiges Beispiel für ein einfaches Alkan?",
+    "a": [
+      "Ethanol",
+      "Buttersäure",
+      "Methan",
+      "Aceton"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was beschreibt das Prinzip der virtuellen Arbeiten in der analytischen Mechanik?",
+    "a": [
+      "Alle Kräfte, die auf ein System wirken, müssen immer gleich groß und entgegengesetzt sein.",
+      "Ein System erreicht immer den Zustand geringster Energie durch unendliche Zeit.",
+      "Die Arbeit, die an einem System verrichtet wird, kann aus den Kräften und Verschiebungen der Teilchen abgeleitet werden.",
+      "Die Geschwindigkeit eines Körpers bleibt konstant, solange keine äußeren Kräfte wirken."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welches Phänomen beschreibt die Ablenkung von Lichtstrahlen, wenn sie auf die Grenze zwischen zwei verschiedenen Medien treffen?",
+    "a": [
+      "Streuung",
+      "Brechung",
+      "Reflexion",
+      "Absorption"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche Struktur im Gehirn ist hauptsächlich für die Verarbeitung von Gedächtnisinhalten verantwortlich?",
+    "a": [
+      "Medulla oblongata",
+      "Thalamus",
+      "Hippocampus",
+      "Kleinhirn"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist das Hauptmerkmal des sogenannten 'Inflationstheorie' in der Kosmologie?",
+    "a": [
+      "Die Erklärung, dass schwarze Löcher die Hauptquelle der Dunklen Materie sind.",
+      "Die Annahme, dass das Universum endlich und statisch ist.",
+      "Ein extrem schneller Expansion des Universums kurz nach dem Urknall.",
+      "Die Theorie, dass das Universum in einem Zyklus von Expansion und Kontraktion existiert."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche Struktur im Gehirn ist hauptsächlich für das Gedächtnis und das Lernen verantwortlich?",
+    "a": [
+      "Hippocampus",
+      "Kleinhirn",
+      "Amygdala",
+      "Thalamus"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was beschreibt das Konzept der dunklen Energie in der Kosmologie?",
+    "a": [
+      "Eine Form von Materie, die im Universum weit verbreitet ist.",
+      "Ein Zustand, in dem das Universum stationär bleibt.",
+      "Eine Kraft, die die Expansion des Universums beschleunigt.",
+      "Eine Energieform, die nur in Sternen vorkommt."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche der folgenden Mikroorganismen ist hauptsächlich für die Stickstofffixierung in Böden verantwortlich?",
+    "a": [
+      "Rhizobien",
+      "Escherichia coli",
+      "Streptococcus pneumoniae",
+      "Saccharomyces cerevisiae"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welches der folgenden Konzepte ist ein zentrales Ergebnis der Relativitätstheorie von Albert Einstein?",
+    "a": [
+      "Die Unabhängigkeit der Lichtgeschwindigkeit von der Bewegung des Beobachters",
+      "Der Äther als Medium für Lichtwellen",
+      "Zeitdilatation",
+      "Schwerkraft als elektromagnetische Kraft"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten die Rolle von Produzenten in einem Ökosystem?",
+    "a": [
+      "Sie zersetzen organisches Material und tragen zur Nährstoffrückführung bei.",
+      "Sie wandeln Sonnenlicht in chemische Energie um und bilden die Basis der Nahrungskette.",
+      "Sie sind Organismen, die sich ausschließlich von anderen Tieren ernähren.",
+      "Sie sind die Hauptverbraucher in einem Ökosystem und ernähren sich von Pflanzen."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche der folgenden Aussagen über Asthma bronchiale ist korrekt?",
+    "a": [
+      "Asthma betrifft nur Erwachsene und ist bei Kindern sehr selten.",
+      "Asthma ist ausschließlich eine genetische Erkrankung ohne Umwelteinflüsse.",
+      "Asthma kann durch Allergene, wie Pollen oder Hausstaubmilben, ausgelöst werden.",
+      "Asthma verursacht immer permanente lungenschädigende Veränderungen."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche Eigenschaft von Festkörpern ist entscheidend für ihre Fähigkeit, elektrische Ströme zu leiten?",
+    "a": [
+      "Die Anzahl der freien Elektronen",
+      "Die Wärmeleitfähigkeit",
+      "Die Farbigkeit des Materials",
+      "Die Dichte des Materials"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welches Hormon ist hauptsächlich für die Regulation des Blutzuckerspiegels verantwortlich?",
+    "a": [
+      "Insulin",
+      "Thyroxin",
+      "Cortisol",
+      "Adrenalin"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Wie lange dauert in der Regel das Laden eines Elektroautos an einer Schnellladestation für eine Reichweite von etwa 100 km?",
+    "a": [
+      "120 Minuten",
+      "30 Minuten",
+      "60 Minuten",
+      "10 Minuten"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Nebenkosten dürfen in einer Nebenkostenabrechnung nicht aufgeführt werden?",
+    "a": [
+      "Grundsteuer",
+      "Heizkosten",
+      "Wasserverbrauchskosten",
+      "Hausratversicherung"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Maßnahme ist am effektivsten für eine gute Schlafhygiene?",
+    "a": [
+      "Schaffung einer ruhigen und dunklen Schlafumgebung",
+      "Konsum von koffeinhaltigen Getränken vor dem Schlafengehen",
+      "Verwendung von elektronischen Geräten im Schlafzimmer",
+      "Regelmäßige Einnahme von Beruhigungsmitteln"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Ab wann muss eine Arbeitsunfähigkeitsbescheinigung (AU) vorgelegt werden, wenn man aufgrund einer Krankheit nicht arbeiten kann?",
+    "a": [
+      "Nach 5 Tagen der Abwesenheit",
+      "Nach 2 Tagen der Abwesenheit",
+      "Nach 3 Tagen der Abwesenheit",
+      "Nach 1 Woche der Abwesenheit"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Aussage über das Kindergeld und den Kinderfreibetrag ist korrekt?",
+    "a": [
+      "Beide Leistungen können gleichzeitig beantragt werden, jedoch wird nur die höhere Leistung gewährt.",
+      "Das Kindergeld beträgt derzeit 250 Euro pro Monat für jedes Kind.",
+      "Der Kinderfreibetrag wird in der Regel bei der Steuererklärung berücksichtigt, das Kindergeld hingegen nicht.",
+      "Das Kindergeld ist eine steuerliche Erleichterung, während der Kinderfreibetrag eine direkte Geldzahlung ist."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche der folgenden Maßnahmen trägt am meisten zur Verbesserung der Schlafhygiene bei?",
+    "a": [
+      "Einhaltung einer hohen Raumtemperatur während der Nacht",
+      "Übermäßiger Konsum von koffeinhaltigen Getränken vor dem Schlafengehen",
+      "Nutzung von elektronischen Geräten bis kurz vor dem Einschlafen",
+      "Regelmäßige Schlafenszeiten und ein entspannendes Abendritual"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Maßnahme kann am effektivsten helfen, die Heizkosten in einem Haushalt zu senken?",
+    "a": [
+      "Die Heizung nur einmal im Jahr warten lassen",
+      "Die Heizkörper regelmäßig entlüften",
+      "Fenster mit Einfachverglasung einbauen",
+      "Die Raumtemperatur auf 28 Grad Celsius erhöhen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was ist eine häufige Frage, die im Vorstellungsgespräch gestellt wird, um die Selbstwahrnehmung des Bewerbers zu prüfen?",
+    "a": [
+      "Was sind Ihre Stärken und Schwächen?",
+      "Was sind Ihre Hobbys?",
+      "Wie kalkulieren Sie Ihre Urlaubstage?",
+      "Was ist Ihre bevorzugte Arbeitszeit?"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was ist eine angemessene Reaktion auf eine kritische Rückmeldung von einem Kollegen?",
+    "a": [
+      "Sich sofort verteidigen",
+      "Die Kritik als persönlichen Angriff werten",
+      "Höflich nachfragen und Verständnis zeigen",
+      "Die Rückmeldung ignorieren"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche digitale Plattform wird häufig in Schulen für die Verwaltung von Unterrichtsmaterialien und die Kommunikation zwischen Lehrern und Schülern verwendet?",
+    "a": [
+      "Blackboard",
+      "Moodle",
+      "SmartBoard",
+      "OpenOffice"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Wie viele Stunden pro Woche gilt als der optimale Arbeitszeitrahmen zur Unterstützung einer gesunden Work-Life-Balance?",
+    "a": [
+      "50 Stunden",
+      "35 Stunden",
+      "45 Stunden",
+      "40 Stunden"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was sollte man bei der Nutzung von E-Mail im beruflichen Kontext beachten?",
+    "a": [
+      "Antworten auf E-Mails sind unwichtig, solange man sie bei Bedarf liest.",
+      "Der Betreff sollte präzise und informativ sein.",
+      "E-Mails sollten immer in Großbuchstaben geschrieben werden.",
+      "Anhänge sollten niemals erwähnt werden."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Aussage trifft zu, wenn es um den Unterhalt nach einer Scheidung geht?",
+    "a": [
+      "Der Unterhalt wird immer als Einmalzahlung ausgezahlt.",
+      "Der Unterhalt wird in der Regel als monatliche Zahlung festgelegt.",
+      "Der Unterhalt kann auf Basis des Kindergeldes berechnet werden.",
+      "Es gibt einen gesetzlichen Anspruch auf Vollzeit-Unterhalt."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Weiterbildungsmöglichkeit wird häufig als \"lebenslanges Lernen\" bezeichnet und fokussiert sich auf berufliche Qualifikationen?",
+    "a": [
+      "Berufsausbildung",
+      "Umschulung",
+      "Fachwirt-Studium",
+      "Schulbildung"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welches dieser Verkehrsschilder weist darauf hin, dass das Parken auf der Straße nur für Carsharing-Fahrzeuge erlaubt ist?",
+    "a": [
+      "Parkplatz mit P und einem roten Kreis",
+      "Parkplatz mit P und einem blauen Schild",
+      "Parkplatz mit P und einem grünen Kreis",
+      "Parkplatz mit P und zwei Autos im Bild"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Aussage über Kindergeld und Kinderfreibetrag trifft zu?",
+    "a": [
+      "Kindergeld muss immer zurückgezahlt werden, sobald das Kind 18 Jahre alt ist.",
+      "Das Kindergeld ist eine Geldleistung, die in der Regel monatlich gezahlt wird.",
+      "Der Kinderfreibetrag wird monatlich ausgezahlt.",
+      "Der Kinderfreibetrag wird nur für Kinder bis 12 Jahre gewährt."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche finanzielle Unterstützung erhalten adoptierte Kinder in Deutschland monatlich?",
+    "a": [
+      "Betreuungsgeld",
+      "Kindergeld",
+      "Wohngeld",
+      "Adoptionshilfe"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Höchstgeschwindigkeit ist für E-Bikes in Deutschland auf Radwegen erlaubt, sofern es keine anderen Beschilderungen gibt?",
+    "a": [
+      "25 km/h",
+      "30 km/h",
+      "20 km/h",
+      "15 km/h"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Note benötigt man in der Regel für den Hauptschulabschluss?",
+    "a": [
+      "5,0",
+      "2,0",
+      "4,0",
+      "3,0"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Was versteht man unter dem Begriff \"Betriebsvereinbarung\"?",
+    "a": [
+      "Eine schriftliche Regelung über Arbeitsbedingungen im Betrieb",
+      "Ein informelles Abkommen zwischen Kollegen",
+      "Eine gesetzliche Vorschrift zur Arbeitszeitgestaltung",
+      "Eine Vereinbarung zwischen Arbeitnehmern und der Gewerkschaft"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Maßnahme trägt am meisten zur Reduzierung der Energiekosten im Haushalt bei?",
+    "a": [
+      "Installation einer Elektroheizung",
+      "Dämmung von Wänden und Dächern",
+      "Nutzung eines alten Kühlschranks ohne Effizienzklasse",
+      "Verwendung von Glühlampen statt LED-Lampen"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Geschwindigkeitsbegrenzung gilt in Wohngebieten in Deutschland?",
+    "a": [
+      "50 km/h",
+      "30 km/h",
+      "20 km/h",
+      "40 km/h"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche der folgenden Diäten wird häufig zur Gewichtsreduktion empfohlen und basiert auf einer hohen Aufnahme von Fett und einer sehr niedrigen Aufnahme von Kohlenhydraten?",
+    "a": [
+      "Ketogene Diät",
+      "Intervallfasten",
+      "Paleo-Diät",
+      "Mediterrane Diät"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche der folgenden Aussagen trifft auf die steuerliche Absetzbarkeit von Betriebsausgaben für Freiberufler zu?",
+    "a": [
+      "Nur Ausgaben bis zu 1.000 Euro können abgesetzt werden.",
+      "Betriebsausgaben können nur im Jahr der Anschaffung abgesetzt werden.",
+      "Alle Betriebsausgaben sind zu 100% absetzbar, unabhängig von der Höhe.",
+      "Betriebsausgaben müssen nachweisbar und geschäftlich veranlasst sein"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Schulform vermittelt Schülerinnen und Schülern in der Regel einen mittleren Schulabschluss, der zum Besuch einer Fachoberschule berechtigt?",
+    "a": [
+      "Gymnasium",
+      "Hauptschule",
+      "Realschule",
+      "Berufsschule"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Voraussetzung ist häufig nötig, um an einer deutschen Hochschule für ein Fach mit Numerus Clausus (NC) studieren zu können?",
+    "a": [
+      "Eine Abiturnote von 1,8",
+      "Ein Abschluss an einer Hauptschule",
+      "Ein Abschluss an einer Realschule",
+      "Eine Abiturnote von 3,5"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche Leistung erhalten Eltern in Deutschland monatlich für jedes Kind bis zur Volljährigkeit?",
+    "a": [
+      "Unterhaltsvorschuss",
+      "Kinderfreibetrag",
+      "Elterngeld",
+      "Kindergeld"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Alltag & Gesellschaft"
+  },
+  {
+    "q": "Welche der folgenden Hülsenfrüchte ist bekannt für ihren hohen Gehalt an Protein und wird häufig in vegetarischen und veganen Gerichten verwendet?",
+    "a": [
+      "Erbse",
+      "Linsen",
+      "Kichererbse",
+      "Schwarze Bohne"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches der folgenden Elemente gehört nicht zum HACCP-Prinzip zur Gewährleistung der Lebensmittelsicherheit?",
+    "a": [
+      "Überwachung der Kontrollmaßnahmen",
+      "Verwendung von organischen Zutaten",
+      "Identifizierung von Gefahren",
+      "Festlegung von Kontrollpunkten"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Gericht ist bekannt dafür, dass es häufig mit einer Kombination aus Essig und Sojasauce zubereitet wird und als inoffizielles Nationalgericht der Philippinen gilt?",
+    "a": [
+      "Adobo",
+      "Lechon",
+      "Kare-Kare",
+      "Sinigang"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches der folgenden Merkmale ist charakteristisch für die Fair Trade-Zertifizierung von Lebensmitteln?",
+    "a": [
+      "Die Verpflichtung zur Verwendung von Fast-Food-Zutaten.",
+      "Die Erhöhung des Einsatzes von synthetischen Pestiziden.",
+      "Die Gewährleistung eines Mindestpreises für Produzenten.",
+      "Die Verwendung von ausschließlich biologischen Anbaumethoden."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche dieser Küchen ist besonders durch die Einflüsse der japanischen und peruanischen Küche geprägt und wird als 'Nikkei' bezeichnet?",
+    "a": [
+      "Kreolische Küche",
+      "Indo-Caribbean",
+      "Chifa",
+      "Nikkei"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche Funktion haben Fette in der menschlichen Ernährung, die über die Energieversorgung hinausgeht?",
+    "a": [
+      "Sie sind die einzige Quelle für essentielle Aminosäuren im Körper.",
+      "Sie fördern die Aufnahme von Wasser und sind daher für die Hydratation entscheidend.",
+      "Sie sind Träger von fettlöslichen Vitaminen und unterstützen die Zellstruktur.",
+      "Sie sind die Hauptquelle für sofortige Energie während intensiver körperlicher Aktivitäten."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Gericht gilt als Symbol für die kulinarische Fusion zwischen indischer und britischer Küche und ist oft Gegenstand von Debatten über kulturelle Aneignung?",
+    "a": [
+      "Samosa",
+      "Chicken Tikka Masala",
+      "Fish and Chips",
+      "Biryani"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche der folgenden Tapas ist typischerweise mit dem berühmten spanischen Schinken Ibérico kombiniert?",
+    "a": [
+      "Bruschetta",
+      "Oliven",
+      "Hummus",
+      "Gyoza"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches der folgenden Lebensmittel ist eine zentrale Zutat in der koreanischen Küche und wird oft als fermentierte Beilage serviert?",
+    "a": [
+      "Kimchi",
+      "Tofu",
+      "Hummus",
+      "Couscous"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches der folgenden Aromen wird häufig als Hinweis auf einen fehlerhaften Biergeschmack angesehen, insbesondere durch unsachgemäße Lagerung oder Transport?",
+    "a": [
+      "Zitrusfrüchte",
+      "Brettanomyces",
+      "Karamell",
+      "Vanille"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches dieser Gerichte ist traditionell nicht mit einer Tajine zubereitet?",
+    "a": [
+      "Tajine von Lammfleisch",
+      "Couscous",
+      "Pastilla",
+      "Harissa"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Garverfahren gilt als besonders schonend, da es die Vitamine in Lebensmitteln weitgehend erhalten kann?",
+    "a": [
+      "Grillen",
+      "Dämpfen",
+      "Frittieren",
+      "Braten"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches Prinzip ist grundlegend für die Slow Food-Bewegung, die in den 1980er Jahren in Italien entstand?",
+    "a": [
+      "Die Verwendung von schnell zubereiteten Fertigprodukten.",
+      "Die Förderung lokaler, saisonaler und nachhaltig produzierter Lebensmittel.",
+      "Der Verzehr von industriell verarbeiteten Lebensmitteln.",
+      "Die Einführung von Fast-Food-Ketten in ländlichen Regionen."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche der folgenden Kerntemperaturen ist für das sichere Erhitzen von Geflügel empfohlen, um gesundheitliche Risiken zu vermeiden?",
+    "a": [
+      "65°C",
+      "90°C",
+      "75°C",
+      "85°C"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welche der folgenden Bezeichnungen auf Lebensmitteln weist darauf hin, dass das Produkt weniger als 3 g Fett pro 100 g enthält?",
+    "a": [
+      "fettarm",
+      "zuckerfrei",
+      "ohne Zusatzstoffe",
+      "kalorienreduziert"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches der folgenden Gerichte ist typischerweise kein Bestandteil der Mezze-Kultur im Levante-Raum?",
+    "a": [
+      "Tabouleh",
+      "Sushi",
+      "Baba Ghanoush",
+      "Hummus"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welches dieser Getränke wird traditionell durch die Fermentation von Tee und Zucker mit Hilfe von speziellen Mikroben hergestellt?",
+    "a": [
+      "Kefirwasser",
+      "Rejuvelac",
+      "Kombucha",
+      "Wasserkefir"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Essen und Trinken"
+  },
+  {
+    "q": "Welcher der folgenden Seewege verbindet das Mittelmeer mit dem Roten Meer und ist für den internationalen Handel von großer Bedeutung?",
+    "a": [
+      "Bosporus",
+      "Suezkanal",
+      "Malakka-Straße",
+      "Hormusstraße"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welcher der folgenden Faktoren ist am stärksten für die Entstehung und den Erhalt von Korallenriffen verantwortlich?",
+    "a": [
+      "Temperaturen über 18 Grad Celsius und klare, salzige Gewässer",
+      "Starke Meeresströmungen und hohe Sedimentablagerungen",
+      "Hohe Wassertiefe und starker Süßwasserzufluss",
+      "Hohe Luftfeuchtigkeit und kalte Wassertemperaturen"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Hauptstadt Asiens liegt am Ufer des Flusses Jangtsekiang?",
+    "a": [
+      "Neu-Delhi",
+      "Ulaanbaatar",
+      "Hanoi",
+      "Nanjing"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden Hauptstädte liegt am weitesten im Norden?",
+    "a": [
+      "Ulaanbaatar",
+      "Peking",
+      "Tokio",
+      "Seoul"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Aussage beschreibt am besten den Unterschied zwischen Wetter und Klima?",
+    "a": [
+      "Wetter ist ein globales Phänomen, Klima bezieht sich nur auf lokale Bedingungen.",
+      "Wetter hat keine Bedeutung für die Landwirtschaft, während Klima darüber entscheidet.",
+      "Wetter bezieht sich auf kurzfristige atmosphärische Bedingungen, während Klima langfristige Durchschnittswerte dieser Bedingungen beschreibt.",
+      "Wetter und Klima sind synonym und beschreiben dasselbe Phänomen."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Warnsymbol wird häufig bei der Vorwarnung vor Tsunamis verwendet?",
+    "a": [
+      "Schneeflocke",
+      "Blitz",
+      "Feuer",
+      "Welle"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Stadt ist die Hauptstadt von Kanada?",
+    "a": [
+      "Toronto",
+      "Ottawa",
+      "Montreal",
+      "Vancouver"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche dieser Städte wurde als neue Hauptstadt eines Landes im 21. Jahrhundert geplant und errichtet?",
+    "a": [
+      "Abuja",
+      "Kairo",
+      "Madrid",
+      "Bangkok"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Gas trägt maßgeblich zur anthropogenen Verstärkung des Treibhauseffekts bei und hat in den letzten Jahrzehnten einen signifikanten Anstieg in der Atmosphäre erfahren?",
+    "a": [
+      "Wasserstoff (H2)",
+      "Helium (He)",
+      "Stickstoff (N2)",
+      "Kohlendioxid (CO2)"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden Städte ist die Hauptstadt von Neuseeland?",
+    "a": [
+      "Dunedin",
+      "Wellington",
+      "Christchurch",
+      "Auckland"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden Städte ist bekannt für ihre Funktion als internationales Finanzzentrum und hat sich als wichtiges Handelszentrum in Europa etabliert?",
+    "a": [
+      "Dortmund",
+      "Nürnberg",
+      "Frankfurt am Main",
+      "Leipzig"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Gebirgssystem in Asien ist bekannt für seine Bedeutung im Rahmen der indischen und eurasischen Plattenverschiebung?",
+    "a": [
+      "Apalachen",
+      "Anden",
+      "Himalaya",
+      "Uralgebirge"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden Dünenformen entsteht vor allem durch die Ablagerung von feinen, vom Wind transportierten Partikeln in einem Windschattenbereich?",
+    "a": [
+      "Parabeldüne",
+      "Barchan",
+      "Lössdüne",
+      "Transversaldüne"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welches Gebirgssystem in Asien ist bekannt für seine hohe tektonische Aktivität und wird oft als die \"Dach der Welt\" bezeichnet?",
+    "a": [
+      "Altai",
+      "Kaspisches Gebirge",
+      "Himalaya",
+      "Tian Shan"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche dieser Städte ist die Hauptstadt von Finnland?",
+    "a": [
+      "Kopenhagen",
+      "Oslo",
+      "Stockholm",
+      "Helsinki"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche der folgenden Flaggen repräsentiert ein nordisches Land und zeigt ein Kreuz auf hellblauem Hintergrund?",
+    "a": [
+      "Schweden",
+      "Finnland",
+      "Norwegen",
+      "Island"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geographie"
+  },
+  {
+    "q": "Welche Institution war während der Römischen Republik für die Beratung der Magistrate und die Kontrolle der Gesetze zuständig?",
+    "a": [
+      "Der Senat",
+      "Der Tribun",
+      "Die Volksversammlung",
+      "Der Prätor"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt die typischen Wohnverhältnisse der mittelalterlichen Landbevölkerung?",
+    "a": [
+      "Bauern lebten in komfortablen Villen mit Wasserleitungen und elektrischem Licht.",
+      "Die Bewohner lebten in großen gemeinschaftlichen Hallen, die für mehrere Familien gleichzeitig genutzt wurden.",
+      "Die meisten Menschen lebten in kleinen, einfachen Häusern aus Holz oder Lehm, oft mit einem zentralen Feuerplatz.",
+      "Die Landbevölkerung wohnte in großen Steinburgen mit mehreren Etagen und separaten Schlafräumen."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher der folgenden Verträge wurde 1949 unterzeichnet und legte die Grundlagen für die Teilung Deutschlands in zwei Staaten?",
+    "a": [
+      "Pariser Verträge",
+      "Petersberger Abkommen",
+      "Genfer Abkommen",
+      "Potsdamer Abkommen"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Ereignis gilt als der offizielle Beginn des Kalten Krieges?",
+    "a": [
+      "Die Berliner Blockade 1948–1949",
+      "Der Koreakrieg 1950",
+      "Der Vietnamkrieg 1955",
+      "Die Gründung der NATO 1949"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Land war im 19. Jahrhundert führend in der industriellen Revolution und gilt als Ursprungsort der modernen Industriegesellschaft?",
+    "a": [
+      "Großbritannien",
+      "Frankreich",
+      "Deutschland",
+      "USA"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Werk galt als maßgeblich für die Zusammenfassung des deutschen Gewohnheitsrechts im Mittelalter?",
+    "a": [
+      "Nibelungenlied",
+      "Sachsenspiegel",
+      "Der Ackermann aus Böhmen",
+      "Das Lied von der Glocke"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches Ereignis wird häufig als Beginn des Ersten Weltkriegs angesehen?",
+    "a": [
+      "Die Ermordung des Erzherzogs Franz Ferdinand von Österreich",
+      "Der Vertrag von Versailles",
+      "Der Überfall auf Pearl Harbor",
+      "Die Russische Revolution"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher dieser Monarchen wird oft als Inbegriff des Absolutismus in Frankreich betrachtet?",
+    "a": [
+      "Friedrich der Große",
+      "Ludwig XIV.",
+      "Maria Theresia",
+      "Karl V."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher Karolinger war bekannt für die Förderung der Bildung und Kultur während der karolingischen Renaissance?",
+    "a": [
+      "Karl der Große",
+      "Pippin der Jüngere",
+      "Karl der Kahle",
+      "Ludwig der Fromme"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher christliche Herrscher spielte eine Schlüsselrolle bei der Rückeroberung der Iberischen Halbinsel während der Reconquista?",
+    "a": [
+      "Wilhelm der Eroberer",
+      "Ferdinand II. von Aragon",
+      "Richard Löwenherz",
+      "Karl der Große"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche Institution war im Mittelalter maßgeblich für die Organisation der ländlichen Gesellschaft und die Regelung der Grundherrschaft verantwortlich?",
+    "a": [
+      "Die Kirche",
+      "Die Stadtverwaltung",
+      "Die Zünfte",
+      "Die Ritterorden"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche Organisation wurde im 19. Jahrhundert gegründet, um die Interessen der Arbeiter zu vertreten und bessere Arbeitsbedingungen zu fordern?",
+    "a": [
+      "Industriekammern",
+      "Arbeiterpartei",
+      "Gewerkschaften",
+      "Sozialdemokratische Partei"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welche Maßnahme war entscheidend für das Wirtschaftswunder der Bundesrepublik Deutschland in den 1950er Jahren?",
+    "a": [
+      "Gründung der Europäischen Union",
+      "Verstaatlichung aller Unternehmen",
+      "Beitritt zur NATO",
+      "Einführung der sozialen Marktwirtschaft"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher Feldherr führte die karthagischen Truppen während des Zweiten Punischen Krieges gegen Rom an?",
+    "a": [
+      "Hannibal",
+      "Xerxes",
+      "Scipio",
+      "Augustus"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welcher König wird oft als der erste deutsche Kaiser des Heiligen Römischen Reiches betrachtet, nachdem er 962 gekrönt wurde?",
+    "a": [
+      "Heinrich IV.",
+      "Otto I.",
+      "Ludwig der Fromme",
+      "Friedrich I."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Geschichte"
+  },
+  {
+    "q": "Welches antike Werk beschreibt die Reise der Seele durch die Unterwelt und enthält Anweisungen für das Jenseits?",
+    "a": [
+      "Die Metamorphosen",
+      "Das Epos von Gilgamesch",
+      "Die Göttliche Komödie",
+      "Das Buch der Toten"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welche der folgenden Tugenden wird in den meisten religiösen Traditionen als grundlegende ethische Leitlinie angesehen?",
+    "a": [
+      "Hass",
+      "Nächstenliebe",
+      "Hochmut",
+      "Gier"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher griechische Gott wurde in der nordischen Mythologie als der Gott der Weisheit und der Magie, ähnlich wie Odin, adaptiert?",
+    "a": [
+      "Apollon",
+      "Dionysos",
+      "Hermes",
+      "Hades"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher antike Kult war bekannt für die Verwendung von Zikkurrat-Bauten als Tempel und für die zentrale Rolle der Priesterschaft in den religiösen Praktiken?",
+    "a": [
+      "Ägyptischer Kult",
+      "Griechischer Kult",
+      "Römerkult",
+      "Sumerischer Kult"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher Held aus dem Nibelungenlied ist bekannt für seine unglückliche Liebe zu Kriemhild und seine tragische Rolle im Drama der Nibelungen?",
+    "a": [
+      "Siegfried",
+      "Hagen",
+      "Dankwart",
+      "Gunther"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welche Gottheit wird im Schöpfungsmythos von Heliopolis als der erste Gott angesehen, der aus dem Urchaos entstand?",
+    "a": [
+      "Ra",
+      "Anubis",
+      "Atum",
+      "Osiris"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher Held aus der germanischen Sage ist bekannt für seine Kämpfe gegen Drachen und seine Suche nach Ruhm und Ehre im Nibelungenlied?",
+    "a": [
+      "Brunhild",
+      "Gunther",
+      "Hagen",
+      "Siegfried"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welches Element der griechischen Mythologie wird oft mit der Unterwelt in Verbindung gebracht, in der Seelen der Verstorbenen verweilen?",
+    "a": [
+      "Olymp",
+      "Elysium",
+      "Asphodelos",
+      "Styx"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welches Werk gilt als eine der wichtigsten Quellen für die nordische Mythologie und enthält zahlreiche Mythen und Gedichte?",
+    "a": [
+      "Das Nibelungenlied",
+      "Die Göttliche Komödie",
+      "Die Edda",
+      "Die Ilias"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher der folgenden Mythen beschreibt eine Flut, die von einem Gott als Strafe für die Menschheit gesandt wird?",
+    "a": [
+      "Die Schöpfungsgeschichte des Genesis",
+      "Der Mythos von Osiris",
+      "Der Atramhasis-Epos",
+      "Die Erzählung von Prometheus"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Wer war der König von Israel, der für seine Weisheit bekannt ist und den Tempel in Jerusalem erbauen ließ?",
+    "a": [
+      "Salomo",
+      "David",
+      "Goliath",
+      "Saul"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welches Werk gilt als eine der wichtigsten Quellen für die griechische Mythologie und beschreibt unter anderem die Taten von Helden und Göttern?",
+    "a": [
+      "Metamorphosen",
+      "Die Ilias",
+      "Die Argonautika",
+      "Die Göttliche Komödie"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher der folgenden Götter wird in der nordischen Mythologie als Gott des Donners verehrt?",
+    "a": [
+      "Loki",
+      "Odin",
+      "Freyja",
+      "Thor"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welche der folgenden Praktiken ist eine der fünf Säulen des Islam?",
+    "a": [
+      "Die Pilgerfahrt nach Jerusalem",
+      "Das Gebet (Salah)",
+      "Das Fasten während des Christfestes",
+      "Der Almosenbetrag zur Unterstützung der Kirche"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welche der folgenden Figuren war maßgeblich an der Gründung der Samajbewegung beteiligt, die das Kastensystem in Indien herausforderte?",
+    "a": [
+      "Swami Vivekananda",
+      "Mohandas Gandhi",
+      "B. R. Ambedkar",
+      "Rabindranath Tagore"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher der folgenden Götter ist bekannt dafür, die Macht über den Blitz und den Donner zu besitzen?",
+    "a": [
+      "Loki",
+      "Odin",
+      "Freyja",
+      "Thor"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welche der folgenden Praktiken ist typischerweise mit Volksglauben in Europa verbunden?",
+    "a": [
+      "Die Durchführung von Meditationen in Tempeln.",
+      "Das Werfen von Salzkörnern über die Schulter zur Abwehr von Unglück.",
+      "Das Praktizieren von Yoga als spiritueller Disziplin.",
+      "Das Feiern von Diwali als Lichterfest."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welche monotheistische Religion hat weltweit die meisten Anhänger?",
+    "a": [
+      "Judentum",
+      "Islam",
+      "Christentum",
+      "Sikhismus"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welche Figur ist in der griechischen Mythologie als Herrscher der Unterwelt bekannt?",
+    "a": [
+      "Hades",
+      "Zeus",
+      "Hermes",
+      "Poseidon"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welches Land hat den höchsten Anteil an Muslimen an seiner Gesamtbevölkerung?",
+    "a": [
+      "Saudi-Arabien",
+      "Ägypten",
+      "Pakistan",
+      "Indonesien"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welches Buch gehört nicht zu den Geschichtsbüchern des Alten Testaments?",
+    "a": [
+      "Hiob",
+      "Esther",
+      "Richter",
+      "Josua"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welches Konzept beschreibt in Japan die harmonische Koexistenz von Shinto und Buddhismus, wobei beide Religionen in verschiedenen Lebensbereichen Bedeutung haben?",
+    "a": [
+      "Shinbutsu-shugo",
+      "Zen",
+      "Ikigai",
+      "Kami"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher der folgenden ägyptischen Götter ist traditionell als Gott der Toten und der Einbalsamierung bekannt?",
+    "a": [
+      "Thot",
+      "Anubis",
+      "Ra",
+      "Horus"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Glaube & Religion"
+  },
+  {
+    "q": "Welcher Künstler ist bekannt für die Entwicklung des Kubismus?",
+    "a": [
+      "Vincent van Gogh",
+      "Pablo Picasso",
+      "Salvador Dalí",
+      "Claude Monet"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches der folgenden Werke gilt als ein herausragendes Beispiel für die Verwendung von In medias res als erzählerische Technik in der epischen Dichtung?",
+    "a": [
+      "Die Verwandlung",
+      "Der Stein der Weisen",
+      "Die göttliche Komödie",
+      "Die Ilias"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche der folgenden Architekturelemente ist charakteristisch für die romanische Bauweise?",
+    "a": [
+      "Glasfenster",
+      "Flachdecken",
+      "Rundbögen",
+      "Spitzbögen"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher Autor ist bekannt für sein dystopisches Werk '1984', das eine totalitäre Überwachungsgesellschaft beschreibt?",
+    "a": [
+      "George Orwell",
+      "Ursula K. Le Guin",
+      "Aldous Huxley",
+      "Thomas More"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche Figur, die in einem Theaterstück von William Shakespeare vorkommt, ist bekannt für die berühmte Zeile \"Sein oder Nichtsein, das ist hier die Frage\"?",
+    "a": [
+      "Othello",
+      "Prospero",
+      "Macbeth",
+      "Hamlet"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches der folgenden Musikgenres ist ein Beispiel für ein Hybridgenre, das Elemente von Jazz und Funk kombiniert?",
+    "a": [
+      "Progressive House",
+      "Blues-Rock",
+      "Alternative Country",
+      "Jazz-Funk"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches Stück wird häufig als das erste bedeutende Drama von William Shakespeare angesehen, das seine charakteristische Mischung aus Tragik und Komödie zeigt?",
+    "a": [
+      "Eine Sommernachtstraum",
+      "Die Komödie der Irrungen",
+      "König Lear",
+      "Hamlet"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches dieser Werke ist ein bekanntes Beispiel für den Surrealismus und stammt von Salvador Dalí?",
+    "a": [
+      "Der menschliche Zustand",
+      "Die Beständigkeit der Erinnerung",
+      "Der Verrat der Bilder",
+      "Die Hochzeit des St. Georg"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches dieser Merkmale unterscheidet Kunst im Allgemeinen von Design und Kunsthandwerk?",
+    "a": [
+      "Kunst ist ausschließlich auf Malerei und Skulptur beschränkt.",
+      "Kunst ist immer handgefertigt und erfordert traditionelle Techniken.",
+      "Kunst ist oft nicht funktional und verfolgt primär ästhetische Ziele.",
+      "Kunst muss immer in Galerien oder Museen ausgestellt werden."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher Komponist wird oft als einer der bedeutendsten Vertreter der Barockmusik angesehen, bekannt für seine virtuosen Orgel- und Kirchenkompositionen?",
+    "a": [
+      "Joseph Haydn",
+      "Ludwig van Beethoven",
+      "Johann Sebastian Bach",
+      "Wolfgang Amadeus Mozart"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt ein zentrales Merkmal der Neuen Sachlichkeit in der Literatur?",
+    "a": [
+      "Sie ist geprägt von der idealisierten Darstellung der Natur und des Menschen.",
+      "Sie betont die emotionale Ausdruckskraft und die subjektive Sichtweise des Individuums.",
+      "Sie legt Wert auf eine realistische Darstellung des Alltagslebens und soziale Themen.",
+      "Sie verwendet ausschließlich symbolistische und poetische Sprache."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche Farben zählen zu den sekundären Farben in der Farblehre?",
+    "a": [
+      "Schwarz, Weiß, Grau",
+      "Orange, Grün, Lila",
+      "Hellblau, Rosa, Dunkelgrün",
+      "Rot, Blau, Gelb"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches Werk ist ein klassisches Beispiel für den Realismus in der Literatur?",
+    "a": [
+      "'Madame Bovary' von Gustave Flaubert",
+      "'Die Verwandlung' von Franz Kafka",
+      "'Der Steppenwolf' von Hermann Hesse",
+      "'Der Prozess' von Franz Kafka"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches Musikgenre ist bekannt für seine Verwendung von improvisierten Soli und seinen Einfluss auf die afroamerikanische Kultur im frühen 20. Jahrhundert?",
+    "a": [
+      "Pop",
+      "Klassik",
+      "Rock",
+      "Jazz"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher der folgenden Songs wurde nicht von Daft Punk veröffentlicht?",
+    "a": [
+      "'Around the World'",
+      "'One More Time'",
+      "'Get Lucky'",
+      "'Wake Me Up'"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welches bekannte Sprichwort bedeutet, dass man das Ergebnis einer Handlung erst später sieht?",
+    "a": [
+      "Der Weg ist das Ziel.",
+      "Der Apfel fällt nicht weit vom Stamm.",
+      "Man erntet, was man sät.",
+      "Viele Köche verderben den Brei."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welcher der folgenden Autoren gilt als Hauptvertreter der Empfindsamkeit und ist bekannt für seine Werke, die Emotionen und individuelle Empfindungen betonen?",
+    "a": [
+      "Friedrich Schiller",
+      "Matthias Claudius",
+      "Johann Wolfgang von Goethe",
+      "Johann Gottfried Herder"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Kunst und Literatur"
+  },
+  {
+    "q": "Welche der folgenden Kletterpflanzen nutzt eine spezielle Technik namens 'Winden', um sich um andere Pflanzen oder Strukturen zu schlingen?",
+    "a": [
+      "Hainbuchen",
+      "Efeu",
+      "Passionsblume",
+      "Weinrebe"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt die Rolle von Mykorrhizapilzen in einem Ökosystem am besten?",
+    "a": [
+      "Sie sind ausschließlich für die Zersetzung von totem organischen Material verantwortlich.",
+      "Sie fördern die Nährstoffaufnahme von Pflanzen durch eine symbiotische Beziehung.",
+      "Sie konkurrieren mit Pflanzen um Wasser und Nährstoffe im Boden.",
+      "Sie sind nur in tropischen Regenwäldern verbreitet."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Rolle bildet die Grundlage jeder Nahrungskette in einem terrestrischen Ökosystem?",
+    "a": [
+      "Zersetzer",
+      "Sekundärkonsumenten",
+      "Primärkonsumenten",
+      "Produzenten"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches der folgenden Merkmale ist charakteristisch für die Häutung von Krebsen, die sie zur Anpassung an ihre Lebensumgebung befähigt?",
+    "a": [
+      "Die Bildung eines stabilen Exoskeletts, das mit dem Wachstum kontinuierlich zunimmt.",
+      "Die Entwicklung von Flossen, um sich besser im Wasser fortbewegen zu können.",
+      "Die zeitweise Abstoßen des alten Exoskeletts, um Platz für ein neues, größeres zu schaffen.",
+      "Der regelmäßige Austausch von Wasser im Körper, um den Salzgehalt zu regulieren."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten den Prozess der Transpiration in Pflanzen?",
+    "a": [
+      "Transpiration findet nur bei feuchtem Wetter statt und hat keinen Einfluss auf die allgemeine Gesundheit der Pflanze.",
+      "Transpiration fördert den Wassertransport durch das Xylem und ist entscheidend für die Kühlung der Pflanze.",
+      "Transpiration ist die Bewegung von Nährstoffen durch das Phloem zu den Wurzeln der Pflanze.",
+      "Transpiration ist der Prozess, bei dem Wasser durch die Wurzeln aufgenommen wird und über die Blätter abgegeben wird."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Aussagen trifft am ehesten auf Altwelt-Primaten zu?",
+    "a": [
+      "Sie haben in der Regel eine höhere soziale Komplexität als Neuwelt-Primaten.",
+      "Sie zeichnen sich durch einen auffällig langen Schwanz aus, der als Greiforgan dient.",
+      "Altwelt-Primaten sind ausschließlich in Nord- und Südamerika verbreitet.",
+      "Sie besitzen eine prägnante Schnauze, die für die Nahrungsaufnahme von Bedeutung ist."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Pflanzenarten ist typischerweise eine Schattenpflanze, die in den unteren Schichten eines Laubwaldes wächst?",
+    "a": [
+      "Fichte",
+      "Eiche",
+      "Kiefer",
+      "Farne"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welcher Fronttyp führt typischerweise zu langanhaltendem, stetigem Regen und entsteht, wenn kalte Luftmassen auf warme Luftmassen treffen?",
+    "a": [
+      "Kaltfront",
+      "Stationäre Front",
+      "Warmfront",
+      "Okklusionsfront"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welcher Singvogel ist bekannt für sein sehr ausgeprägtes und melodisches Gesangsspektrum, das oft zur Reviermarkierung eingesetzt wird?",
+    "a": [
+      "Taube",
+      "Nachtigall",
+      "Graureiher",
+      "Spatz"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Baumart zeichnet sich durch eine charakteristische runde Kronenform und eine glatte, graue Rinde aus, die oft in Laubwäldern anzutreffen ist?",
+    "a": [
+      "Buche",
+      "Kiefer",
+      "Fichte",
+      "Ahorn"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Eigenschaften ist ein typisches Merkmal von Säugetieren, das ihnen hilft, in verschiedenen Lebensräumen zu überleben?",
+    "a": [
+      "Sie haben eine konstante Körpertemperatur.",
+      "Sie atmen durch Kiemen.",
+      "Sie besitzen keine Haare.",
+      "Sie legen Eier, die im Wasser schlüpfen."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten die Rolle von Feuer als ökologischen Faktor in bestimmten Ökosystemen?",
+    "a": [
+      "Feuer hat immer negative Auswirkungen auf die Tierwelt und führt zur Zerstörung aller Lebensräume.",
+      "Feuer ist ein seltener Vorfall und spielt keine bedeutende Rolle in den natürlichen Kreisläufen.",
+      "Feuer ist ausschließlich ein menschliches Problem und hat keinen Einfluss auf natürliche Ökosysteme.",
+      "Feuer kann als natürliches Ereignis die Biodiversität erhöhen, indem es Lebensräume für feueradaptive Pflanzen schafft."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches Tier ist typischerweise im Regenwald anzutreffen und lebt in den Baumkronen?",
+    "a": [
+      "Jaguare",
+      "Eisbären",
+      "Kängurus",
+      "Pinguine"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Eigenschaften ist typischerweise nicht mit der Fähigkeit zur Autotomie bei Eidechsen verbunden?",
+    "a": [
+      "Die Unterstützung des Fortpflanzungsprozesses durch das Abwerfen von Körperteilen.",
+      "Die Fähigkeit, den Schwanz abzuwerfen, um Raubtieren zu entkommen.",
+      "Die Möglichkeit, den verlorenen Schwanz nach einer Häutung nachwachsen zu lassen.",
+      "Die Wiederherstellung von Beweglichkeit und Balance nach dem Verlust eines Körperteils."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt korrekt eine Eigenschaft der Bedecktsamer?",
+    "a": [
+      "Sie besitzen keine Blüten.",
+      "Sie sind immer einjährig.",
+      "Sie bilden ihre Samen innerhalb einer Frucht.",
+      "Sie sind ausschließlich in aquatischen Lebensräumen verbreitet."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches Merkmal ist typisch für die Häutung von Krebsen, das ihnen hilft, in unterschiedlichen Lebensräumen zu überleben?",
+    "a": [
+      "Die Fähigkeit, bei der Häutung ihre Augen zu regenerieren.",
+      "Die gleichzeitige Fortpflanzung während der Häutung.",
+      "Die Veränderung der Farbe zur Tarnung während des Häutungsprozesses.",
+      "Die Bildung einer neuen Schale, um das Wachstum zu fördern."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Pflanzenarten ist typischerweise in der oberen Schicht eines Laubwaldes anzutreffen?",
+    "a": [
+      "Farn",
+      "Eiche",
+      "Moos",
+      "Heidelbeere"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches der folgenden Merkmale ist charakteristisch für Säugetiere und unterscheidet sie von anderen Tierklassen?",
+    "a": [
+      "Sie können fliegen.",
+      "Sie besitzen eine konstante Körpertemperatur.",
+      "Sie haben Schuppen.",
+      "Sie legen Eier."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welches dieser Ökosysteme zeichnet sich durch eine hohe Artenvielfalt und ein feuchtes Klima aus, das das Wachstum einer Vielzahl von Pflanzen und Tieren unterstützt?",
+    "a": [
+      "Tropischer Regenwald",
+      "Laubwald",
+      "Wüste",
+      "Arktische Tundra"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welcher Baum ist bekannt für seine charakteristischen, geflügelten Samen, die oft als 'Spitzahorn' bezeichnet werden?",
+    "a": [
+      "Eiche",
+      "Ahorn",
+      "Buche",
+      "Fichte"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Funktion haben Luftsäcke bei Vögeln im Zusammenhang mit dem Atmungsprozess?",
+    "a": [
+      "Sie schützen die Vögel vor Kälte.",
+      "Sie dienen der Speicherung von Nahrung.",
+      "Sie helfen, den Körper schwerelos zu machen.",
+      "Sie ermöglichen eine effiziente Sauerstoffversorgung während des Flugs."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten die Bedeutung des Permafrosts für das Ökosystem der Tundra?",
+    "a": [
+      "Permafrost beeinflusst die Nährstoffverfügbarkeit im Boden und trägt zur saisonalen Produktivität bei.",
+      "Permafrost speichert Wasser, das für die Vegetation während der Sommermonate wichtig ist.",
+      "Permafrost wirkt als Barriere für das Wurzelwachstum und schränkt somit die Pflanzenvielfalt ein.",
+      "Permafrost sorgt dafür, dass die Temperaturen in der Tundra konstant bleiben und Pflanzen nicht verwelken können."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche Verhaltensweise ist oft mit dem Balzverhalten von Vögeln verbunden, um Partner anzulocken?",
+    "a": [
+      "Nahrungssuche im Winter",
+      "Flucht vor Fressfeinden",
+      "Auffälliges Gefieder zeigen",
+      "Schlafverhalten im Nest"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Welche der folgenden Maßnahmen kann dazu beitragen, die Artenvielfalt in fragmentierten Lebensräumen zu fördern?",
+    "a": [
+      "Schaffung von grünen Korridoren zwischen isolierten Lebensräumen.",
+      "Verstärkter Einsatz von Pestiziden in der Umgebung von Naturschutzgebieten.",
+      "Erhöhung der landwirtschaftlichen Flächen ohne Rücksicht auf Biodiversität.",
+      "Abholzung von Randgebieten in Wäldern zur Landnutzung."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Natur"
+  },
+  {
+    "q": "Was beschreibt die innere Reibung in einem Fluid bei deformierenden Kräften?",
+    "a": [
+      "Die Oberflächenspannung des Fluids.",
+      "Die Zähflüssigkeit des Fluids, die den Fluss behindert.",
+      "Die Temperatur des Fluids und ihren Einfluss auf die Dichte.",
+      "Die Geschwindigkeit, mit der sich das Fluid bewegt."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Physik"
+  },
+  {
+    "q": "Was beschreibt das Konzept der starken Entartung in einem idealen Fermi-Gas?",
+    "a": [
+      "Die Energieverteilung der Teilchen ist exponentiell abfallend und unabhängig von der Temperatur.",
+      "Eine hohe Anzahl von Teilchen pro Zustandsraum führt zu einer hohen Wahrscheinlichkeit, dass viele Teilchen denselben Zustand besetzen.",
+      "Die Zustände sind stark entartet, was bedeutet, dass die Anzahl der Teilchen pro Energiezustand begrenzt ist.",
+      "Alle Teilchen im Gas befinden sich im Grundzustand, wodurch ihre Gesamtenergie minimal ist."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Physik"
+  },
+  {
+    "q": "Welcher Spieler hat die meisten Grand-Slam-Titel im Einzel (Stand 2023)?",
+    "a": [
+      "Pete Sampras",
+      "Novak Djokovic",
+      "Rafael Nadal",
+      "Roger Federer"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welche Phase im Trainingsprozess wird als Makrozyklus bezeichnet?",
+    "a": [
+      "Die Anpassung der Trainingsbelastung während einer Saison.",
+      "Die tägliche Trainingsplanung für ein einzelnes Training.",
+      "Ein spezifischer Trainingsblock von ein bis drei Wochen.",
+      "Der gesamte Trainingszyklus über mehrere Monate bis hin zu einem Jahr."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches Team gewann das Champions-League-Finale 1999 in einer dramatischen Schlussphase gegen Bayern München?",
+    "a": [
+      "Manchester United",
+      "FC Barcelona",
+      "AC Milan",
+      "Real Madrid"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Wie viele Spieler sind in einem Rugby-Team auf dem Feld?",
+    "a": [
+      "11",
+      "13",
+      "15",
+      "7"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches Ereignis führte 1984 zu einer signifikanten Kommerzialisierung der Olympischen Spiele?",
+    "a": [
+      "Die Einführung der Frauenwettbewerbe",
+      "Die Erhöhung der Anzahl der teilnehmenden Länder",
+      "Die Erhöhung der Medaillenzahl pro Nation",
+      "Die Einführung von Sponsoring durch Unternehmen"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher der folgenden Verbände ist verantwortlich für die Organisation der Premier League in England?",
+    "a": [
+      "UEFA",
+      "The English Football League",
+      "FIFA",
+      "The Football Association"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Wie viele Spieler befinden sich gleichzeitig auf dem Spielfeld einer Handballmannschaft während eines Spiels?",
+    "a": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welche der folgenden Nationalmannschaften hat die Rugby-Weltmeisterschaft am häufigsten gewonnen?",
+    "a": [
+      "Neuseeland",
+      "Südafrika",
+      "Australien",
+      "England"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches Jahr markiert den Beginn der Premier League als eigenständige Liga?",
+    "a": [
+      "1988",
+      "1992",
+      "2000",
+      "1995"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher Aufschlag muss im Badminton immer diagonal gespielt werden, um den Punkt zu gewinnen?",
+    "a": [
+      "Der Aufschlag im Einzelspiel",
+      "Der Aufschlag von der Aufschlagzone vorn",
+      "Der Aufschlag von der Aufschlagzone hinten",
+      "Der Aufschlag im Doppelspiel"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Wie viele Punkte benötigt ein Team, um einen Satz im Volleyball zu gewinnen, wenn das Spiel im Modus 'Rally-Point' gespielt wird?",
+    "a": [
+      "30",
+      "15",
+      "21",
+      "25"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welche dieser Sportarten wurde erstmals bei den Olympischen Winterspielen 1924 in Chamonix aufgenommen?",
+    "a": [
+      "Eiskunstlauf",
+      "Curling",
+      "Bobfahren",
+      "Skispringen"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher internationale Verband ist für die Regelungen im Rugby verantwortlich?",
+    "a": [
+      "World Rugby",
+      "Fédération Internationale de Football Association",
+      "International Basketball Federation",
+      "International Olympic Committee"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welcher Pokal wird jährlich an den Sieger der UEFA Champions League verliehen?",
+    "a": [
+      "UEFA Super Cup Trophy",
+      "FIFA Club World Cup Trophy",
+      "Henri Delaunay Trophy",
+      "Champions League Trophy"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Wie viele Spieler befinden sich gleichzeitig auf dem Spielfeld für eine Mannschaft im Handball?",
+    "a": [
+      "7",
+      "6",
+      "8",
+      "5"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches Unternehmen war bis 2021 der Hauptsponsor der Bundesliga und zierte die Trikots aller teilnehmenden Mannschaften mit seinem Logo?",
+    "a": [
+      "Volkswagen",
+      "Deutsche Telekom",
+      "DFL Deutsche Fußball Liga",
+      "Coca-Cola"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welche Figur im Schach kann sich in einer geraden Linie beliebig weit in horizontaler, vertikaler oder diagonaler Richtung bewegen?",
+    "a": [
+      "Läufer",
+      "Turm",
+      "Dame",
+      "König"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches der folgenden Gremien ist verantwortlich für die Vergabe der Olympischen Spiele?",
+    "a": [
+      "Internationales Olympisches Komitee (IOC)",
+      "Nationale Olympische Komitees (NOK)",
+      "Weltverband für Sportarten (WFS)",
+      "Internationale Sportkonföderation (ISF)"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches dieser Spiele wird typischerweise auf einem Spielfeld mit einer Netzhöhe von 1,07 Metern für Männer und 0,91 Metern für Frauen gespielt?",
+    "a": [
+      "Badminton",
+      "Tischtennis",
+      "Tennis",
+      "Squash"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sport"
+  },
+  {
+    "q": "Welches der folgenden Wörter ist ein Lehnwort im Deutschen?",
+    "a": [
+      "Computer",
+      "Haus",
+      "Möbel",
+      "Wasser"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches der folgenden Wörter ist ein Beispiel für ein Lehnwort im Deutschen?",
+    "a": [
+      "Wasser",
+      "Telefon",
+      "Freund",
+      "Haus"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche Redewendung stammt ursprünglich aus der Bibel und bedeutet, dass man für einen Fehler oder ein Unrecht die gleiche Strafe erhalten soll?",
+    "a": [
+      "Auge um Auge",
+      "Den Teufel an die Wand malen",
+      "Den Faden verlieren",
+      "Jemandem den Rücken stärken"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welche der folgenden Formulierungen stellt keine gängige Lehnübersetzung aus dem Englischen dar?",
+    "a": [
+      "Handy-Spiel",
+      "Briefkasten",
+      "Streaming-Dienst",
+      "Computer-Spiel"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches französische Wort, das in die deutsche Sprache eingegangen ist, bezeichnet ein typisches Gericht der gehobenen Küche?",
+    "a": [
+      "Déjà-vu",
+      "Bureau",
+      "Soufflé",
+      "Vitrine"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches der folgenden Wörter hat NICHT seinen Ursprung im Griechischen?",
+    "a": [
+      "Haus",
+      "Therapie",
+      "Psychologie",
+      "Antibiotikum"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches der folgenden Wörter hat im Deutschen keine pejorative Bedeutung erlangt?",
+    "a": [
+      "Draufgänger",
+      "Schuft",
+      "Gauner",
+      "Held"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Wort hat seinen Ursprung NICHT im Englischen?",
+    "a": [
+      "Internet",
+      "Marketing",
+      "Kindergarten",
+      "Computer"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Wort bedeutet im Englischen \"Haus\"?",
+    "a": [
+      "House",
+      "Hut",
+      "Home",
+      "Hall"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches Präfix hat typischerweise eine positive Bedeutungsanpassung, wenn es an ein Verb angefügt wird?",
+    "a": [
+      "ent-",
+      "miss-",
+      "er-",
+      "ver-"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Sprache"
+  },
+  {
+    "q": "Welches der folgenden Protokolle wird häufig für den sicheren Datenaustausch in Cloud-Diensten verwendet?",
+    "a": [
+      "SNMP",
+      "TLS",
+      "HTTP",
+      "FTP"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche der folgenden App-Kategorien ist hauptsächlich für die Kommunikation zwischen Nutzern gedacht?",
+    "a": [
+      "Soziale Netzwerke",
+      "Notizen",
+      "Wetter-Apps",
+      "Fitness-Tracking"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche der folgenden Komponenten ist hauptsächlich für die Verarbeitung von Daten in einem Computer verantwortlich?",
+    "a": [
+      "RAM",
+      "CPU",
+      "GPU",
+      "SSD"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welches Betriebssystem basiert hauptsächlich auf dem Linux-Kernel?",
+    "a": [
+      "Windows",
+      "macOS",
+      "Ubuntu",
+      "Chrome OS"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welches dieser Protokolle ist speziell für die sichere Übertragung von Daten in WLAN-Netzwerken gedacht?",
+    "a": [
+      "RDP",
+      "WPA2",
+      "WEP",
+      "WPA3"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche Technologie wird häufig als Grundlage für die Automatisierung von Robotern verwendet?",
+    "a": [
+      "Quantencomputing",
+      "Künstliche Intelligenz",
+      "Blockchain",
+      "Virtual Reality"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche Art von Speicher wird häufig als Cache in modernen Prozessoren verwendet?",
+    "a": [
+      "DRAM",
+      "SRAM",
+      "Flash-Speicher",
+      "HDD"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche der folgenden App-Kategorien ist typischerweise nicht für die Produktivität gedacht?",
+    "a": [
+      "Notizen",
+      "Kalender",
+      "Spiele",
+      "Zeitverwaltung"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welches dieser Unternehmen setzte sich für die Entwicklung ethischer Richtlinien in der KI ein?",
+    "a": [
+      "IBM",
+      "Amazon",
+      "Tesla",
+      "Google"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welcher Algorithmus wird häufig verwendet, um personalisierte Inhalte in sozialen Medien zu generieren?",
+    "a": [
+      "Collaborative Filtering",
+      "Random Forest",
+      "Linear Regression",
+      "Künstliche Neuronale Netze"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welche Organisation hat die Guidelines für die verantwortungsvolle Nutzung von KI formuliert, die auch ethische Aspekte berücksichtigen?",
+    "a": [
+      "IEEE",
+      "OECD",
+      "ISO",
+      "W3C"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Welches Unternehmen ist bekannt für seine Fortschritte in der Robotik und hat unter anderem den humanoiden Roboter Atlas entwickelt?",
+    "a": [
+      "Siemens",
+      "KUKA",
+      "ABB",
+      "Boston Dynamics"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Technologie"
+  },
+  {
+    "q": "Was misst die Bonität einer Person in Bezug auf Kredite?",
+    "a": [
+      "Die Höhe der Zinsen auf Tagesgeldkonten",
+      "Die Anzahl der Kreditkarten",
+      "Die Höhe des Kontostands",
+      "Die Zahlungsmoral und Kreditwürdigkeit"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was beschreibt den Effekt der Dispozinsen bei einer Kontoüberziehung?",
+    "a": [
+      "Eine Art von Festgeldkonto mit garantierten Zinsen",
+      "Zinsen, die auf aufgenommene Kredite mit festem Tilgungsplan anfallen",
+      "Zinsen, die bei einem Tagesgeldkonto anfallen, wenn das Geld abgehoben wird",
+      "Zinsen, die bei einer erlaubten Kontoüberziehung auf das überzogene Guthaben erhoben werden"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches dieser Unternehmen gehört nicht zu den FAANG-Giganten?",
+    "a": [
+      "Amazon",
+      "Alibaba",
+      "Facebook",
+      "Netflix"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welcher dieser Indizes repräsentiert die 30 größten und liquidesten Unternehmen der USA?",
+    "a": [
+      "DAX",
+      "NASDAQ Composite",
+      "Dow Jones",
+      "MDAX"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist eine der Hauptfunktionen von Bitcoin?",
+    "a": [
+      "Um Anleihen zu handeln",
+      "Eine dezentrale Bank zu betreiben",
+      "Als digitales Zahlungsmittel zu fungieren",
+      "Eine zentrale Austauschplattform für Währungen zu schaffen"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches der folgenden Unternehmen gehört nicht zu den sogenannten FAANG-Unternehmen?",
+    "a": [
+      "Alibaba",
+      "Apple",
+      "Netflix",
+      "Facebook"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches Unternehmen wurde als erstes Einhorn bekannt und erreichte eine Bewertung von über 1 Milliarde USD?",
+    "a": [
+      "WeWork",
+      "Airbnb",
+      "Uber Technologies",
+      "Palantir Technologies"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welcher dieser Indizes ist kein Teil des deutschen Aktienmarktes?",
+    "a": [
+      "MDAX",
+      "FTSE 100",
+      "TecDAX",
+      "DAX"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt den Hauptunterschied zwischen Trading und Investieren?",
+    "a": [
+      "Trading erfolgt ausschließlich an der Börse, während Investieren auch in Rohstoffe investiert.",
+      "Trading und Investieren sind beide auf die Erzielung von Dividenden ausgerichtet.",
+      "Trading bezieht sich auf langfristige Anlagen, während Investieren kurzfristige Käufe umfasst.",
+      "Trading konzentriert sich auf kurzfristige Kursbewegungen, während Investieren auf langfristige Wertsteigerung abzielt."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist eine häufige Verwendung von Optionen im Finanzmarkt?",
+    "a": [
+      "Sicherung gegen Preisänderungen",
+      "Erstellung von Indexfonds",
+      "Finanzierung von Unternehmensübernahmen",
+      "Berechnung der Dividende"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt eine zentrale Krypto-Börse korrekt?",
+    "a": [
+      "Sie ermöglicht den direkten Peer-to-Peer-Handel ohne Intermediäre.",
+      "Sie ist ausschließlich auf den Handel mit Stablecoins spezialisiert.",
+      "Sie agiert als Vermittler zwischen Käufern und Verkäufern und hält die Einlagen der Nutzer.",
+      "Sie speichert die Private Keys für die Benutzer in einer Wallet."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was beschreibt den Prozess des \"Mining\" in Bezug auf Kryptowährungen?",
+    "a": [
+      "Das Berechnen von komplexen mathematischen Problemen, um Transaktionen zu validieren und neue Coins zu schaffen",
+      "Die Speicherung von Coins in einer Cold Wallet",
+      "Das Handeln von Kryptowährungen an einer Börse",
+      "Das Erstellen von neuen Wallets für Benutzer"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist ein charakteristisches Merkmal von Festgeldanlagen im Vergleich zu Tagesgeldanlagen?",
+    "a": [
+      "Festgeldanlagen ermöglichen tägliche Abhebungen ohne Einschränkungen.",
+      "Festgeldanlagen bieten in der Regel flexiblere Verfügbarkeitsoptionen.",
+      "Festgeldanlagen sind nicht durch die Einlagensicherung geschützt.",
+      "Festgeldanlagen haben oft höhere Zinssätze, aber eine feste Laufzeit."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was beschreibt der Begriff \"Börsenindex\"?",
+    "a": [
+      "Eine Zusammenstellung von Wertpapieren zur Messung der Marktleistung",
+      "Eine Art von Investmentfonds, der in Immobilien investiert",
+      "Einen festen Zinssatz für Sparanlagen",
+      "Ein spezielles Finanzprodukt zur Altersvorsorge"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was beschreibt der DAX in der Finanzwelt?",
+    "a": [
+      "Den Wert aller Aktien weltweit",
+      "Den Durchschnitt der Zinsen für langfristige Staatsanleihen",
+      "Ein Maß für die Inflation in Deutschland",
+      "Den Index der 30 größten Unternehmen an der Frankfurter Börse"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches Unternehmen wurde 2014 zum ersten einäugigen Einhorn (Unicorn) im Bereich Fintech in Europa?",
+    "a": [
+      "Klarna",
+      "N26",
+      "TransferWise",
+      "Revolut"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was beschreibt die Bonität eines Kreditnehmers?",
+    "a": [
+      "Die Höhe des Zinssatzes für ein Tagesgeldkonto",
+      "Die Fähigkeit, bestehende Schulden zu begleichen",
+      "Die Höhe der monatlichen Raten",
+      "Die Vertragslaufzeit des Darlehens"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche der folgenden Ereignisse hatte den größten negativen Einfluss auf die Weltwirtschaft während der Corona-Pandemie?",
+    "a": [
+      "Der Rückgang des BIP im Jahr 2020",
+      "Die Asienkrise von 1997",
+      "Der Ölpreisschock von 1973",
+      "Die Finanzkrise von 2008"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche der folgenden Kryptowährungen wurde ursprünglich als Fork von Bitcoin erstellt?",
+    "a": [
+      "Ethereum",
+      "Ripple",
+      "Litecoin",
+      "Bitcoin Cash"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches Unternehmen wurde 1994 gegründet und ist heute einer der größten Online-Händler weltweit?",
+    "a": [
+      "Amazon",
+      "Walmart",
+      "Alibaba",
+      "eBay"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was beschreibt die Bonität einer Person im Zusammenhang mit der Schufa?",
+    "a": [
+      "Die Höhe des aktuellen Kontostands",
+      "Die allgemeine finanzielle Gesundheit und Kreditwürdigkeit",
+      "Die Fähigkeit, kurzfristige Kredite zu erhalten",
+      "Die maximale Rendite eines Tagesgeldkontos"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist der Hauptvorteil eines P-Kontos im Vergleich zu einem herkömmlichen Girokonto?",
+    "a": [
+      "Höhere Verzinsung auf Guthaben",
+      "Pfändungsschutz für einen bestimmten Betrag",
+      "Unbeschränkte Rückbuchung von Lastschriften",
+      "Automatische Kreditvergabe ohne Bonitätsprüfung"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welcher Index wird typischerweise von ETFs abgebildet, die in den deutschen Aktienmarkt investieren?",
+    "a": [
+      "DAX",
+      "Euro Stoxx 50",
+      "MDAX",
+      "TecDAX"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches Jahr wird häufig als Beginn der Corona-Pandemie in der Wirtschaft betrachtet?",
+    "a": [
+      "2021",
+      "2019",
+      "2018",
+      "2020"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welcher Krypto-Skandal führte 2022 zu einem massiven Verlust von Milliarden an Investitionen und einer Kettenreaktion im Kryptomarkt?",
+    "a": [
+      "Bitstamp",
+      "Mt. Gox",
+      "Bitconnect",
+      "FTX"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches TAN-Verfahren wird häufig in Online-Banking-Anwendungen verwendet, um eine Transaktion zu autorisieren?",
+    "a": [
+      "SMS-TAN",
+      "CHIP-TAN",
+      "Festgeld-TAN",
+      "Online-Gespräch-TAN"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was beschreibt der Begriff \"Optionsprämie\" im Zusammenhang mit Optionen?",
+    "a": [
+      "Die jährliche Dividende, die ein Aktionär erhält",
+      "Den maximalen Verlust, den ein Anleger bei einer Option erleiden kann",
+      "Den Unterschied zwischen dem aktuellen Kurs eines Basiswertes und dem Basispreis der Option",
+      "Den Preis, den ein Käufer zahlt, um das Recht auf den Kauf oder Verkauf des Basiswertes zu erwerben"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Was ist ein Hauptmerkmal von NFTs im Vergleich zu anderen Krypto-Assets?",
+    "a": [
+      "Sie sind einzigartige digitale Tokens, die Eigentum an einem bestimmten Asset repräsentieren.",
+      "Sie sind fungibel und können eins zu eins getauscht werden.",
+      "Sie sind Kryptowährungen, die hauptsächlich für Transaktionen genutzt werden.",
+      "Sie können ausschließlich in Wallets von Börsen gespeichert werden."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Wie hoch ist die gesetzliche Einlagensicherung in Deutschland pro Person und Bank?",
+    "a": [
+      "200.000 Euro",
+      "50.000 Euro",
+      "250.000 Euro",
+      "100.000 Euro"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welches Unternehmen führte 2010 die Tablet-Technologie mit dem iPad ein?",
+    "a": [
+      "Samsung",
+      "Apple",
+      "Microsoft",
+      "Amazon"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "In welchem Jahr begann die erste Industrielle Revolution in Großbritannien?",
+    "a": [
+      "1760",
+      "1775",
+      "1750",
+      "1780"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wirtschaft & Finanzen"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten den natürlichen Selektionsprozess in der Evolution?",
+    "a": [
+      "Individuen mit vorteilhaften Eigenschaften haben höhere Überlebens- und Fortpflanzungschancen.",
+      "Organismen passen sich aktiv an ihre Umgebung an, um zu überleben.",
+      "Nur die stärksten Individuen überleben, während die schwächeren aussterben.",
+      "Evolution geschieht in einem sehr kurzen Zeitraum durch plötzliche Veränderungen."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche Aussage beschreibt am besten das Konzept der Entropie in der Thermodynamik?",
+    "a": [
+      "Entropie kann niemals zunehmen.",
+      "Entropie ist ein Maß für die Unordnung eines Systems.",
+      "Entropie bleibt in geschlossenen Systemen immer konstant.",
+      "Entropie ist die Energie, die bei einem chemischen Prozess freigesetzt wird."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche der folgenden Aussagen beschreibt am besten die Rolle von Bakterien im menschlichen Darm?",
+    "a": [
+      "Sie sind nur in der Nahrung enthalten und nicht im Körper.",
+      "Sie haben keinen Einfluss auf die Gesundheit des Menschen.",
+      "Sie helfen bei der Verdauung und produzieren Vitamine.",
+      "Sie sind immer schädlich und verursachen Krankheiten."
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welches der folgenden Merkmale ist typischerweise ein Indikator dafür, dass ein Exoplanet potenziell lebensfreundlich sein könnte?",
+    "a": [
+      "Er befindet sich in der habitablen Zone seines Sterns.",
+      "Er umkreist einen roten Zwergstern.",
+      "Er hat eine größere Masse als Jupiter.",
+      "Er hat eine stark elliptische Umlaufbahn."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was beschreibt das Phänomen der elektrischen Leitfähigkeit in Festkörpern?",
+    "a": [
+      "Die Fähigkeit von Materialien, Wärme zu speichern.",
+      "Die Fähigkeit von Materialien, elektrischen Strom zu leiten.",
+      "Die Fähigkeit von Materialien, Licht zu reflektieren.",
+      "Die Fähigkeit von Materialien, magnetische Felder zu erzeugen."
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welches der folgenden Moleküle ist ein Alkohole?",
+    "a": [
+      "C6H12O6",
+      "C2H5OH",
+      "C3H8",
+      "CH3COOH"
+    ],
+    "correct": 1,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Was ist der Hauptvorteil der chromatographischen Trennmethoden in der analytischen Chemie?",
+    "a": [
+      "Sie ermöglichen die Trennung und Identifizierung von Substanzen in einem Gemisch.",
+      "Sie können chemische Reaktionen beschleunigen.",
+      "Sie sind die kostengünstigste Methode zur Herstellung von Chemikalien.",
+      "Sie reduzieren die Menge an Abfallprodukten bei chemischen Reaktionen."
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche der folgenden Galaxien ist bekannt für ihre spiralartige Form?",
+    "a": [
+      "Andromeda",
+      "Triangulum",
+      "alle oben genannten",
+      "Milchstraße"
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welcher der folgenden Stoffe ist ein Beispiel für ein Alkoholderivat?",
+    "a": [
+      "Benzol",
+      "Methan",
+      "Ethanol",
+      "Butan"
+    ],
+    "correct": 2,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welcher der folgenden Exoplaneten befindet sich in der habitablen Zone seiner Sonne, die Bedingungen für flüssiges Wasser ermöglichen könnten?",
+    "a": [
+      "Proxima Centauri b",
+      "HD 189733 b",
+      "Kepler-186f",
+      "WASP-12b"
+    ],
+    "correct": 0,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  },
+  {
+    "q": "Welche Aussage beschreibt am besten den Unterschied zwischen einem konservativen und einem nicht-konservativen Kraftfeld?",
+    "a": [
+      "In einem konservativen Kraftfeld kann ein Objekt nicht seine Energie verlieren, während in einem nicht-konservativen Kraftfeld Energie verloren gehen kann.",
+      "Ein konservatives Kraftfeld kann keine Energie speichern, während ein nicht-konservatives Kraftfeld Energie speichern kann.",
+      "Ein konservatives Kraftfeld wirkt nur auf ruhende Objekte, während ein nicht-konservatives Kraftfeld auch auf bewegte Objekte wirkt.",
+      "In einem konservativen Kraftfeld hängt die Arbeit, die verrichtet wird, nur von den Endpunkten ab, während in einem nicht-konservativen Kraftfeld die Arbeit auch vom Weg abhängt."
+    ],
+    "correct": 3,
+    "source": "Dekuel/daily-quiz",
+    "category": "Wissenschaft"
+  }
+]
