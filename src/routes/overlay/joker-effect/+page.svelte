@@ -13,10 +13,11 @@
   const phoneHint = $derived(overlayState.phoneHint);
   const revealAt = $derived(overlayState.audienceRevealAt);
 
-  // Chat-Joker: nur sichtbar, wenn der Joker gezogen wurde. Animation läuft
-  // einmalig beim Aufdecken (chatRevealAt > now); danach updaten die Balken
-  // sanft mit jeder neuen Stimme via CSS-Transition.
-  const chatActive = $derived(overlayState.jokersUsed.includes("chat"));
+  // Chat-Joker: nur sichtbar, wenn der Joker FÜR DIE AKTUELLE FRAGE gezogen wurde.
+  // Gate über chatRevealAt (wird in loadNextQuestion() auf null zurückgesetzt) —
+  // jokersUsed bleibt das ganze Spiel über bestehen und würde das Voting-Card
+  // bei der nächsten Frage fälschlich erneut anzeigen.
+  const chatActive = $derived(overlayState.chatRevealAt !== null);
   const chatVotes = $derived(overlayState.chatVotes);
   const chatRevealAt = $derived(overlayState.chatRevealAt);
   let chatBouncing = $state(false);
