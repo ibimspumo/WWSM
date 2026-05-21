@@ -1212,18 +1212,6 @@
     "category": "Kunst und Literatur"
   },
   {
-    "q": "Welcher Autor ist bekannt für seinen Roman 'Der Prozess', der Themen wie Macht und Absurdität behandelt?",
-    "a": [
-      "Thomas Mann",
-      "Franz Kafka",
-      "Rainer Maria Rilke",
-      "Hermann Hesse"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Kunst und Literatur"
-  },
-  {
     "q": "Welches musikalische Formprinzip beinhaltet die Wiederholung von Themen in einem bestimmten Muster und wird oft in der Form A-B-A dargestellt?",
     "a": [
       "Periode",
@@ -1700,18 +1688,6 @@
       "Schweden"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
-    "q": "Wie viele Spieler sind pro Mannschaft auf dem Spielfeld in einem Rugby-Match aktiv?",
-    "a": [
-      "15",
-      "11",
-      "7",
-      "13"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Sport"
   },
@@ -2328,18 +2304,6 @@
     "category": "Wissenschaft"
   },
   {
-    "q": "Welche der folgenden Aminosäuren ist eine essenzielle Aminosäure, die der menschliche Körper nicht selbst herstellen kann?",
-    "a": [
-      "Serin",
-      "Glycin",
-      "Alanin",
-      "Leucin"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
     "q": "Welches Molekül ist ein häufiges Beispiel für ein einfaches Alkan?",
     "a": [
       "Ethanol",
@@ -2372,18 +2336,6 @@
       "Absorption"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
-    "q": "Welche Struktur im Gehirn ist hauptsächlich für die Verarbeitung von Gedächtnisinhalten verantwortlich?",
-    "a": [
-      "Medulla oblongata",
-      "Thalamus",
-      "Hippocampus",
-      "Kleinhirn"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Wissenschaft"
   },
@@ -3540,18 +3492,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welcher der folgenden Götter wird in der nordischen Mythologie als Gott des Donners verehrt?",
-    "a": [
-      "Loki",
-      "Odin",
-      "Freyja",
-      "Thor"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welche der folgenden Praktiken ist eine der fünf Säulen des Islam?",
     "a": [
       "Die Pilgerfahrt nach Jerusalem",
@@ -3600,18 +3540,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welche monotheistische Religion hat weltweit die meisten Anhänger?",
-    "a": [
-      "Judentum",
-      "Islam",
-      "Christentum",
-      "Sikhismus"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welche Figur ist in der griechischen Mythologie als Herrscher der Unterwelt bekannt?",
     "a": [
       "Hades",
@@ -3656,18 +3584,6 @@
       "Kami"
     ],
     "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welcher der folgenden ägyptischen Götter ist traditionell als Gott der Toten und der Einbalsamierung bekannt?",
-    "a": [
-      "Thot",
-      "Anubis",
-      "Ra",
-      "Horus"
-    ],
-    "correct": 1,
     "source": "Dekuel/daily-quiz",
     "category": "Glaube & Religion"
   },
@@ -4224,18 +4140,6 @@
     "category": "Sport"
   },
   {
-    "q": "Wie viele Spieler sind in einem Rugby-Team auf dem Feld?",
-    "a": [
-      "11",
-      "13",
-      "15",
-      "7"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "Welches Ereignis führte 1984 zu einer signifikanten Kommerzialisierung der Olympischen Spiele?",
     "a": [
       "Die Einführung der Frauenwettbewerbe",
@@ -4256,18 +4160,6 @@
       "The Football Association"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
-    "q": "Wie viele Spieler befinden sich gleichzeitig auf dem Spielfeld einer Handballmannschaft während eines Spiels?",
-    "a": [
-      "7",
-      "6",
-      "8",
-      "5"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Sport"
   },
@@ -4740,18 +4632,6 @@
     "category": "Wirtschaft & Finanzen"
   },
   {
-    "q": "Welches der folgenden Unternehmen gehört nicht zu den sogenannten FAANG-Unternehmen?",
-    "a": [
-      "Alibaba",
-      "Apple",
-      "Netflix",
-      "Facebook"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
     "q": "Welches Unternehmen wurde als erstes Einhorn bekannt und erreichte eine Bewertung von über 1 Milliarde USD?",
     "a": [
       "WeWork",
@@ -4760,18 +4640,6 @@
       "Palantir Technologies"
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
-    "q": "Welcher dieser Indizes ist kein Teil des deutschen Aktienmarktes?",
-    "a": [
-      "MDAX",
-      "FTSE 100",
-      "TecDAX",
-      "DAX"
-    ],
-    "correct": 1,
     "source": "Dekuel/daily-quiz",
     "category": "Wirtschaft & Finanzen"
   },

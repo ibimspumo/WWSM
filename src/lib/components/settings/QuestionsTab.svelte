@@ -29,10 +29,36 @@
   // History-Toggle
   let showHistory = $state(false);
 
+  // Paginierung — nur die ersten N Treffer rendern, Rest per Button nachladen.
+  const PAGE_SIZE = 60;
+  let visibleCount = $state(PAGE_SIZE);
+
+  const collator = new Intl.Collator("de");
+
   onMount(() => {
     if (!questionStore.loaded) {
       questionStore.load().catch((e) => console.warn("questionStore.load fehlgeschlagen:", e));
     }
+  });
+
+  // Schneller Lookup statt linearem History-Scan pro Frage.
+  const lastAskedMap = $derived.by(() => {
+    const m = new Map<string, number>();
+    for (const e of questionStore.history) {
+      const prev = m.get(e.id);
+      if (prev === undefined || e.askedAt > prev) m.set(e.id, e.askedAt);
+    }
+    return m;
+  });
+
+  // Bei Filter-/Sortier-Wechsel zurück auf Seite 1 (nicht bei Edits/Löschungen).
+  $effect(() => {
+    search;
+    sortMode;
+    levelFilter;
+    onlyEdited;
+    onlyUser;
+    visibleCount = PAGE_SIZE;
   });
 
   const allQuestions = $derived(questionStore.allQuestions());
@@ -64,7 +90,7 @@
       }
       // innerhalb der Stufe alphabetisch
       for (const [lvl, list] of byLevel) {
-        list.sort((a, b) => a.q.localeCompare(b.q, "de"));
+        list.sort((a, b) => collator.compare(a.q, b.q));
         byLevel.set(lvl, list);
       }
       return PRIZE_LADDER.map((step) => ({
@@ -73,13 +99,13 @@
         items: byLevel.get(step.level) ?? [],
       }));
     } else if (sortMode === "alpha") {
-      const sorted = [...filtered].sort((a, b) => a.q.localeCompare(b.q, "de"));
+      const sorted = [...filtered].sort((a, b) => collator.compare(a.q, b.q));
       return [{ level: 0, label: "Alphabetisch", items: sorted }];
     } else {
       // recent: nach lastAskedAt absteigend, nie-gestellte am Ende
-      const withTime = filtered.map((q) => ({ q, t: questionStore.lastAskedAt(q.id) }));
+      const withTime = filtered.map((q) => ({ q, t: lastAskedMap.get(q.id) ?? null }));
       withTime.sort((a, b) => {
-        if (a.t === null && b.t === null) return a.q.q.localeCompare(b.q.q, "de");
+        if (a.t === null && b.t === null) return collator.compare(a.q.q, b.q.q);
         if (a.t === null) return 1;
         if (b.t === null) return -1;
         return b.t - a.t;
@@ -87,6 +113,20 @@
       return [{ level: 0, label: "Zuletzt gestellt", items: withTime.map((x) => x.q) }];
     }
   });
+
+  // Nur die sichtbare Seite über alle Gruppen hinweg rendern.
+  const displayGroups = $derived.by(() => {
+    let budget = visibleCount;
+    const out: { level: number; label: string; items: StoredQuestion[]; total: number }[] = [];
+    for (const g of grouped) {
+      if (budget <= 0) break;
+      const items = g.items.slice(0, budget);
+      budget -= items.length;
+      if (items.length > 0) out.push({ ...g, items, total: g.items.length });
+    }
+    return out;
+  });
+  const shownCount = $derived(displayGroups.reduce((s, g) => s + g.items.length, 0));
 
   const totalFiltered = $derived(filtered.length);
   const totalAll = $derived(allQuestions.length);
@@ -273,23 +313,23 @@
     {/if}
 
     <div class="groups">
-      {#each grouped as group (group.label)}
+      {#each displayGroups as group (group.label)}
         {#if group.items.length > 0}
           <section class="group">
             <h4 class="group-head">
               {#if sortMode === "level"}
                 <span class="group-amount">{group.label}</span>
-                <span class="group-count">{group.items.length} Fragen</span>
+                <span class="group-count">{group.total} Fragen</span>
                 <button class="btn ghost small" onclick={() => openAdd(group.level)}>+ in dieser Stufe</button>
               {:else}
                 <span class="group-amount">{group.label}</span>
-                <span class="group-count">{group.items.length} Fragen</span>
+                <span class="group-count">{group.total} Fragen</span>
               {/if}
             </h4>
 
             <ul class="qlist">
               {#each group.items as q (q.id)}
-                {@const lastAsked = questionStore.lastAskedAt(q.id)}
+                {@const lastAsked = lastAskedMap.get(q.id) ?? null}
                 <li class="qrow" class:user={q.origin === "user"} class:edited={q.edited}>
                   <div class="qrow-main">
                     <div class="qrow-q">{q.q}</div>
@@ -329,6 +369,12 @@
           </section>
         {/if}
       {/each}
+
+      {#if shownCount < totalFiltered}
+        <button class="btn load-more" onclick={() => (visibleCount += PAGE_SIZE)}>
+          Mehr anzeigen ({totalFiltered - shownCount} weitere)
+        </button>
+      {/if}
 
       {#if filtered.length === 0}
         <p class="muted">Keine Fragen entsprechen den Filtern.</p>
@@ -521,6 +567,8 @@
   .btn.ghost { background: transparent; }
   .btn.danger { background: linear-gradient(180deg, #d63a3a, #8e1d1d); border-color: #ef7a7a; }
   .btn.danger:hover:not(:disabled) { background: linear-gradient(180deg, #e64b4b, #a52323); }
+
+  .load-more { align-self: center; margin-top: 2px; }
 
   .muted { color: #8aa0d0; }
   .small { font-size: 12px; }

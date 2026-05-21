@@ -348,18 +348,6 @@
     "category": "Essen und Trinken"
   },
   {
-    "q": "Welches der folgenden Gerichte ist typischerweise ein bedeutender Bestandteil der serbischen Küche und wird häufig aus Hülsenfrüchten sowie Gemüse zubereitet?",
-    "a": [
-      "Minestrone",
-      "Goulasch",
-      "Pasulj",
-      "Borschtsch"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Essen und Trinken"
-  },
-  {
     "q": "Welches historische Verfahren zur Zubereitung von Speisen, das während der Renaissance an Popularität gewann, gilt als Vorläufer der modernen Sous-vide-Technik?",
     "a": [
       "Pochieren",
@@ -402,18 +390,6 @@
       "Dubrovnik",
       "Split",
       "Valletta"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
-    "q": "Welcher Begriff beschreibt den Punkt, an dem ein Fluss in ein größeres Gewässer mündet?",
-    "a": [
-      "Quelle",
-      "Mündung",
-      "Einzugsgebiet",
-      "Abflussregime"
     ],
     "correct": 1,
     "source": "Dekuel/daily-quiz",
@@ -1086,18 +1062,6 @@
       "Orakel von Dodona",
       "Orakel von Trophonios",
       "Orakel von Ammon"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welcher dieser Götter gilt in der nordischen Mythologie als Gott des Donners und Trägers des Mjölnir?",
-    "a": [
-      "Thor",
-      "Loki",
-      "Odin",
-      "Freyja"
     ],
     "correct": 0,
     "source": "Dekuel/daily-quiz",
@@ -1800,18 +1764,6 @@
     "category": "Sport"
   },
   {
-    "q": "Welcher Fahrer hält den Rekord für die meisten Grand-Prix-Siege in der Geschichte der Formel 1 (Stand 2023)?",
-    "a": [
-      "Alain Prost",
-      "Michael Schumacher",
-      "Lewis Hamilton",
-      "Sebastian Vettel"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "Welches Kriterium war entscheidend für die Aufnahme von Golf in das olympische Programm der Spiele 2016 in Rio de Janeiro?",
     "a": [
       "Die Fähigkeit des Sports, die Zuschauerzahlen in den Austragungsländern zu erhöhen.",
@@ -2388,18 +2340,6 @@
     "category": "Sprache"
   },
   {
-    "q": "Welches Protokoll ist maßgeblich für die Übertragung von Webseiten im Internet verantwortlich?",
-    "a": [
-      "FTP",
-      "SMTP",
-      "SNMP",
-      "HTTP"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
     "q": "Welches Tool wird häufig verwendet, um die Performance von Social-Media-Kampagnen zu analysieren und wichtige Kennzahlen wie Engagement-Raten zu messen?",
     "a": [
       "Google Analytics",
@@ -2408,30 +2348,6 @@
       "Tableau"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welches der folgenden Betriebssysteme hat die größte Marktanteil auf Smartphones weltweit?",
-    "a": [
-      "Windows Phone",
-      "iOS",
-      "Android",
-      "HarmonyOS"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welches Protokoll wird im Internet hauptsächlich für den Versand von E-Mails verwendet?",
-    "a": [
-      "HTTP",
-      "FTP",
-      "IMAP",
-      "SMTP"
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Technologie"
   },
@@ -2574,18 +2490,6 @@
       "Augmented Reality",
       "Blockchain-Technologie",
       "Quantencomputing"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welche Programmiersprache wird häufig für die native Entwicklung von Android-Apps verwendet?",
-    "a": [
-      "Kotlin",
-      "C#",
-      "JavaScript",
-      "Swift"
     ],
     "correct": 0,
     "source": "Dekuel/daily-quiz",
@@ -2828,18 +2732,6 @@
       "Quantenverschränkung"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
-    "q": "Welche der folgenden Verbindungen ist ein Beispiel für ein Aromat?",
-    "a": [
-      "Butan",
-      "Ethanol",
-      "Benzol",
-      "Propan"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Wissenschaft"
   }

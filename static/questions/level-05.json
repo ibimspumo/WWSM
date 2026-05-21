@@ -204,18 +204,6 @@
     "category": "Alltag & Gesellschaft"
   },
   {
-    "q": "Welche Schulform führt in der Regel nicht direkt zum Hochschulzugang in Deutschland?",
-    "a": [
-      "Gymnasium",
-      "Realschule",
-      "Hauptschule",
-      "Gesamtschule"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Alltag & Gesellschaft"
-  },
-  {
     "q": "Was ist die Grunderwerbssteuer?",
     "a": [
       "Eine Steuer, die beim Kauf einer Immobilie anfällt",
@@ -500,18 +488,6 @@
       "Amsterdam"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
-    "q": "Welche der folgenden Städte ist die Hauptstadt von Japan?",
-    "a": [
-      "Tokio",
-      "Bangkok",
-      "Seoul",
-      "Peking"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Geographie"
   },
@@ -876,18 +852,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welche der folgenden monotheistischen Religionen hat die größte Anzahl an Anhängern weltweit?",
-    "a": [
-      "Sikhismus",
-      "Christentum",
-      "Islam",
-      "Judentum"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welcher Gott der ägyptischen Mythologie ist als Herrscher des Jenseits bekannt?",
     "a": [
       "Anubis",
@@ -1088,18 +1052,6 @@
       "Gunther"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welches Element wird im nordischen Mythos als der Weltenbaum bezeichnet?",
-    "a": [
-      "Midgard",
-      "Helheim",
-      "Asgard",
-      "Yggdrasil"
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Glaube & Religion"
   },
@@ -1716,18 +1668,6 @@
     "category": "Sport"
   },
   {
-    "q": "Welcher Verein hat die meisten Meistertitel in der Serie A gewonnen?",
-    "a": [
-      "Inter Mailand",
-      "AS Rom",
-      "AC Milan",
-      "Juventus"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "Wie viele Bases gibt es auf einem Baseballfeld?",
     "a": [
       "4",
@@ -2004,18 +1944,6 @@
     "category": "Sprache"
   },
   {
-    "q": "Welches Unternehmen brachte den ersten Personal Computer (PC) auf den Markt?",
-    "a": [
-      "Apple",
-      "Commodore",
-      "IBM",
-      "Microsoft"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
     "q": "Was bezeichnet der Begriff 'Influencer' in sozialen Medien?",
     "a": [
       "Eine Software, die automatisch Beiträge in sozialen Medien erstellt.",
@@ -2076,30 +2004,6 @@
     "category": "Technologie"
   },
   {
-    "q": "Welches Unternehmen hat das iOS-Betriebssystem entwickelt?",
-    "a": [
-      "Microsoft",
-      "Samsung",
-      "Apple",
-      "Google"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welche der folgenden Apps ist hauptsächlich für das Teilen von Bildern und Videos bekannt?",
-    "a": [
-      "Snapchat",
-      "Telegram",
-      "Instagram",
-      "WhatsApp"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
     "q": "Welches Unternehmen produziert das iPhone?",
     "a": [
       "Huawei",
@@ -2120,18 +2024,6 @@
       "Roboterstaubsauger"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welches Unternehmen hat das mobile Betriebssystem iOS entwickelt?",
-    "a": [
-      "Apple",
-      "Microsoft",
-      "Google",
-      "Samsung"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Technologie"
   },
@@ -2660,18 +2552,6 @@
       "Donau"
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
-    "q": "Welche Hauptstadt liegt am weitesten im Norden unter den folgenden Städten?",
-    "a": [
-      "Stockholm",
-      "Oslo",
-      "Kopenhagen",
-      "Helsinki"
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Geographie"
   },

@@ -636,18 +636,6 @@
     "category": "Essen und Trinken"
   },
   {
-    "q": "Welche der folgenden Teesorten wird durch eine vollständige Oxidation der Teeblätter hergestellt?",
-    "a": [
-      "Oolongtee",
-      "Grüntee",
-      "Schwarztee",
-      "Weißer Tee"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Essen und Trinken"
-  },
-  {
     "q": "Welche der folgenden Inseln gehört zu einem vulkanischen Inselbogen?",
     "a": [
       "Borneo",
@@ -1296,18 +1284,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welcher Gott in der nordischen Mythologie ist bekannt als der Gott des Donners?",
-    "a": [
-      "Thor",
-      "Odin",
-      "Loki",
-      "Freyja"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welches Element wird oft als ein Grundpfeiler der Medialisierung von Religion in der Popkultur betrachtet?",
     "a": [
       "Architektur",
@@ -1376,18 +1352,6 @@
       "Bibel"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welches Buch gilt als das wichtigste Schriftwerk im Islam?",
-    "a": [
-      "Bibel",
-      "Veden",
-      "Tora",
-      "Koran"
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Glaube & Religion"
   },
@@ -2664,42 +2628,6 @@
     "category": "Technologie"
   },
   {
-    "q": "Welche bekannte KI-Anwendung wird häufig für die Erstellung von Texten und Dialogen verwendet?",
-    "a": [
-      "ChatGPT",
-      "AutoCAD",
-      "Photoshop",
-      "Excel"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welches Unternehmen stellte den ersten kommerziell erfolgreichen Personal Computer (PC) vor?",
-    "a": [
-      "Microsoft",
-      "Commodore",
-      "Apple",
-      "IBM"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welche App ist hauptsächlich für das Teilen von Fotos und Videos bekannt?",
-    "a": [
-      "Snapchat",
-      "Instagram",
-      "WhatsApp",
-      "Telegram"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
     "q": "Welche der folgenden App-Kategorien wird häufig für die Kommunikation genutzt?",
     "a": [
       "Messaging-Apps",
@@ -3534,18 +3462,6 @@
       "Barchan",
       "Transversaldüne",
       "Längsdüne"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
-    "q": "Welches Meer liegt zwischen Europa und Afrika und verbindet den Atlantischen Ozean mit dem Mittelmeer?",
-    "a": [
-      "Straße von Gibraltar",
-      "Karibisches Meer",
-      "Adria",
-      "Nordsee"
     ],
     "correct": 0,
     "source": "Dekuel/daily-quiz",
@@ -4424,18 +4340,6 @@
       "Planeten, die innerhalb unseres Sonnensystems liegen."
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
-    "q": "Welche Methode wird in der analytischen Chemie häufig verwendet, um die Konzentration eines Stoffes in einer Lösung zu bestimmen?",
-    "a": [
-      "Destillation",
-      "Filtration",
-      "Titration",
-      "Kristallisation"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Wissenschaft"
   },

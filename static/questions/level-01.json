@@ -852,18 +852,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welcher Gott ist in der nordischen Mythologie als der Gott des Donners bekannt?",
-    "a": [
-      "Thor",
-      "Loki",
-      "Freyja",
-      "Odin"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welcher Gott ist in der ägyptischen Mythologie als Gott des Jenseits und der Unterwelt bekannt?",
     "a": [
       "Osiris",
@@ -1512,18 +1500,6 @@
     "category": "Politiker"
   },
   {
-    "q": "Wie heißt die amtierende oberste Amtsinhaberin der Organisation „Europäische Zentralbank“?",
-    "a": [
-      "Mark Carney",
-      "Christine Lagarde",
-      "Mario Draghi",
-      "Jens Weidmann"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Politiker"
-  },
-  {
     "q": "In welcher Stadt befindet sich der Hauptsitz des Europäischen Gerichtshofs (EuGH)?",
     "a": [
       "Luxemburg (Kirchberg-Plateau, Luxemburg)",
@@ -1580,18 +1556,6 @@
       "Alois Rainer"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Politiker"
-  },
-  {
-    "q": "Wer ist Bundesminister(in) für das Bundesministerium für Ernährung und Landwirtschaft?",
-    "a": [
-      "Alois Rainer",
-      "Christian Schmidt",
-      "Julia Klöckner",
-      "Cem Özdemir"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Politiker"
   },
@@ -1892,18 +1856,6 @@
       "Gerhard Schröder"
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Politiker"
-  },
-  {
-    "q": "Wer ist Bundesminister für „Bundesministerium des Innern und für Heimat“?",
-    "a": [
-      "Horst Seehofer",
-      "Alexander Dobrindt",
-      "Annegret Kramp-Karrenbauer",
-      "Olaf Scholz"
-    ],
-    "correct": 1,
     "source": "Dekuel/daily-quiz",
     "category": "Politiker"
   },

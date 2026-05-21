@@ -25,6 +25,30 @@ function normKey(q) {
   return q.q.trim().toLowerCase().replace(/\s+/g, " ");
 }
 
+// Tokenisierung für Ähnlichkeitsvergleich (Umlaute bleiben erhalten)
+function tokens(text) {
+  return text.toLowerCase().replace(/[^a-z0-9äöüß ]/g, " ").split(/\s+/).filter(Boolean);
+}
+
+function jaccard(a, b) {
+  const A = new Set(a), B = new Set(b);
+  let inter = 0;
+  for (const x of A) if (B.has(x)) inter++;
+  return inter / (A.size + B.size - inter || 1);
+}
+
+// Bucket-Key für Fast-Dubletten: gleiches Antwort-Set + gleiche Korrekt-Antwort (stufen-unabhängig).
+// Innerhalb eines Buckets gelten Fragen mit hoher Text-Überlappung als dieselbe (nur umformulierte) Frage.
+function answerKey(q) {
+  const norm = (s) => s.toLowerCase().replace(/[^a-z0-9äöüß]/g, "");
+  return [
+    q.a.map(norm).slice().sort().join("|"),
+    norm(q.a[q.correct] ?? ""),
+  ].join("##");
+}
+
+const NEAR_DUP_THRESHOLD = 0.5;
+
 function loadJson(path) {
   return JSON.parse(readFileSync(path, "utf-8"));
 }
@@ -78,14 +102,35 @@ function main() {
   }
   console.log(`  · gültig: ${valid.length}, einzigartig: ${unique.length}`);
 
+  // Fast-Dubletten entfernen: umformulierte Fragen mit identischem Antwort-Set
+  // und identischer Korrekt-Antwort. Auch stufenübergreifend — es bleibt jeweils
+  // die Variante der niedrigsten (leichtesten) Preisstufe erhalten.
+  const byLevelAsc = [...unique].sort((a, b) => a.level - b.level);
+  const buckets = new Map();
+  const deduped = [];
+  let nearDropped = 0;
+  for (const q of byLevelAsc) {
+    const bk = answerKey(q);
+    const bucket = buckets.get(bk) ?? [];
+    const qt = tokens(q.q);
+    if (bucket.some((prev) => jaccard(qt, prev) >= NEAR_DUP_THRESHOLD)) {
+      nearDropped++;
+      continue;
+    }
+    bucket.push(qt);
+    buckets.set(bk, bucket);
+    deduped.push(q);
+  }
+  console.log(`  · Fast-Dubletten entfernt: ${nearDropped}, verbleibend: ${deduped.length}`);
+
   // Umlaut-Statistik
-  const withUmlaut = unique.filter((q) => hasUmlaut(q.q) || q.a.some(hasUmlaut)).length;
-  console.log(`  · mit Umlauten in Frage/Antwort: ${withUmlaut} / ${unique.length}`);
+  const withUmlaut = deduped.filter((q) => hasUmlaut(q.q) || q.a.some(hasUmlaut)).length;
+  console.log(`  · mit Umlauten in Frage/Antwort: ${withUmlaut} / ${deduped.length}`);
 
   // Gruppieren nach level
   const byLevel = new Map();
   for (let i = 1; i <= 15; i++) byLevel.set(i, []);
-  for (const q of unique) byLevel.get(q.level).push({
+  for (const q of deduped) byLevel.get(q.level).push({
     q: q.q,
     a: q.a,
     correct: q.correct,

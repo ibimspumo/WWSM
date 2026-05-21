@@ -720,18 +720,6 @@
     "category": "Wissenschaft"
   },
   {
-    "q": "Welches Gesetz beschreibt das Verhältnis zwischen der Temperatur, dem Druck und dem Volumen eines idealen Gases?",
-    "a": [
-      "Das Gesetz von Avogadro",
-      "Das Gesetz von Charles",
-      "Das ideale Gasgesetz",
-      "Das Gesetz von Boyle"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
     "q": "Welche der folgenden Aussagen über Antibiotika ist korrekt?",
     "a": [
       "Antibiotika sollten immer ohne ärztlichen Rat eingenommen werden.",
@@ -978,18 +966,6 @@
       "Fermentation",
       "Karamellisierung",
       "Oxidation"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Essen und Trinken"
-  },
-  {
-    "q": "Welche der folgenden Kaffee-Pflanzenarten ist bekannt für ihren milden Geschmack und wird häufig in Höhenlagen angebaut?",
-    "a": [
-      "Arabica",
-      "Robusta",
-      "Liberica",
-      "Excelsa"
     ],
     "correct": 0,
     "source": "Dekuel/daily-quiz",
@@ -2004,18 +1980,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welcher der folgenden Götter gilt in der ägyptischen Mythologie als Gott der Unterwelt und der Toten?",
-    "a": [
-      "Anubis",
-      "Thot",
-      "Osiris",
-      "Horus"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welcher der folgenden Titel wurde traditionell dem ägyptischen Pharao zugeschrieben, der gleichzeitig als göttlicher Herrscher angesehen wurde?",
     "a": [
       "Erbe der Götter",
@@ -2760,18 +2724,6 @@
     "category": "Sport"
   },
   {
-    "q": "Welche der folgenden Nationalmannschaften hat bei der Rugby-Weltmeisterschaft die meisten Titel gewonnen?",
-    "a": [
-      "Südafrika",
-      "Australien",
-      "England",
-      "Neuseeland"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "In welcher Sportart werden die Punkte anhand der Anzahl der Schläge, die ein Spieler dafür benötigt, um den Ball ins Ziel zu bringen, gezählt?",
     "a": [
       "Tennis",
@@ -2934,18 +2886,6 @@
       "Die Hände zu weit auseinander halten und den Körper nach hinten lehnen",
       "Zu früh springen und die Arme nicht richtig anheben",
       "Den Blick vom Angreifer abwenden und den Körper nicht drehen"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
-    "q": "Welcher Sportler hält den Rekord für die meisten Grand Slam-Titel im Tennis (Stand 2023)?",
-    "a": [
-      "Pete Sampras",
-      "Roger Federer",
-      "Novak Djokovic",
-      "Rafael Nadal"
     ],
     "correct": 2,
     "source": "Dekuel/daily-quiz",
@@ -3360,18 +3300,6 @@
     "category": "Technologie"
   },
   {
-    "q": "Welches Protokoll wird häufig zur Übertragung von E-Mails verwendet?",
-    "a": [
-      "HTTP",
-      "FTP",
-      "IMAP",
-      "SMTP"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
     "q": "Welches der folgenden Verfahren wird häufig zur Klassifikation von Daten in Machine Learning verwendet?",
     "a": [
       "Support Vector Machine",
@@ -3564,18 +3492,6 @@
     "category": "Wirtschaft & Finanzen"
   },
   {
-    "q": "In welchem Jahr begann die erste Ölkrise, die maßgeblich durch die OPEC verursacht wurde?",
-    "a": [
-      "1980",
-      "1967",
-      "1973",
-      "1979"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
     "q": "Welcher der folgenden Begriffe beschreibt ein Finanzinstrument, dessen Wert von der Preisbewegung eines Basiswerts abhängt?",
     "a": [
       "Anleihe",
@@ -3594,18 +3510,6 @@
       "1825",
       "1800",
       "1750"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
-    "q": "In welchem Jahr fand die erste Ölkrise statt, die maßgeblich durch die OPEC beeinflusst wurde?",
-    "a": [
-      "1973",
-      "1980",
-      "1979",
-      "1967"
     ],
     "correct": 0,
     "source": "Dekuel/daily-quiz",
@@ -3732,18 +3636,6 @@
     "category": "Wissenschaft"
   },
   {
-    "q": "Welcher Planet in unserem Sonnensystem hat die größte Anzahl an bekannten Monden?",
-    "a": [
-      "Uranus",
-      "Neptun",
-      "Saturn",
-      "Jupiter"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
     "q": "Welches der folgenden Moleküle ist ein Beispiel für ein Enzym, das im menschlichen Körper bei der Verdauung von Kohlenhydraten eine zentrale Rolle spielt?",
     "a": [
       "Amylase",
@@ -3764,18 +3656,6 @@
       "Asthma bronchiale"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
-    "q": "Welche der folgenden Organellen ist primär für die Synthese von ATP in eukaryotischen Zellen verantwortlich?",
-    "a": [
-      "Mitochondrien",
-      "Ribosomen",
-      "Lysosomen",
-      "Golgi-Apparat"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Wissenschaft"
   },

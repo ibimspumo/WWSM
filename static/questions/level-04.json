@@ -600,18 +600,6 @@
     "category": "Geographie"
   },
   {
-    "q": "Welches Gebirge erstreckt sich über den Kontinent Europa und ist bekannt für seine alpine Landschaft?",
-    "a": [
-      "Alpen",
-      "Rocky Mountains",
-      "Himalaya",
-      "Anden"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
     "q": "Welches Land grenzt im Westen an Deutschland?",
     "a": [
       "Polen",
@@ -704,18 +692,6 @@
       "Nairobi"
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
-    "q": "Welche dieser Städte ist die Hauptstadt von Spanien?",
-    "a": [
-      "Madrid",
-      "Valencia",
-      "Barcelona",
-      "Sevilla"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Geographie"
   },
@@ -1016,18 +992,6 @@
       "Kain und Abel"
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welcher nordische Gott ist bekannt als der Gott des Donners?",
-    "a": [
-      "Thor",
-      "Loki",
-      "Freyja",
-      "Odin"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Glaube & Religion"
   },
@@ -1956,18 +1920,6 @@
     "category": "Sport"
   },
   {
-    "q": "Wie viele Spieler befinden sich in einer Handballmannschaft auf dem Feld?",
-    "a": [
-      "5",
-      "7",
-      "8",
-      "6"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "Was ist die korrekte Übersetzung des Wortes 'Haus' ins Englische?",
     "a": [
       "Home",
@@ -2604,30 +2556,6 @@
     "category": "Wissenschaft"
   },
   {
-    "q": "Welche der folgenden Methoden wird häufig in der analytischen Chemie verwendet, um die Konzentration eines Stoffes in einer Lösung zu bestimmen?",
-    "a": [
-      "Filtration",
-      "Titration",
-      "Destillation",
-      "Kristallisation"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
-    "q": "Welcher Planet unseres Sonnensystems ist bekannt für seine auffälligen Ringe?",
-    "a": [
-      "Mars",
-      "Jupiter",
-      "Venus",
-      "Saturn"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
     "q": "Was beschreibt das Heisenbergsche Unschärferelationsprinzip in der Quantenmechanik?",
     "a": [
       "Alle Teilchen sind identisch und können nicht unterschieden werden.",
@@ -3024,18 +2952,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welche der folgenden Figuren wird in den abrahamitischen Religionen als Stammvater angesehen?",
-    "a": [
-      "David",
-      "Jesus",
-      "Moses",
-      "Abraham"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welche der folgenden Eigenschaften ist typisch für die Musik der Renaissance?",
     "a": [
       "Monodie und einfache Melodien",
@@ -3192,18 +3108,6 @@
     "category": "Sport"
   },
   {
-    "q": "Welche Medaille erhält der Zweitplatzierte bei den Olympischen Spielen?",
-    "a": [
-      "Keine Medaille",
-      "Silber",
-      "Gold",
-      "Bronze"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "Welcher berühmte Athlet gewann die meisten Goldmedaillen in der Geschichte der Olympischen Spiele?",
     "a": [
       "Michael Phelps",
@@ -3212,18 +3116,6 @@
       "Usain Bolt"
     ],
     "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
-    "q": "Welche Sportart wird in der Regel mit einem Schläger und einem Ball auf einem Netz gespielt?",
-    "a": [
-      "Basketball",
-      "Tennis",
-      "Handball",
-      "Fußball"
-    ],
-    "correct": 1,
     "source": "Dekuel/daily-quiz",
     "category": "Sport"
   },
@@ -3312,18 +3204,6 @@
     "category": "Sprache"
   },
   {
-    "q": "Welches der folgenden Suffixe wird typischerweise verwendet, um ein Adjektiv in ein Substantiv zu verwandeln, das einen Zustand oder eine Eigenschaft beschreibt?",
-    "a": [
-      "-heit",
-      "-ung",
-      "-chen",
-      "-isch"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sprache"
-  },
-  {
     "q": "Welches Suffix wird üblicherweise NICHT verwendet, um Nomen aus Adjektiven zu bilden?",
     "a": [
       "-ung",
@@ -3378,18 +3258,6 @@
       "Picture-in-Picture",
       "Split-Screen-Modus",
       "App-Pinning"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welches Unternehmen entwickelte das iOS-Betriebssystem?",
-    "a": [
-      "Microsoft",
-      "Google",
-      "Apple",
-      "Samsung"
     ],
     "correct": 2,
     "source": "Dekuel/daily-quiz",

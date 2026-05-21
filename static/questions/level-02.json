@@ -120,18 +120,6 @@
     "category": "Essen und Trinken"
   },
   {
-    "q": "Welches Vitamin ist bekannt dafür, das Immunsystem zu unterstützen und ist vor allem in Zitrusfrüchten enthalten?",
-    "a": [
-      "Vitamin D",
-      "Vitamin C",
-      "Vitamin A",
-      "Vitamin B12"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Essen und Trinken"
-  },
-  {
     "q": "Welche Zutat ist ein typisches Element in der traditionellen amerikanischen Küche und wird häufig in Gerichten wie Chili verwendet?",
     "a": [
       "Bohnen",
@@ -324,18 +312,6 @@
     "category": "Geographie"
   },
   {
-    "q": "Welche Hauptstadt gehört zu Frankreich?",
-    "a": [
-      "Rom",
-      "Paris",
-      "Berlin",
-      "Madrid"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
     "q": "Welches Gebirge erstreckt sich entlang der Grenze zwischen Deutschland und Österreich?",
     "a": [
       "Apennin",
@@ -428,18 +404,6 @@
       "Der Parthenon"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geschichte"
-  },
-  {
-    "q": "Welcher Kreuzzug wurde im Jahr 1096 begonnen?",
-    "a": [
-      "Vierter Kreuzzug",
-      "Zweiter Kreuzzug",
-      "Dritter Kreuzzug",
-      "Erster Kreuzzug"
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Geschichte"
   },
@@ -552,18 +516,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Wer führte die Israeliten aus Ägypten während des Exodus?",
-    "a": [
-      "David",
-      "Salomo",
-      "Abraham",
-      "Mose"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welche der folgenden Religionen ist eine monotheistische Religion?",
     "a": [
       "Hinduismus",
@@ -624,18 +576,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welches Buch ist die heilige Schrift des Islam?",
-    "a": [
-      "Koran",
-      "Tora",
-      "Veden",
-      "Bibel"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welche der folgenden Säulen ist eine der fünf Säulen des Islam?",
     "a": [
       "Die Meditation zu bestimmten Zeiten",
@@ -656,18 +596,6 @@
       "Raum"
     ],
     "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Kunst und Literatur"
-  },
-  {
-    "q": "Wer sagte den berühmten Satz: 'Ich denke, also bin ich'?",
-    "a": [
-      "Friedrich Nietzsche",
-      "Immanuel Kant",
-      "Arthur Schopenhauer",
-      "René Descartes"
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Kunst und Literatur"
   },
@@ -1104,18 +1032,6 @@
     "category": "Politiker"
   },
   {
-    "q": "Wer ist Bundesminister(in) für das Auswärtige Amt?",
-    "a": [
-      "Annalena Baerbock",
-      "Heiko Maas",
-      "Sigmar Gabriel",
-      "Johann Wadephul"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Politiker"
-  },
-  {
     "q": "Wer ist Bundesminister(in) für das Bundesministerium für Bildung und Forschung?",
     "a": [
       "Anja Karliczek",
@@ -1124,18 +1040,6 @@
       "Dorothee Bär"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Politiker"
-  },
-  {
-    "q": "Wie heißt die/der amtierende oberste Amtsinhaber(in) der Weltgesundheitsorganisation?",
-    "a": [
-      "Tedros Adhanom Ghebreyesus",
-      "Anthony Fauci",
-      "Gro Harlem Brundtland",
-      "Margaret Chan"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Politiker"
   },
@@ -1316,18 +1220,6 @@
       "Snowboarden"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
-    "q": "Wie viele Spieler befinden sich in einer Rugby-Mannschaft auf dem Feld?",
-    "a": [
-      "5",
-      "7",
-      "15",
-      "11"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Sport"
   },
@@ -1878,18 +1770,6 @@
       "Straßburg (Frankreich)",
       "Luxemburg (Luxemburg)",
       "Wien (Österreich)"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Politiker"
-  },
-  {
-    "q": "Wer ist Bundesministerin für das Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz?",
-    "a": [
-      "Svenja Schulze",
-      "Julia Klöckner",
-      "Anja Karliczek",
-      "Barbara Hendricks"
     ],
     "correct": 3,
     "source": "Dekuel/daily-quiz",

@@ -336,18 +336,6 @@
     "category": "Geographie"
   },
   {
-    "q": "Welche der folgenden Hauptstädte ist gleichzeitig der Name des Landes, in dem sie sich befindet?",
-    "a": [
-      "Djibouti",
-      "Nairobi",
-      "Addis Abeba",
-      "Kampala"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
     "q": "Welches der folgenden Gebirge erstreckt sich über die Grenze von Argentinien und Chile?",
     "a": [
       "Rocky Mountains",
@@ -1248,18 +1236,6 @@
     "category": "Sprache"
   },
   {
-    "q": "Welches der folgenden französischen Wörter bedeutet „Haus“?",
-    "a": [
-      "Maison",
-      "Voiture",
-      "Chien",
-      "Arbre"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sprache"
-  },
-  {
     "q": "Welches der folgenden Wörter hat seine Wurzel nicht im Lateinischen?",
     "a": [
       "Schule",
@@ -1854,18 +1830,6 @@
       "Myoglobin reguliert den Blutzuckerspiegel.",
       "Myoglobin transportiert Kohlendioxid im Blut.",
       "Myoglobin speichert Sauerstoff in den Muskeln."
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
-    "q": "Welche der folgenden Organellen ist hauptsächlich für die Energieproduktion in eukaryotischen Zellen verantwortlich?",
-    "a": [
-      "Lysosomen",
-      "Ribosomen",
-      "Golgi-Apparat",
-      "Mitochondrien"
     ],
     "correct": 3,
     "source": "Dekuel/daily-quiz",
@@ -3908,18 +3872,6 @@
       "Handball"
     ],
     "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
-    "q": "Wie viele Spieler sind in einem Rugby-Team auf dem Spielfeld aktiv?",
-    "a": [
-      "13",
-      "7",
-      "15",
-      "11"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Sport"
   },

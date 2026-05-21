@@ -312,18 +312,6 @@
     "category": "Alltag & Gesellschaft"
   },
   {
-    "q": "Wie viel km/h darf man in einer 30er-Zone maximal fahren?",
-    "a": [
-      "50 km/h",
-      "30 km/h",
-      "40 km/h",
-      "20 km/h"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Alltag & Gesellschaft"
-  },
-  {
     "q": "Welche Schulform ist für die Schülerinnen und Schüler in Deutschland nicht verpflichtend, obwohl eine Schulpflicht besteht?",
     "a": [
       "Realschule",
@@ -356,18 +344,6 @@
       "40 km/h"
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Alltag & Gesellschaft"
-  },
-  {
-    "q": "Welche Schulform vermittelt in der Regel einen Hauptschulabschluss?",
-    "a": [
-      "Hauptschule",
-      "Gesamtschule",
-      "Realschule",
-      "Gymnasium"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Alltag & Gesellschaft"
   },
@@ -500,18 +476,6 @@
       "Gulasch"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Essen und Trinken"
-  },
-  {
-    "q": "Welches der folgenden Getränke wird typischerweise durch die Fermentation von gesüßtem Tee hergestellt?",
-    "a": [
-      "Kombucha",
-      "Wasserkefir",
-      "Rejuvelac",
-      "Kefir"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Essen und Trinken"
   },
@@ -1200,18 +1164,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welcher römische Gott ist als Gott des Krieges bekannt?",
-    "a": [
-      "Mars",
-      "Diana",
-      "Jupiter",
-      "Venus"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welche der folgenden monotheistischen Religionen hat weltweit die meisten Anhänger?",
     "a": [
       "Zoroastrismus",
@@ -1568,18 +1520,6 @@
       "Aquarellmalerei"
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Kunst und Literatur"
-  },
-  {
-    "q": "Welcher Autor ist bekannt für sein Werk 'Der Prozess'?",
-    "a": [
-      "Rainer Maria Rilke",
-      "Hermann Hesse",
-      "Thomas Mann",
-      "Franz Kafka"
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Kunst und Literatur"
   },
@@ -2100,18 +2040,6 @@
     "category": "Sport"
   },
   {
-    "q": "Welches dieser Sportgeräte wird häufig im Tennis verwendet?",
-    "a": [
-      "Schläger",
-      "Netz",
-      "Ball",
-      "Tor"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "In welcher Sportart wird der Begriff 'Double Fault' verwendet, wenn ein Spieler zwei aufeinanderfolgende Aufschläge ins Aus oder ins Netz schlägt?",
     "a": [
       "Volleyball",
@@ -2238,18 +2166,6 @@
       "Kebab",
       "Yoghurt",
       "Dolma"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sprache"
-  },
-  {
-    "q": "Welches Wort bedeutet auf Englisch \"Haus\"?",
-    "a": [
-      "House",
-      "Room",
-      "Home",
-      "Flat"
     ],
     "correct": 0,
     "source": "Dekuel/daily-quiz",
@@ -2688,18 +2604,6 @@
     "category": "Wirtschaft & Finanzen"
   },
   {
-    "q": "In welchem Jahr wurde der Euro als Buchungswährung eingeführt?",
-    "a": [
-      "2001",
-      "2002",
-      "1995",
-      "1999"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
     "q": "Was ist der Hauptvorteil eines Kontowechsels durch den Wechselservice einer Bank?",
     "a": [
       "Unbegrenzte Bargeldabhebungen an allen Geldautomaten",
@@ -2856,18 +2760,6 @@
     "category": "Wissenschaft"
   },
   {
-    "q": "Welcher Planet unseres Sonnensystems ist bekannt für seine ausgeprägten Ringe?",
-    "a": [
-      "Saturn",
-      "Jupiter",
-      "Mars",
-      "Venus"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
     "q": "Welche der folgenden Aussagen beschreibt am besten den Begriff 'Enthalpie' in der Chemie?",
     "a": [
       "Enthalpie ist die Gesamtenergie eines Systems, die sowohl die innere Energie als auch die Arbeit umfasst, die gegen den Umgebungsdruck geleistet wird.",
@@ -2876,18 +2768,6 @@
       "Enthalpie beschreibt die Struktur von Molekülen im Raum."
     ],
     "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
-    "q": "Was ist der Hauptzweck eines Elektrokardiogramms (EKG)?",
-    "a": [
-      "Die Körpertemperatur zu überwachen.",
-      "Den Blutdruck zu messen.",
-      "Die Sauerstoffsättigung im Blut zu bestimmen.",
-      "Die elektrische Aktivität des Herzens aufzuzeichnen."
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Wissenschaft"
   },
@@ -2976,18 +2856,6 @@
     "category": "Wissenschaft"
   },
   {
-    "q": "Welche der folgenden Zellorganellen ist für die Energieproduktion in der Zelle verantwortlich?",
-    "a": [
-      "Mitochondrien",
-      "Lysosomen",
-      "Ribosomen",
-      "Golgi-Apparat"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
     "q": "Welches der folgenden Moleküle ist das Träger-Molekül für die genetische Information in den meisten Organismen?",
     "a": [
       "Lipid",
@@ -2996,18 +2864,6 @@
       "DNA"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
-    "q": "Welches der folgenden Moleküle ist ein Beispiel für ein Alkan?",
-    "a": [
-      "C3H8",
-      "CH3OH",
-      "C2H4",
-      "C6H6"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Wissenschaft"
   },
@@ -3564,18 +3420,6 @@
     "category": "Geographie"
   },
   {
-    "q": "Welcher Fluss gilt als der längste der Welt?",
-    "a": [
-      "Jangtse",
-      "Amazonas",
-      "Mississippi",
-      "Nil"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
     "q": "Welche der folgenden Flaggen zeigt ein weißes Kreuz auf rotem Grund und gehört zu einem europäischen Land?",
     "a": [
       "Die Flagge von Norwegen",
@@ -3584,18 +3428,6 @@
       "Die Flagge der Schweiz"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
-    "q": "Welcher Begriff beschreibt das Potenzial eines natürlichen Ereignisses, Schaden zu verursachen?",
-    "a": [
-      "Gefahr",
-      "Risiko",
-      "Exposition",
-      "Vulnerabilität"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Geographie"
   },
@@ -3984,18 +3816,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welcher Göttervater der nordischen Mythologie ist bekannt für seinen einäugigen Blick und seine Weisheit?",
-    "a": [
-      "Odin",
-      "Loki",
-      "Thor",
-      "Freyja"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welches der folgenden Konzepte ist eine Gemeinsamkeit aller abrahamitischen Religionen?",
     "a": [
       "Die Auffassung von Reinkarnation.",
@@ -4016,18 +3836,6 @@
       "Poseidon"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welcher Olympische Gott ist als Gott des Meeres bekannt?",
-    "a": [
-      "Apollon",
-      "Poseidon",
-      "Hermes",
-      "Zeus"
-    ],
-    "correct": 1,
     "source": "Dekuel/daily-quiz",
     "category": "Glaube & Religion"
   },
@@ -4488,18 +4296,6 @@
     "category": "Natur"
   },
   {
-    "q": "Welches Land hat die meisten FIFA-Weltmeisterschaften im Fußball gewonnen?",
-    "a": [
-      "Brasilien",
-      "Deutschland",
-      "Argentinien",
-      "Italien"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "Welche der folgenden Maßnahmen ist besonders wichtig, um Verletzungen während des Sports zu vermeiden?",
     "a": [
       "Ungeübte Techniken ausprobieren",
@@ -4628,18 +4424,6 @@
       "Ulrike Meier"
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
-    "q": "Wie viele Spieler befinden sich gleichzeitig auf dem Spielfeld eines Handballspiels für jede Mannschaft?",
-    "a": [
-      "7",
-      "8",
-      "5",
-      "6"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Sport"
   },
@@ -5010,18 +4794,6 @@
       "Bitcoin ist die erste und bekannteste Kryptowährung, während Altcoins alle anderen Kryptowährungen sind.",
       "Bitcoin verwendet das Proof-of-Stake-Protokoll, während Altcoins immer Proof-of-Work verwenden.",
       "Altcoins können nicht auf Exchanges gehandelt werden."
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
-    "q": "Welcher der folgenden Indizes umfasst die 30 größten und liquidesten Unternehmen an der Frankfurter Wertpapierbörse?",
-    "a": [
-      "TecDAX",
-      "DAX",
-      "SDAX",
-      "MDAX"
     ],
     "correct": 1,
     "source": "Dekuel/daily-quiz",

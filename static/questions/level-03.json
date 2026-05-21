@@ -432,18 +432,6 @@
     "category": "Geographie"
   },
   {
-    "q": "Welche Hauptstadt gehört zu Japan?",
-    "a": [
-      "Bangkok",
-      "Seoul",
-      "Peking",
-      "Tokio"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
     "q": "Welcher dieser Gewässertypen ist ein Binnengewässer, das von Land umgeben ist?",
     "a": [
       "Ozean",
@@ -684,18 +672,6 @@
     "category": "Geschichte"
   },
   {
-    "q": "Was ist die heilige Schrift des Islam?",
-    "a": [
-      "Veden",
-      "Tora",
-      "Koran",
-      "Bibel"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welcher Held der griechischen Mythologie ist bekannt für seine zwölf Arbeiten?",
     "a": [
       "Herakles",
@@ -756,18 +732,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welcher Gott ist in der nordischen Mythologie bekannt als der Gott des Donners?",
-    "a": [
-      "Thor",
-      "Odin",
-      "Loki",
-      "Freyja"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welcher Held ist bekannt dafür, die Medusa besiegt und ihren Kopf als Waffe verwendet zu haben?",
     "a": [
       "Perseus",
@@ -776,18 +740,6 @@
       "Herakles"
     ],
     "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welcher Gott ist in der nordischen Mythologie der Gott des Donners?",
-    "a": [
-      "Odin",
-      "Loki",
-      "Thor",
-      "Freyja"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Glaube & Religion"
   },

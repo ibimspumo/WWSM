@@ -672,18 +672,6 @@
     "category": "Geographie"
   },
   {
-    "q": "Welche der folgenden Hauptstädte ist die Hauptstadt von Papua-Neuguinea?",
-    "a": [
-      "Honiara",
-      "Wellington",
-      "Suva",
-      "Port Moresby"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
     "q": "Welche der folgenden Aussagen beschreibt am besten die Auswirkungen der Verschiebung der Innertropischen Konvergenzzone (ITCZ) auf die Monsunwinde in Südostasien während des Sommermonsuns?",
     "a": [
       "Die ITCZ bleibt das ganze Jahr über stabil und beeinflusst somit die Monsunwinde nicht erheblich.",
@@ -2196,18 +2184,6 @@
     "category": "Sprache"
   },
   {
-    "q": "Welche Programmiersprache wird häufig zur Entwicklung von nativen Android-Apps verwendet?",
-    "a": [
-      "JavaScript",
-      "Swift",
-      "C#",
-      "Kotlin"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
     "q": "Welches Quantenalgorithmus-Framework wurde speziell für die Optimierung von Problemen in der Quanteninformatik entwickelt?",
     "a": [
       "Qiskit",
@@ -2240,18 +2216,6 @@
       "FTP"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welches Protokoll wird hauptsächlich zur Übertragung von Webseiten verwendet?",
-    "a": [
-      "SMTP",
-      "SNMP",
-      "FTP",
-      "HTTP"
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Technologie"
   },
@@ -2408,30 +2372,6 @@
       "Generative Adversarial Network"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welches Protokoll wird häufig für die Übertragung von Webseiteninhalten, einschließlich HTML, verwendet?",
-    "a": [
-      "FTP",
-      "SNMP",
-      "HTTP",
-      "SMTP"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welches Protokoll gilt als Grundlage für die Übertragung von Webseiten im Internet?",
-    "a": [
-      "SMTP",
-      "SNMP",
-      "HTTP",
-      "FTP"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Technologie"
   },

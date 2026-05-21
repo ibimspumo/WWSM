@@ -408,18 +408,6 @@
     "category": "Essen und Trinken"
   },
   {
-    "q": "Welches Gewürz ist ein typisches Element der nordafrikanischen Küche und wird häufig in Gerichten wie Couscous verwendet?",
-    "a": [
-      "Paprika",
-      "Kreuzkümmel",
-      "Zimt",
-      "Kurkuma"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Essen und Trinken"
-  },
-  {
     "q": "Welches der folgenden Produkte ist mit dem Schutzsiegel 'g.U.' (geschützte Ursprungsbezeichnung) ausgezeichnet?",
     "a": [
       "Parmigiano Reggiano",
@@ -800,18 +788,6 @@
       "Lima"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
-    "q": "Welcher der folgenden Seen ist der größte nach Fläche?",
-    "a": [
-      "Viktoriasee",
-      "Baikalsee",
-      "Kaspisches Meer",
-      "Superiorsee"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Geographie"
   },
@@ -1344,18 +1320,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welcher Gott der nordischen Mythologie ist bekannt als der Gott des Donners?",
-    "a": [
-      "Thor",
-      "Loki",
-      "Freyja",
-      "Odin"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welches Buch gilt als das zentrale heilige Schriftstück im Christentum?",
     "a": [
       "Die Veden",
@@ -1364,18 +1328,6 @@
       "Die Thora"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welches Fest wird im Christentum als Feier der Geburt Jesu Christi gefeiert?",
-    "a": [
-      "Weihnachten",
-      "Ostern",
-      "Pfingsten",
-      "Erntedankfest"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Glaube & Religion"
   },
@@ -1400,18 +1352,6 @@
       "'Das letzte Abendmahl'"
     ],
     "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Kunst und Literatur"
-  },
-  {
-    "q": "Welcher Künstler ist bekannt für seine romantischen Landschaftsgemälde, die oft das Gefühl des Erhabenen und der Einsamkeit ausdrücken?",
-    "a": [
-      "Claude Monet",
-      "Pablo Picasso",
-      "Caspar David Friedrich",
-      "Vincent van Gogh"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Kunst und Literatur"
   },
@@ -2580,18 +2520,6 @@
     "category": "Technologie"
   },
   {
-    "q": "Welcher Sprachassistent wurde von Amazon entwickelt?",
-    "a": [
-      "Google Assistant",
-      "Siri",
-      "Cortana",
-      "Alexa"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
     "q": "Welches der folgenden sozialen Netzwerke ist bekannt für seine Kurzmitteilungen mit maximal 280 Zeichen?",
     "a": [
       "LinkedIn",
@@ -2916,18 +2844,6 @@
     "category": "Wirtschaft & Finanzen"
   },
   {
-    "q": "Welches Unternehmen hatte im Jahr 2022 die größte Marktkapitalisierung weltweit?",
-    "a": [
-      "Alibaba",
-      "Amazon",
-      "Microsoft",
-      "Facebook"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
     "q": "Was beschreibt der Begriff \"Dividende\" in der Finanzwelt?",
     "a": [
       "Die Ausschüttung eines Teils des Gewinns an die Aktionäre",
@@ -2984,18 +2900,6 @@
       "Den Index, der die 30 größten Unternehmen in Deutschland umfasst (DAX)"
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
-    "q": "Welches Unternehmen führte 2007 das erste iPhone ein?",
-    "a": [
-      "Apple",
-      "Samsung",
-      "Nokia",
-      "Microsoft"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Wirtschaft & Finanzen"
   },
@@ -3426,18 +3330,6 @@
       "Das Geburtsdatum des Bewerbers",
       "Ein persönliches Motivationsschreiben",
       "Eine detaillierte Auflistung aller bisherigen Arbeitgeber"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Alltag & Gesellschaft"
-  },
-  {
-    "q": "Wie lange dauert eine reguläre Berufsausbildung in Deutschland in der Regel?",
-    "a": [
-      "4 Jahre",
-      "1 Jahr",
-      "2 Jahre",
-      "3 Jahre"
     ],
     "correct": 3,
     "source": "Dekuel/daily-quiz",
@@ -4272,18 +4164,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welcher griechische Gott ist als der König der Götter bekannt?",
-    "a": [
-      "Poseidon",
-      "Apollon",
-      "Zeus",
-      "Hades"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welche Stadt ist eines der bedeutendsten Ziele für Pilgerreisen im Islam?",
     "a": [
       "Jerusalem",
@@ -4340,18 +4220,6 @@
       "Lebensbaum"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welcher ägyptische Gott ist bekannt als der Herrscher der Unterwelt und wird oft mit einem Schakalkopf dargestellt?",
-    "a": [
-      "Anubis",
-      "Osiris",
-      "Ra",
-      "Horus"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Glaube & Religion"
   },
@@ -4596,18 +4464,6 @@
     "category": "Sport"
   },
   {
-    "q": "Welcher Schläger wird typischerweise im Tennis verwendet?",
-    "a": [
-      "Golfschläger",
-      "Tennisschläger",
-      "Badmintonschläger",
-      "Squashschläger"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "Welches Gremium ist in der Regel für die Ansetzung von Schiedsrichtern in der Basketball-Bundesliga zuständig?",
     "a": [
       "Der Schiedsrichterausschuss",
@@ -4700,18 +4556,6 @@
       "1936"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
-    "q": "Wie viele Spieler befinden sich normalerweise während eines Eishockeyspiels pro Team auf dem Eis?",
-    "a": [
-      "4",
-      "3",
-      "6",
-      "5"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Sport"
   },
@@ -4884,18 +4728,6 @@
     "category": "Sprache"
   },
   {
-    "q": "Welches Präfix bedeutet in der Regel 'nicht' oder 'gegen'?",
-    "a": [
-      "mit-",
-      "über-",
-      "un-",
-      "vor-"
-    ],
-    "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sprache"
-  },
-  {
     "q": "Welches der folgenden deutschen Wörter hat keine etymologische Ähnlichkeit mit seinem englischen Pendant?",
     "a": [
       "Gift",
@@ -4928,18 +4760,6 @@
       "NFC"
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Technologie"
-  },
-  {
-    "q": "Welches Unternehmen stellte 1981 den ersten Personal Computer (PC) vor?",
-    "a": [
-      "Microsoft",
-      "Commodore",
-      "Apple",
-      "IBM"
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Technologie"
   },
@@ -5084,18 +4904,6 @@
       "Den Deutschen Aktienindex"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
-    "q": "Welches Unternehmen hatte im Jahr 2021 die höchste Marktkapitalisierung unter den genannten?",
-    "a": [
-      "Facebook",
-      "Microsoft",
-      "Apple",
-      "Google"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Wirtschaft & Finanzen"
   },
@@ -5288,30 +5096,6 @@
       "Apple"
     ],
     "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
-    "q": "In welchem Jahr begann die Corona-Pandemie, die erhebliche wirtschaftliche Auswirkungen weltweit hatte?",
-    "a": [
-      "2018",
-      "2020",
-      "2021",
-      "2019"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wirtschaft & Finanzen"
-  },
-  {
-    "q": "Welcher Index repräsentiert die 30 größten und liquidesten Unternehmen in Deutschland?",
-    "a": [
-      "SDAX",
-      "DAX",
-      "MDAX",
-      "TecDAX"
-    ],
-    "correct": 1,
     "source": "Dekuel/daily-quiz",
     "category": "Wirtschaft & Finanzen"
   },

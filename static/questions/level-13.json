@@ -1032,18 +1032,6 @@
     "category": "Sport"
   },
   {
-    "q": "Welcher internationale Sportverband ist verantwortlich für die Organisation der Rugby-Weltmeisterschaft?",
-    "a": [
-      "FIBA",
-      "World Rugby",
-      "FIFA",
-      "IAAF"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "Welche Aussage zu den Schießserien im Biathlon ist korrekt?",
     "a": [
       "Bei einem Fehlschuss im Liegendschießen muss der Athlet eine Strafrunde von 150 Metern absolvieren.",

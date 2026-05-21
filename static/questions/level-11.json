@@ -720,18 +720,6 @@
     "category": "Glaube & Religion"
   },
   {
-    "q": "Welcher Held ist bekannt dafür, die Medusa zu besiegen und ihren Kopf als Waffe zu verwenden?",
-    "a": [
-      "Theseus",
-      "Odysseus",
-      "Herakles",
-      "Perseus"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
     "q": "Welchen Begriff verwendeten die antiken Griechen, um die Sammlung von Mythen und Geschichten über ihre Götter und Helden zu beschreiben, die oft in Gesang oder Dichtung überliefert wurden?",
     "a": [
       "Mythos",
@@ -764,18 +752,6 @@
       "Christentum"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welches Amt war im römischen Staatskult für die Durchführung der wichtigen religiösen Rituale und Opfer verantwortlich?",
-    "a": [
-      "Flamen",
-      "Augur",
-      "Pontifex Maximus",
-      "Vestalin"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Glaube & Religion"
   },
@@ -824,18 +800,6 @@
       "Der Koran"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Glaube & Religion"
-  },
-  {
-    "q": "Welcher der folgenden Götter wird in der kanaanäischen Religion häufig als Herrscher über das Wetter und die Fruchtbarkeit verehrt?",
-    "a": [
-      "Baal",
-      "Aschera",
-      "Moloch",
-      "El"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Glaube & Religion"
   },
@@ -1032,18 +996,6 @@
     "category": "Natur"
   },
   {
-    "q": "Welche der folgenden Pflanzen wird botanisch als Frucht klassifiziert, obwohl sie kulinarisch oft als Gemüse angesehen wird?",
-    "a": [
-      "Tomate",
-      "Zucchini",
-      "Karotte",
-      "Spinat"
-    ],
-    "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Natur"
-  },
-  {
     "q": "Welche der folgenden Aussagen beschreibt am besten die Rolle der ITCZ (Intertropical Convergence Zone) im globalen Klimasystem?",
     "a": [
       "Die ITCZ ist die Zone, in der die Hadley-Zelle auf die Ferrel-Zelle trifft, wodurch sich stabile Hochdruckgebiete bilden.",
@@ -1212,18 +1164,6 @@
     "category": "Physik"
   },
   {
-    "q": "Wie viele Spieler sind während eines Handballspiels pro Mannschaft auf dem Spielfeld aktiv?",
-    "a": [
-      "6",
-      "7",
-      "5",
-      "8"
-    ],
-    "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
     "q": "Was ist eine 'Let'-Entscheidung im Squash?",
     "a": [
       "Ein Punkt wird nicht gewertet, weil der Spieler beim Schlag behindert wurde.",
@@ -1280,18 +1220,6 @@
       "Real Madrid"
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
-    "q": "Was beschreibt im Baseball den Vorgang, bei dem ein Runner die Base erreicht, bevor der Ball von einem fielder zu dieser Base geworfen wird?",
-    "a": [
-      "Fly Out",
-      "Strike Out",
-      "Force Play",
-      "Tag Play"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Sport"
   },
@@ -1376,18 +1304,6 @@
       "Kylian Mbappé"
     ],
     "correct": 0,
-    "source": "Dekuel/daily-quiz",
-    "category": "Sport"
-  },
-  {
-    "q": "Welcher brasilianische Klub hat die meisten Titel in der Geschichte des Campeonato Brasileiro Série A gewonnen?",
-    "a": [
-      "Flamengo",
-      "São Paulo",
-      "Santos",
-      "Palmeiras"
-    ],
-    "correct": 3,
     "source": "Dekuel/daily-quiz",
     "category": "Sport"
   },
@@ -1808,18 +1724,6 @@
       "Ein Allel kann dominant oder rezessiv sein, wobei das dominante Allel den Phänotyp bestimmt."
     ],
     "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Wissenschaft"
-  },
-  {
-    "q": "Welche Phase durchläuft ein Stern, bevor er zum Roten Riesen wird?",
-    "a": [
-      "Weißer Zwerg",
-      "Supernova",
-      "Hauptreihe",
-      "Neutronenstern"
-    ],
-    "correct": 2,
     "source": "Dekuel/daily-quiz",
     "category": "Wissenschaft"
   },
@@ -2432,18 +2336,6 @@
       "Kairo"
     ],
     "correct": 1,
-    "source": "Dekuel/daily-quiz",
-    "category": "Geographie"
-  },
-  {
-    "q": "Welche dieser Hauptstädte liegt am weitesten im Norden?",
-    "a": [
-      "Helsinki",
-      "Oslo",
-      "Kopenhagen",
-      "Stockholm"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Geographie"
   },
@@ -3324,18 +3216,6 @@
     "category": "Kunst und Literatur"
   },
   {
-    "q": "Welcher Autor ist bekannt für sein Werk 'Der Prozess', das die Themen Schuld und Absurdität in einer dystopischen Gesellschaft behandelt?",
-    "a": [
-      "Hermann Hesse",
-      "Stefan Zweig",
-      "Thomas Mann",
-      "Franz Kafka"
-    ],
-    "correct": 3,
-    "source": "Dekuel/daily-quiz",
-    "category": "Kunst und Literatur"
-  },
-  {
     "q": "Welcher Künstler gilt als einer der Pioniere der abstrakten Kunst und schuf Werke, die oft durch geometrische Formen und Farben geprägt sind?",
     "a": [
       "Vincent van Gogh",
@@ -3740,18 +3620,6 @@
       "Die Vegetationsgrenze markiert den Punkt, ab dem die Baumobergrenze endet und nur noch Sträucher vorkommen."
     ],
     "correct": 2,
-    "source": "Dekuel/daily-quiz",
-    "category": "Natur"
-  },
-  {
-    "q": "Welches Blütenorgan ist hauptsächlich für die Fortpflanzung zuständig und produziert den Samen?",
-    "a": [
-      "Fruchtblatt",
-      "Blütenblatt",
-      "Kelchblatt",
-      "Staubblatt"
-    ],
-    "correct": 0,
     "source": "Dekuel/daily-quiz",
     "category": "Natur"
   },
